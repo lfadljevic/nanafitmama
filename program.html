@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="Korektivna gimnastika - Postnatalni rehabilitacijski fitness - prenatal - funkcionalni fitness"/>
+  <title>Program | NanaFitMama · Nana Milatić</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    /* ── TOKENS (shared) ── */
+    :root{
+      --cream:#FFF8F3;--blush:#FDEAF0;--sage:#EAF5EF;--lav:#EEEAFA;--peach:#FDF3EC;
+      --blush-lt:#FEF2F7;--sage-lt:#EDF7F2;--lav-lt:#F3EEF9;--peach-lt:#FDF4EE;
+      --rose:#C5799A;--green:#6FA88A;--purple:#8A7DC5;--terra:#C08060;
+      --text:#2C1F2E;--soft:#7A607E;--muted:#B0A0B8;--dark:#1E1426;
+      --ease:cubic-bezier(.4,0,.2,1);
+      --serif:'Cormorant Garamond',Georgia,serif;
+      --sans:'Nunito',sans-serif;
+    }
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+    body{font-family:var(--sans);background:var(--cream);color:var(--text);overflow-x:hidden;-webkit-tap-highlight-color:transparent;line-height:1.6}
+    a{text-decoration:none}
+    img{display:block;max-width:100%}
+
+    /* ── PROGRESS BAR ── */
+    #bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--rose),var(--purple),var(--green));z-index:1001;transition:width .12s linear}
+
+    /* ── NAV ── */
+    #nav{position:fixed;top:3px;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:1.3rem 5vw;transition:all .4s var(--ease)}
+    #nav.scrolled{background:rgba(255,248,243,.9);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);padding:1rem 5vw;box-shadow:0 4px 40px rgba(197,119,154,.08);border-bottom:1px solid rgba(197,119,154,.1)}
+    .nav-logo{font-family:var(--serif);font-size:1.65rem;font-weight:600;color:var(--text)}
+    .nav-logo em{color:var(--rose);font-style:italic}
+    .nav-links{display:flex;align-items:center;gap:2.2rem;list-style:none}
+    .nav-links a{font-size:.74rem;font-weight:400;letter-spacing:.16em;text-transform:uppercase;color:var(--soft);transition:color .3s;position:relative}
+    .nav-links a:not(.nav-pill)::after{content:'';position:absolute;bottom:-3px;left:0;width:0;height:1px;background:var(--rose);transition:width .3s}
+    .nav-links a:not(.nav-pill):hover{color:var(--rose)}
+    .nav-links a:not(.nav-pill):hover::after,.nav-links a.active-link::after{width:100%}
+    .nav-links a.active-link{color:var(--rose)}
+    .nav-pill{background:var(--rose);color:#fff !important;padding:.52rem 1.3rem;border-radius:50px;font-weight:600 !important;box-shadow:0 6px 20px rgba(197,119,154,.28);transition:all .3s var(--ease) !important}
+    .nav-pill:hover{background:var(--terra) !important;transform:translateY(-2px) !important}
+    .nav-pill::after{display:none !important}
+    .nav-toggle{display:none;background:none;border:none;cursor:pointer;color:var(--soft);font-size:1.4rem;padding:.3rem}
+    @media(max-width:700px){.nav-links{display:none;position:fixed;top:60px;left:0;right:0;background:rgba(255,248,243,.97);flex-direction:column;padding:2rem;gap:1.8rem;border-bottom:1px solid rgba(197,119,154,.1);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}#nav.nav-open .nav-links{display:flex}.nav-toggle{display:flex;align-items:center;justify-content:center}}
+
+    /* ── SHARED ── */
+    .sec-pad{padding:7rem 6vw 9rem}
+    .inner{max-width:1160px;margin:0 auto}
+    .tag{font-size:.68rem;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--rose);display:inline-flex;align-items:center;gap:.7rem;margin-bottom:1rem}
+    .tag::before{content:'';display:block;width:24px;height:1.5px;background:var(--rose)}
+    .tag-center{justify-content:center}.tag-center::before{display:none}.tag-center::after{content:'';display:block;width:24px;height:1.5px;background:var(--rose)}
+    .h1{font-family:var(--serif);font-size:clamp(3.2rem,7vw,6rem);font-weight:500;line-height:1.02;color:var(--text)}
+    .h1 em{color:var(--rose);font-style:italic}
+    .h2{font-family:var(--serif);font-size:clamp(2rem,4vw,3rem);font-weight:500;line-height:1.1;color:var(--text);margin-bottom:1.4rem}
+    .h2 em{color:var(--rose);font-style:italic}
+    .p{font-size:.97rem;font-weight:300;line-height:1.85;color:var(--soft)}
+    .p+.p{margin-top:1.1rem}
+
+    /* ── BUTTONS ── */
+    .btn{display:inline-flex;align-items:center;gap:.5rem;padding:.9rem 2.2rem;border-radius:50px;font-family:var(--sans);font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;transition:all .3s cubic-bezier(.34,1.56,.64,1);cursor:pointer;border:none}
+    .btn-rose{background:var(--rose);color:#fff;box-shadow:0 8px 28px rgba(197,119,154,.32)}
+    .btn-rose:hover{background:#b5688a;box-shadow:0 14px 38px rgba(197,119,154,.42);transform:translateY(-3px) scale(1.02)}
+    .btn-ghost{background:transparent;color:var(--rose);border:1.5px solid rgba(197,119,154,.38)}
+    .btn-ghost:hover{background:rgba(197,119,154,.07);border-color:var(--rose);transform:translateY(-3px)}
+    .btn-green{background:var(--green);color:#fff;box-shadow:0 8px 28px rgba(111,168,138,.32)}
+    .btn-green:hover{background:#5b9478;transform:translateY(-3px) scale(1.02)}
+    .btn-purple{background:var(--purple);color:#fff;box-shadow:0 8px 28px rgba(138,125,197,.32)}
+    .btn-purple:hover{background:#7a6db5;transform:translateY(-3px) scale(1.02)}
+    .btn-terra{background:var(--terra);color:#fff;box-shadow:0 8px 28px rgba(192,128,96,.32)}
+    .btn-terra:hover{background:#b07050;transform:translateY(-3px) scale(1.02)}
+
+    /* ── WAVES ── */
+    .wave{line-height:0;overflow:hidden}
+    .wave svg{display:block;width:100%}
+
+    /* ── SCROLL REVEAL ── */
+    .rv{opacity:0;transform:translateY(42px);transition:opacity .85s var(--ease),transform .85s var(--ease)}
+    .rl{opacity:0;transform:translateX(-44px);transition:opacity .85s var(--ease),transform .85s var(--ease)}
+    .rr{opacity:0;transform:translateX(44px);transition:opacity .85s var(--ease),transform .85s var(--ease)}
+    .rv.up,.rl.up,.rr.up{opacity:1;transform:none}
+    .d1{transition-delay:.12s}.d2{transition-delay:.24s}.d3{transition-delay:.36s}.d4{transition-delay:.48s}
+
+    /* ════════════════════════════
+       HERO
+    ════════════════════════════ */
+    #hero{background:var(--blush);min-height:82vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:10rem 6vw 12rem;position:relative;overflow:hidden}
+    .orb{position:absolute;border-radius:50%;filter:blur(70px);pointer-events:none;animation:orbDrift 14s ease-in-out infinite}
+    .orb-a{width:55vw;height:55vw;max-width:640px;max-height:640px;background:radial-gradient(circle,#F5B8D0 0%,transparent 70%);top:-25%;left:-15%;animation-delay:0s;opacity:.5}
+    .orb-b{width:40vw;height:40vw;max-width:500px;max-height:500px;background:radial-gradient(circle,#C4E4FF 0%,transparent 70%);top:-10%;right:-10%;animation-delay:5s;opacity:.45}
+    .orb-c{width:35vw;height:35vw;max-width:420px;max-height:420px;background:radial-gradient(circle,#C8E8DA 0%,transparent 70%);bottom:-15%;left:30%;animation-delay:8s;opacity:.45}
+    @keyframes orbDrift{0%,100%{transform:translate(0,0) scale(1)}40%{transform:translate(30px,-20px) scale(1.05)}70%{transform:translate(-18px,22px) scale(.96)}}
+    .hero-inner{position:relative;z-index:1;max-width:720px}
+    .hero-eyebrow{display:inline-flex;align-items:center;gap:.6rem;font-size:.7rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--rose);background:rgba(197,119,154,.1);border:1px solid rgba(197,119,154,.2);padding:.38rem 1.1rem .38rem .7rem;border-radius:50px;margin-bottom:2rem}
+    .hero-eyebrow-dot{width:7px;height:7px;border-radius:50%;background:var(--rose)}
+    .hero-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:.6rem;margin-top:1.6rem}
+    .chip{font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:.38rem 1rem;border-radius:50px;cursor:pointer;transition:all .3s var(--ease);border:1.5px solid transparent}
+    .chip-rose{color:var(--rose);background:rgba(197,119,154,.1);border-color:rgba(197,119,154,.25)}
+    .chip-rose:hover{background:var(--rose);color:#fff;border-color:var(--rose);transform:translateY(-2px)}
+    .chip-green{color:var(--green);background:rgba(111,168,138,.1);border-color:rgba(111,168,138,.25)}
+    .chip-green:hover{background:var(--green);color:#fff;border-color:var(--green);transform:translateY(-2px)}
+    .chip-purple{color:var(--purple);background:rgba(138,125,197,.1);border-color:rgba(138,125,197,.25)}
+    .chip-purple:hover{background:var(--purple);color:#fff;border-color:var(--purple);transform:translateY(-2px)}
+    .chip-terra{color:var(--terra);background:rgba(192,128,96,.1);border-color:rgba(192,128,96,.25)}
+    .chip-terra:hover{background:var(--terra);color:#fff;border-color:var(--terra);transform:translateY(-2px)}
+
+    /* ════════════════════════════
+       PROGRAM SECTIONS
+    ════════════════════════════ */
+    .prog-sec{position:relative}
+    .prog-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:5.5rem;align-items:center;max-width:1160px;margin:0 auto}
+    /* reversed: image on right */
+    .prog-sec.rev .prog-img{grid-column:2;grid-row:1}
+    .prog-sec.rev .prog-text{grid-column:1;grid-row:1}
+    /* large decorative number */
+    .prog-num{font-family:var(--serif);font-size:7rem;font-weight:600;line-height:1;opacity:.08;color:var(--text);margin-bottom:-.5rem;display:block}
+    .prog-title{font-family:var(--serif);font-size:clamp(1.9rem,3.5vw,2.8rem);font-weight:500;line-height:1.1;color:var(--text);margin-bottom:1.6rem}
+    .prog-title em{color:var(--rose);font-style:italic}
+    .prog-body .p+.p{margin-top:1.1rem}
+    .prog-body{margin-bottom:2rem}
+    /* image container */
+    .prog-img-frame{border-radius:28px;overflow:hidden;box-shadow:0 28px 80px rgba(46,31,31,.12);background:linear-gradient(135deg,var(--blush),var(--lav))}
+    .prog-img-frame img{width:100%;display:block;object-fit:cover}
+    @supports (aspect-ratio:1){.prog-img-frame img{aspect-ratio:4/3}}
+    @supports not (aspect-ratio:1){.prog-img-frame img{height:320px}}
+    /* per-program colour accents */
+    .prog-sec.prenatal  .prog-num{color:var(--rose)}
+    .prog-sec.postnatal .prog-num{color:var(--green)}
+    .prog-sec.korektiv  .prog-num{color:var(--purple)}
+    .prog-sec.funkcion  .prog-num{color:var(--terra)}
+    .prog-sec.prenatal  .tag{color:var(--rose)}.prog-sec.prenatal  .tag::before{background:var(--rose)}
+    .prog-sec.postnatal .tag{color:var(--green)}.prog-sec.postnatal .tag::before{background:var(--green)}
+    .prog-sec.korektiv  .tag{color:var(--purple)}.prog-sec.korektiv  .tag::before{background:var(--purple)}
+    .prog-sec.funkcion  .tag{color:var(--terra)}.prog-sec.funkcion  .tag::before{background:var(--terra)}
+    /* image morph animation */
+    .img-morph{animation:imgM 14s ease-in-out infinite}
+    @keyframes imgM{0%,100%{border-radius:28px}33%{border-radius:40% 28px 36px 44px}66%{border-radius:28px 44px 28px 36px}}
+
+    /* ════════════════════════════
+       CTA
+    ════════════════════════════ */
+    #cta{background:var(--blush-lt);padding:8rem 6vw;text-align:center;position:relative}
+    .cta-inner{max-width:560px;margin:0 auto}
+    .cta-phone{font-family:var(--serif);font-size:2rem;font-style:italic;color:var(--rose);display:block;margin:1.2rem 0 2.5rem;transition:color .3s}
+    .cta-phone:hover{color:var(--terra)}
+
+    /* ════════════════════════════
+       FOOTER
+    ════════════════════════════ */
+    footer{background:var(--dark);padding:3.5rem 6vw 3rem}
+    .footer-top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:2rem;padding-bottom:2rem;border-bottom:1px solid rgba(255,255,255,.07);margin-bottom:2rem}
+    .footer-logo{font-family:var(--serif);font-size:1.55rem;font-weight:500;color:#fff}
+    .footer-logo em{color:#E8A0BE;font-style:italic}
+    .footer-nav{display:flex;gap:2rem;list-style:none;flex-wrap:wrap}
+    .footer-nav a{font-size:.73rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.5);transition:color .3s}
+    .footer-nav a:hover{color:rgba(255,255,255,.9)}
+    .footer-social{display:flex;gap:.75rem}
+    .soc-btn{width:40px;height:40px;border-radius:50%;border:1px solid rgba(255,255,255,.14);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.55);transition:all .3s}
+    .soc-btn:hover{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.3);color:#fff;transform:translateY(-2px)}
+    .footer-bottom{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+    .footer-copy{font-size:.73rem;color:rgba(255,255,255,.32)}
+    .footer-sub{font-family:var(--serif);font-size:.85rem;font-style:italic;color:rgba(255,255,255,.38)}
+
+    /* ── RESPONSIVE ── */
+    @media(max-width:960px){
+      .prog-grid{grid-template-columns:1fr;gap:3rem}
+      .prog-sec.rev .prog-img{grid-column:1;grid-row:2}
+      .prog-sec.rev .prog-text{grid-column:1;grid-row:1}
+      .prog-num{font-size:5rem}
+    }
+    @media(max-width:600px){
+      .sec-pad{padding:5rem 5vw 7rem}
+      #hero{padding:8rem 5vw 10rem}
+      .footer-top{flex-direction:column;align-items:flex-start}
+    }
+  </style>
+</head>
+<body>
+
+<div id="bar"></div>
+
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <a href="index.html" class="nav-logo">Nana<em>Fit</em>Mama</a>
+  <ul class="nav-links">
+    <li><a href="index.html#hero">Početna</a></li>
+    <li><a href="o-meni.html">O meni</a></li>
+    <li><a href="#" class="active-link">Program</a></li>
+    <li><a href="index.html#testimonial">Iskustva</a></li>
+    <li><a href="#cta">Blog</a></li>
+    <li><a href="#cta" class="nav-pill">Prijavi se</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+  <div class="orb orb-c"></div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow"><span class="hero-eyebrow-dot"></span>NanaFitMama</div>
+    <h1 class="h1 rv">Program</h1>
+    <p class="p rv d1" style="max-width:520px;margin:.8rem auto 0;font-size:1rem">Prenatal · Postnatal · Korektivna gimnastika · Funkcionalni fitness</p>
+    <div class="hero-chips rv d2">
+      <a href="#prenatal" class="chip chip-rose">🤰 Prenatal fitness</a>
+      <a href="#postnatal" class="chip chip-green">👶 Postnatalni rehabilitacijski fitness</a>
+      <a href="#korektivna" class="chip chip-purple">⚕️ Korektivna gimnastika</a>
+      <a href="#funkcionalni" class="chip chip-terra">💪 Funkcionalni fitness</a>
+    </div>
+  </div>
+</section>
+
+<!-- wave → cream -->
+<div class="wave" style="background:var(--blush)">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,45 C200,90 450,10 720,50 C950,85 1200,15 1440,45 L1440,90 L0,90 Z" fill="#FFF8F3"/>
+  </svg>
+</div>
+
+<!-- ═══ 01 PRENATAL ═══ -->
+<section id="prenatal" class="prog-sec prenatal sec-pad" style="background:var(--cream)">
+  <div class="prog-grid">
+    <div class="prog-img rl">
+      <div class="prog-img-frame img-morph">
+        <img
+          src="https://static.wixstatic.com/media/379b48_853439a670e04db7b059e3930f5d299d~mv2.jpg/v1/fill/w_900,h_675,al_c,q_90,enc_avif,quality_auto/prenatal.jpg"
+          alt="Prenatal fitness"
+          loading="eager"
+          onerror="this.parentElement.style.minHeight='320px'"
+        />
+      </div>
+    </div>
+    <div class="prog-text rr">
+      <span class="prog-num">01</span>
+      <p class="tag">Prenatal</p>
+      <h2 class="prog-title">Prenatal fitness</h2>
+      <div class="prog-body">
+        <p class="p">Prije više od dvadeset godina na Kineziološkom fakultetu sam obranila diplomski rad na temu fitnessa u trudnoći.</p>
+        <p class="p">Iako bi se danas, nakon puno istraživanja i prakse, moj diplomski rad bitno razlikovao od napisanog, premisa ostaje ista; pripremiti trudnicu na zahtjeve majčinstva, održati ju funkcionalnom i aktivnom do samog kraja trudnoće,otkloniti što veći broj trudničkih boljki te joj pružiti adekvatnu mentalnu potporu kroz vježbe opuštanja, relaksacije, ali i samom usmenom podrškom tj. razgovorom.</p>
+        <p class="p">Vježbamo od kuće stoga su dobro došle sve trudnice, bez obzira gdje se nalazile. Tako su s nama vježbale i naše cure s prebivalištem u Poljskoj, Njemačkoj, u Istri, na otocima...</p>
+        <p class="p">Treba samo nabaviti sve rekvizite koji su nam potrebni jer naš prenatalni fitness nije samo nježno razgibavanje, buduće Fit mame rade i s bučicama, elastičnim trakama, velikim loptama...Kada ne stižete u live zoom (2x tjedno po 50min.), tu je snimka sata.</p>
+        <p class="p">Pošaljite upit i dobit ćete jedan ogledni sat za odradu.</p>
+      </div>
+      <a href="#cta" class="btn btn-rose">I ja ću biti FIT mama!</a>
+    </div>
+  </div>
+</section>
+
+<!-- wave → sage -->
+<div class="wave" style="background:var(--cream)">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,30 C360,90 720,5 1080,60 C1240,85 1360,40 1440,50 L1440,90 L0,90 Z" fill="#EAF5EF"/>
+  </svg>
+</div>
+
+<!-- ═══ 02 POSTNATAL ═══ -->
+<section id="postnatal" class="prog-sec postnatal rev sec-pad" style="background:var(--sage)">
+  <div class="prog-grid">
+    <div class="prog-img rr">
+      <div class="prog-img-frame img-morph" style="animation-delay:2s">
+        <img
+          src="https://static.wixstatic.com/media/379b48_9a36d48530cd46ddbe715ab0942d2cc0~mv2.jpg/v1/fill/w_900,h_675,al_c,q_90,enc_avif,quality_auto/postnatal.jpg"
+          alt="Postnatalni rehabilitacijski fitness"
+          loading="lazy"
+          onerror="this.parentElement.style.minHeight='320px'"
+        />
+      </div>
+    </div>
+    <div class="prog-text rl">
+      <span class="prog-num">02</span>
+      <p class="tag">Postnatal</p>
+      <h2 class="prog-title">Postnatalni rehabilitacijski fitness</h2>
+      <div class="prog-body">
+        <p class="p">Individualna rehabilitacija odrađuje se online, u toplini svog doma, što znači da mama ne gubi vrijeme za odlazak u dvoranu, te ukoliko ima organizirano čuvanje bebice tih 45min., rad 1:1 pruža veću mogućnost posvećivanja svim 'stradalim' dijelovima tijela (i duha:)) i brži oporavak.</p>
+        <p class="p">Naravno, fokus je na nježno vraćanje forme, jačanju tijela, mobilnost, sanaciju dijastaze, ispravljanju posture, disanju...</p>
+        <p class="p">Postnatalni rad u grupi odrađuje se u dvorani, s bebicom. Vesela i simpatična atmosfera gdje su sve mame u istom 'košu', na veliko pomaže da se sve opuste, a paralelno pokušamo i odvježbati, onoliko koliko bebica dozvoli. Nekad je to cijelih 45min., a ponekad samo istezanje.</p>
+        <p class="p">Međutim, podrška ovakve grupe zna biti od presudne važnosti za 'frišku' mamu, što je mnogima u ovoj fazi i važnije nego brzo vraćanje tijela u formu.</p>
+        <p class="p">Kada nam vrijeme dozvoli, s bebicama tj. kolicima odlazimo u Maksimirski park gdje se na svježem zraku vježba i druži. Iskustvo koje jako vole i podržavaju sve mame.</p>
+      </div>
+      <a href="#cta" class="btn btn-green">Ja sam FIT mama!</a>
+    </div>
+  </div>
+</section>
+
+<!-- wave → lavender -->
+<div class="wave" style="background:var(--sage)">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,55 C300,10 600,80 900,35 C1100,5 1300,65 1440,40 L1440,90 L0,90 Z" fill="#F3EEF9"/>
+  </svg>
+</div>
+
+<!-- ═══ 03 KOREKTIVNA ═══ -->
+<section id="korektivna" class="prog-sec korektiv sec-pad" style="background:var(--lav-lt)">
+  <div class="prog-grid">
+    <div class="prog-img rl">
+      <div class="prog-img-frame img-morph" style="animation-delay:4s">
+        <img
+          src="https://static.wixstatic.com/media/379b48_3640f22065234d7b9ae77572403b05fe~mv2.jpg/v1/fill/w_900,h_675,al_c,q_90,enc_avif,quality_auto/korektivna.jpg"
+          alt="Korektivna gimnastika"
+          loading="lazy"
+          onerror="this.parentElement.style.minHeight='320px'"
+        />
+      </div>
+    </div>
+    <div class="prog-text rr">
+      <span class="prog-num">03</span>
+      <p class="tag">Korektivna gimnastika</p>
+      <h2 class="prog-title">Korektivna gimnastika</h2>
+      <div class="prog-body">
+        <p class="p">Za ovu grupu traži se 'karta više'.</p>
+        <p class="p">Uvijek postoji lista čekanja jer je grupa, koja vježba u dvorani, već dugi niz godina redovna, ne odustaje, a mnoge među njima su moje vježbačice već skoro dvadeset godina.</p>
+        <p class="p">U grupi su žene od 40-80 god. Radimo 2x tjedno po 55min., sa svim rekvizitima, a naglasak je na kralježnicu i duboke mišiće tijela.</p>
+        <p class="p">Posebnu pažnju posvećujemo mišićima zdjeličnog dna, dijafragmi...Disanje je, kao i u svim programima koje vodim, od presudne važnosti.</p>
+      </div>
+      <a href="#cta" class="btn btn-purple">Karta Više</a>
+    </div>
+  </div>
+</section>
+
+<!-- wave → peach -->
+<div class="wave" style="background:var(--lav-lt)">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,40 C240,90 600,10 960,55 C1150,80 1320,30 1440,50 L1440,90 L0,90 Z" fill="#FDF4EE"/>
+  </svg>
+</div>
+
+<!-- ═══ 04 FUNKCIONALNI ═══ -->
+<section id="funkcionalni" class="prog-sec funkcion rev sec-pad" style="background:var(--peach-lt)">
+  <div class="prog-grid">
+    <div class="prog-img rr">
+      <div class="prog-img-frame img-morph" style="animation-delay:6s">
+        <img
+          src="https://static.wixstatic.com/media/379b48_e10a1b4c070f4ef38d1b466e9ad4040d~mv2.jpg/v1/fill/w_900,h_675,al_c,q_90,enc_avif,quality_auto/funkcionalni.jpg"
+          alt="Funkcionalni fitness"
+          loading="lazy"
+          onerror="this.parentElement.style.minHeight='320px'"
+        />
+      </div>
+    </div>
+    <div class="prog-text rl">
+      <span class="prog-num">04</span>
+      <p class="tag">Funkcionalni fitness</p>
+      <h2 class="prog-title">Funkcionalni fitness</h2>
+      <div class="prog-body">
+        <p class="p">Ove mini grupe koje vježbaju online, jedna jutarnja, jedna večernja, nastale su na zahtjev moji bivših trudnica, vježbačica koje su ranije vježbale u dvorani.</p>
+        <p class="p">Želja je bila stvoriti program, gdje 2x tjedno u 35.min. vježbamo maksimalno posvećene prevenciji i održavanju tijela, ali opet s naglaskom na disanje i one mišiće koji su za ženu i žensko zdravlje najvažniji.</p>
+        <p class="p">Puno pažnje i ovdje posvećujemo jačanju dubokih mišića trupa, mišića zdjeličnog dna, vježbama mobilnosti...Obzirom da su u grupi sve zaposlene, aktivne žene, kada se ne stižu spojiti u live, snimka je tu da se odradi u nekom drugom terminu.</p>
+      </div>
+      <a href="#cta" class="btn btn-terra">Sve smo mi Nana!</a>
+    </div>
+  </div>
+</section>
+
+<!-- wave → blush -->
+<div class="wave" style="background:var(--peach-lt)">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,50 C400,5 800,80 1200,30 C1330,10 1400,60 1440,45 L1440,90 L0,90 Z" fill="#FEF2F7"/>
+  </svg>
+</div>
+
+<!-- ═══ CTA ═══ -->
+<section id="cta">
+  <div class="cta-inner">
+    <p class="tag tag-center rv">Kontakt</p>
+    <h2 class="h2 rv d1" style="font-family:var(--serif);text-align:center">Spremi se za<br><em>novi početak</em></h2>
+    <p class="p rv d2" style="text-align:center;max-width:420px;margin:.8rem auto 0">Nazovite ili napišite — zajedno ćemo pronaći pravi program za vas.</p>
+    <a href="tel:+38598380822" class="cta-phone rv d3">+385 98 380 822</a>
+    <div class="rv d4" style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+      <a href="index.html#contact" class="btn btn-rose">Prijavi se</a>
+      <a href="index.html" class="btn btn-ghost">← Natrag na početnu</a>
+    </div>
+  </div>
+</section>
+
+<!-- wave → dark -->
+<div class="wave" style="background:var(--blush-lt)">
+  <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,40 C300,90 700,10 1100,60 C1270,85 1380,35 1440,50 L1440,90 L0,90 Z" fill="#1E1426"/>
+  </svg>
+</div>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-top">
+    <a href="index.html" class="footer-logo">Nana<em>Fit</em>Mama</a>
+    <ul class="footer-nav">
+      <li><a href="index.html#hero">Početna</a></li>
+      <li><a href="nanamilatic-o-meni.html">O meni</a></li>
+      <li><a href="#">Program</a></li>
+      <li><a href="index.html#testimonial">Iskustva</a></li>
+      <li><a href="index.html#contact">Kontakt</a></li>
+    </ul>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/nana.milatic.5" class="soc-btn" aria-label="Facebook" target="_blank" rel="noopener">
+        <svg width="17" height="17" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/nanafitmama" class="soc-btn" aria-label="Instagram" target="_blank" rel="noopener">
+        <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2025 NanaFitMama · Nana Milatić. Sva prava pridržana.</p>
+    <p class="footer-sub">Embrace the Miracle of Motherhood</p>
+  </div>
+</footer>
+
+<script>
+// Progress bar
+var bar = document.getElementById('bar');
+window.addEventListener('scroll', function() {
+  bar.style.width = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight) * 100) + '%';
+}, {passive:true});
+
+// Nav scroll
+var nav = document.getElementById('nav');
+window.addEventListener('scroll', function() {
+  nav.classList.toggle('scrolled', window.scrollY > 60);
+}, {passive:true});
+
+// Mobile nav
+document.getElementById('navToggle').addEventListener('click', function() {
+  nav.classList.toggle('nav-open');
+});
+document.querySelectorAll('.nav-links a').forEach(function(a) {
+  a.addEventListener('click', function() { nav.classList.remove('nav-open'); });
+});
+
+// Smooth anchor scroll
+document.querySelectorAll('a[href^="#"]').forEach(function(a) {
+  a.addEventListener('click', function(e) {
+    var id = a.getAttribute('href');
+    if (id === '#') return;
+    var t = document.querySelector(id);
+    if (t) { e.preventDefault(); window.scrollTo({top: t.getBoundingClientRect().top + window.scrollY - 80, behavior:'smooth'}); }
+  });
+});
+
+// Scroll reveal
+var obs = new IntersectionObserver(function(entries) {
+  entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('up'); obs.unobserve(e.target); } });
+}, {threshold:.1, rootMargin:'0px 0px -50px 0px'});
+document.querySelectorAll('.rv,.rl,.rr').forEach(function(el) { obs.observe(el); });
+
+// Image fallbacks
+document.querySelectorAll('img').forEach(function(img) {
+  img.onerror = function() {
+    this.style.display = 'none';
+    if (this.parentElement) this.parentElement.style.minHeight = '300px';
+  };
+});
+</script>
+</body>
+</html>
