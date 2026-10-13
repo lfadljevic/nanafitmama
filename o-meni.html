@@ -204,6 +204,43 @@
       .media-grid{grid-template-columns:1fr}
       .footer-top{flex-direction:column;align-items:flex-start}
     }
+    /* ════════════════════════════
+       LIGHTBOX (click-to-enlarge)
+    ════════════════════════════ */
+    [data-lightbox]{position:relative;cursor:zoom-in;outline:none;-webkit-tap-highlight-color:transparent}
+    [data-lightbox]::after{content:'';position:absolute;right:.8rem;bottom:.8rem;width:38px;height:38px;border-radius:50%;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C5799A' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cline x1='21' y1='21' x2='16.5' y2='16.5'/%3E%3Cline x1='11' y1='8' x2='11' y2='14'/%3E%3Cline x1='8' y1='11' x2='14' y2='11'/%3E%3C/svg%3E") center/18px no-repeat;box-shadow:0 6px 18px rgba(46,31,31,.14);opacity:0;transform:scale(.8);transition:opacity .3s var(--ease),transform .3s var(--ease);pointer-events:none;z-index:2}
+    [data-lightbox]:hover::after,[data-lightbox]:focus-visible::after{opacity:1;transform:none}
+    [data-lightbox]:focus-visible{box-shadow:0 0 0 3px rgba(197,119,154,.55)}
+    @media(hover:none){[data-lightbox]::after{opacity:1;transform:none}}
+
+    html.lb-lock,html.lb-lock body{overflow:hidden}
+    .lb{position:fixed;top:0;left:0;right:0;bottom:0;z-index:2000;display:flex;align-items:center;justify-content:center;padding:4.5rem 5.5rem 4rem;background:rgba(253,244,238,.95);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);opacity:0;visibility:hidden;transition:opacity .35s var(--ease),visibility 0s linear .35s}
+    .lb.open{opacity:1;visibility:visible;transition:opacity .35s var(--ease),visibility 0s linear 0s}
+    .lb-stage{position:relative;display:flex;align-items:center;justify-content:center}
+    .lb-img{display:block;width:auto;height:auto;max-width:calc(100vw - 11rem);max-height:calc(100vh - 8.5rem);border-radius:20px;background:#fff;box-shadow:0 30px 90px rgba(46,31,31,.16);opacity:0;transform:scale(.94);transition:opacity .4s var(--ease),transform .5s cubic-bezier(.25,1,.3,1)}
+    @supports (height:100dvh){.lb-img{max-height:calc(100dvh - 8.5rem)}}
+    .lb-img.ready{opacity:1;transform:none}
+    .lb-loader{position:absolute;top:50%;left:50%;width:36px;height:36px;margin:-18px 0 0 -18px;border-radius:50%;border:3px solid rgba(197,119,154,.2);border-top-color:var(--rose);opacity:0;animation:lbSpin .8s linear infinite;transition:opacity .2s;pointer-events:none}
+    .lb-loader.on{opacity:1}
+    @keyframes lbSpin{to{transform:rotate(360deg)}}
+    .lb-btn{position:absolute;width:48px;height:48px;padding:0;border-radius:50%;border:1.5px solid rgba(197,119,154,.3);background:#fff;color:var(--rose);display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 8px 24px rgba(46,31,31,.1);transition:all .3s var(--ease);z-index:3}
+    .lb-btn:hover,.lb-btn:focus-visible{background:var(--rose);border-color:var(--rose);color:#fff;transform:scale(1.08);outline:none}
+    .lb-btn:active{transform:scale(.95)}
+    .lb-close{top:1.2rem;right:1.4rem}
+    .lb-nav{top:50%;margin-top:-24px}
+    .lb-prev{left:1.4rem}
+    .lb-next{right:1.4rem}
+    .lb.lb-single .lb-nav{display:none}
+    .lb-count{position:absolute;bottom:1.4rem;left:0;right:0;text-align:center;font-size:.75rem;font-weight:600;letter-spacing:.22em;color:var(--soft);pointer-events:none}
+    @media(max-width:700px){
+      .lb{padding:4.5rem 1rem 6rem}
+      .lb-img{max-width:calc(100vw - 2rem);max-height:calc(100vh - 11rem);border-radius:16px}
+      @supports (height:100dvh){.lb-img{max-height:calc(100dvh - 11rem)}}
+      .lb-nav{top:auto;bottom:1rem;margin-top:0}
+      .lb-prev{left:1.2rem}
+      .lb-next{right:1.2rem}
+      .lb-count{bottom:1.9rem}
+    }
   </style>
 </head>
 <body>
@@ -214,10 +251,10 @@
 <nav id="nav">
   <a href="index.html" class="nav-logo">Nana<em>Fit</em>Mama</a>
   <ul class="nav-links">
-    <li><a href="index.html#hero">Početna</a></li>
+    <li><a href="index.html">Početna</a></li>
     <li><a href="#" class="active-link">O meni</a></li>
     <li><a href="program.html">Program</a></li>
-    <li><a href="index.html#testimonial">Iskustva</a></li>
+    <li><a href="galerija.html">Galerija</a></li>
     <li><a href="#cta">Blog</a></li>
     <li><a href="#cta" class="nav-pill">Prijavi se</a></li>
   </ul>
@@ -390,33 +427,33 @@
 
     <div class="media-grid">
       <div class="media-card rv d1">
-        <div class="media-card-img">
-          <img src="https://static.wixstatic.com/media/379b48_95a521e8b34f44ea93d893080054aaf6~mv2.png/v1/fit/w_600,h_400,q_90,enc_avif,quality_auto/img1.png" alt="Medijski nastup 1" loading="lazy" onerror="this.parentElement.style.background='var(--blush)'"/>
+        <div class="media-card-img" data-lightbox data-full="https://static.wixstatic.com/media/379b48_95a521e8b34f44ea93d893080054aaf6~mv2.png/v1/fit/w_1600,h_1600,q_90/img1.png" role="button" tabindex="0" aria-label="Povećaj sliku: Medijski nastup 1">
+          <img src="https://static.wixstatic.com/media/379b48_95a521e8b34f44ea93d893080054aaf6~mv2.png/v1/fit/w_600,h_400,q_90/img1.png" alt="Medijski nastup 1" loading="lazy" onerror="this.parentElement.style.background='var(--blush)'"/>
         </div>
       </div>
       <div class="media-card rv d2">
-        <div class="media-card-img">
-          <img src="https://static.wixstatic.com/media/379b48_24f5bd17000f4bac98fb730a08465a96~mv2.png/v1/fit/w_600,h_500,q_90,enc_avif,quality_auto/img2.png" alt="Medijski nastup 2" loading="lazy" onerror="this.parentElement.style.background='var(--sage)'"/>
+        <div class="media-card-img" data-lightbox data-full="https://static.wixstatic.com/media/379b48_24f5bd17000f4bac98fb730a08465a96~mv2.png/v1/fit/w_1600,h_1600,q_90/img2.png" role="button" tabindex="0" aria-label="Povećaj sliku: Medijski nastup 2">
+          <img src="https://static.wixstatic.com/media/379b48_24f5bd17000f4bac98fb730a08465a96~mv2.png/v1/fit/w_600,h_400,q_90/img2.png" alt="Medijski nastup 2" loading="lazy" onerror="this.parentElement.style.background='var(--sage)'"/>
         </div>
       </div>
       <div class="media-card rv d3">
-        <div class="media-card-img">
-          <img src="https://static.wixstatic.com/media/379b48_cf7bda6aa206429c91a91436a39b6224~mv2.png/v1/fit/w_600,h_400,q_90,enc_avif,quality_auto/img3.png" alt="Medijski nastup 3" loading="lazy" onerror="this.parentElement.style.background='var(--lav)'"/>
+        <div class="media-card-img" data-lightbox data-full="https://static.wixstatic.com/media/379b48_cf7bda6aa206429c91a91436a39b6224~mv2.png/v1/fit/w_1600,h_1600,q_90/img3.png" role="button" tabindex="0" aria-label="Povećaj sliku: Medijski nastup 3">
+          <img src="https://static.wixstatic.com/media/379b48_cf7bda6aa206429c91a91436a39b6224~mv2.png/v1/fit/w_600,h_400,q_90/img3.png" alt="Medijski nastup 3" loading="lazy" onerror="this.parentElement.style.background='var(--lav)'"/>
         </div>
       </div>
       <div class="media-card rv d1">
-        <div class="media-card-img">
-          <img src="https://static.wixstatic.com/media/379b48_ef7fed2973e4428b8255c3abc4352407~mv2.png/v1/fit/w_600,h_400,q_90,enc_avif,quality_auto/img4.png" alt="Medijski nastup 4" loading="lazy" onerror="this.parentElement.style.background='var(--peach)'"/>
+        <div class="media-card-img" data-lightbox data-full="https://static.wixstatic.com/media/379b48_ef7fed2973e4428b8255c3abc4352407~mv2.png/v1/fit/w_1600,h_1600,q_90/img4.png" role="button" tabindex="0" aria-label="Povećaj sliku: Medijski nastup 4">
+          <img src="https://static.wixstatic.com/media/379b48_ef7fed2973e4428b8255c3abc4352407~mv2.png/v1/fit/w_600,h_400,q_90/img4.png" alt="Medijski nastup 4" loading="lazy" onerror="this.parentElement.style.background='var(--peach)'"/>
         </div>
       </div>
       <div class="media-card rv d2">
-        <div class="media-card-img">
-          <img src="https://static.wixstatic.com/media/379b48_3dd836cc37c54b9095fd385c398760bf~mv2.png/v1/fit/w_600,h_400,q_90,enc_avif,quality_auto/img5.png" alt="Medijski nastup 5" loading="lazy" onerror="this.parentElement.style.background='var(--blush)'"/>
+        <div class="media-card-img" data-lightbox data-full="https://static.wixstatic.com/media/379b48_3dd836cc37c54b9095fd385c398760bf~mv2.png/v1/fit/w_1600,h_1600,q_90/img5.png" role="button" tabindex="0" aria-label="Povećaj sliku: Medijski nastup 5">
+          <img src="https://static.wixstatic.com/media/379b48_3dd836cc37c54b9095fd385c398760bf~mv2.png/v1/fit/w_600,h_400,q_90/img5.png" alt="Medijski nastup 5" loading="lazy" onerror="this.parentElement.style.background='var(--blush)'"/>
         </div>
       </div>
       <div class="media-card rv d3">
-        <div class="media-card-img">
-          <img src="https://static.wixstatic.com/media/379b48_ea70802a67224dfebbe24c39f7c5f7cd~mv2.png/v1/fit/w_600,h_400,q_90,enc_avif,quality_auto/img6.png" alt="Medijski nastup 6" loading="lazy" onerror="this.parentElement.style.background='var(--sage)'"/>
+        <div class="media-card-img" data-lightbox data-full="https://static.wixstatic.com/media/379b48_ea70802a67224dfebbe24c39f7c5f7cd~mv2.png/v1/fit/w_1600,h_1600,q_90/img6.png" role="button" tabindex="0" aria-label="Povećaj sliku: Medijski nastup 6">
+          <img src="https://static.wixstatic.com/media/379b48_ea70802a67224dfebbe24c39f7c5f7cd~mv2.png/v1/fit/w_600,h_400,q_90/img6.png" alt="Medijski nastup 6" loading="lazy" onerror="this.parentElement.style.background='var(--sage)'"/>
         </div>
       </div>
     </div>
@@ -468,10 +505,10 @@
   <div class="footer-top">
     <a href="index.html" class="footer-logo">Nana<em>Fit</em>Mama</a>
     <ul class="footer-nav">
-      <li><a href="index.html#hero">Početna</a></li>
+      <li><a href="index.html">Početna</a></li>
       <li><a href="#">O meni</a></li>
-      <li><a href="index.html#services">Program</a></li>
-      <li><a href="index.html#testimonial">Iskustva</a></li>
+      <li><a href="program.html">Program</a></li>
+      <li><a href="galerija.html">Galerija</a></li>
       <li><a href="index.html#contact">Kontakt</a></li>
     </ul>
     <div class="footer-social">
@@ -539,6 +576,150 @@ document.querySelectorAll('img').forEach(function(img) {
     if (this.parentElement) this.parentElement.style.minHeight = '180px';
   };
 });
+</script>
+<script>
+// ── LIGHTBOX (click-to-enlarge) ──
+(function() {
+  var triggers = Array.prototype.slice.call(document.querySelectorAll('[data-lightbox]'));
+  if (!triggers.length) return;
+
+  var svg = function(inner) {
+    return '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">' + inner + '</svg>';
+  };
+
+  var lb = document.createElement('div');
+  lb.className = 'lb' + (triggers.length < 2 ? ' lb-single' : '');
+  lb.setAttribute('role', 'dialog');
+  lb.setAttribute('aria-modal', 'true');
+  lb.setAttribute('aria-label', 'Povećana slika');
+  lb.setAttribute('aria-hidden', 'true');
+  lb.innerHTML =
+    '<button type="button" class="lb-btn lb-close" aria-label="Zatvori">' + svg('<line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>') + '</button>' +
+    '<button type="button" class="lb-btn lb-nav lb-prev" aria-label="Prethodna slika">' + svg('<polyline points="15,18 9,12 15,6"/>') + '</button>' +
+    '<div class="lb-stage"><span class="lb-loader"></span><img class="lb-img" alt=""></div>' +
+    '<button type="button" class="lb-btn lb-nav lb-next" aria-label="Sljedeća slika">' + svg('<polyline points="9,18 15,12 9,6"/>') + '</button>' +
+    '<div class="lb-count" aria-live="polite"></div>';
+  document.body.appendChild(lb);
+
+  var img      = lb.querySelector('.lb-img');
+  var loader   = lb.querySelector('.lb-loader');
+  var count    = lb.querySelector('.lb-count');
+  var closeBtn = lb.querySelector('.lb-close');
+  var prevBtn  = lb.querySelector('.lb-prev');
+  var nextBtn  = lb.querySelector('.lb-next');
+
+  var cur = 0, isOpen = false, lastFocus = null, token = 0;
+
+  function thumbOf(t) { var i = t.querySelector('img'); return i ? (i.currentSrc || i.src) : ''; }
+  function fullOf(t)  { return t.getAttribute('data-full') || thumbOf(t); }
+  function altOf(t)   { var i = t.querySelector('img'); return (i && i.alt) || ''; }
+
+  function load(src, ok, fail) {
+    var im = new Image();
+    im.onload = function() { ok(src); };
+    im.onerror = fail;
+    im.src = src;
+  }
+
+  function paint(src, t) {
+    img.src = src;
+    img.alt = altOf(t);
+    loader.classList.remove('on');
+    void img.offsetWidth;            // restart the transition
+    img.classList.add('ready');
+  }
+
+  function show(i) {
+    var n = triggers.length;
+    cur = (i + n) % n;
+    var t = triggers[cur];
+    var my = ++token;
+
+    img.classList.remove('ready');
+    loader.classList.add('on');
+    count.textContent = n > 1 ? (cur + 1) + ' / ' + n : '';
+
+    load(fullOf(t), function(s) {
+      if (my === token) paint(s, t);
+    }, function() {
+      var th = thumbOf(t);                       // fall back to the thumbnail
+      if (!th) { if (my === token) loader.classList.remove('on'); return; }
+      load(th, function(s) { if (my === token) paint(s, t); },
+               function()  { if (my === token) loader.classList.remove('on'); });
+    });
+
+    if (n > 1) {                                 // warm up neighbours
+      new Image().src = fullOf(triggers[(cur + 1) % n]);
+      new Image().src = fullOf(triggers[(cur - 1 + n) % n]);
+    }
+  }
+
+  function open(i) {
+    lastFocus = document.activeElement;
+    isOpen = true;
+    lb.classList.add('open');
+    lb.setAttribute('aria-hidden', 'false');
+    document.documentElement.classList.add('lb-lock');
+    show(i);
+    try { closeBtn.focus({preventScroll: true}); } catch (e) { closeBtn.focus(); }
+  }
+
+  function close() {
+    if (!isOpen) return;
+    isOpen = false;
+    token++;                                     // cancel any pending load
+    lb.classList.remove('open');
+    lb.setAttribute('aria-hidden', 'true');
+    document.documentElement.classList.remove('lb-lock');
+    if (lastFocus && lastFocus.focus) { try { lastFocus.focus({preventScroll: true}); } catch (e) {} }
+  }
+
+  function next() { show(cur + 1); }
+  function prev() { show(cur - 1); }
+
+  triggers.forEach(function(t, i) {
+    t.addEventListener('click', function(e) { e.preventDefault(); open(i); });
+    t.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); open(i); }
+    });
+  });
+
+  closeBtn.addEventListener('click', close);
+  prevBtn.addEventListener('click', prev);
+  nextBtn.addEventListener('click', next);
+
+  // click on the empty backdrop closes
+  lb.addEventListener('click', function(e) {
+    if (e.target === lb || e.target.classList.contains('lb-stage')) close();
+  });
+
+  // keyboard: Esc, arrows, Tab trap
+  document.addEventListener('keydown', function(e) {
+    if (!isOpen) return;
+    var k = e.key;
+    if (k === 'Escape' || k === 'Esc') { close(); }
+    else if (k === 'ArrowRight' && triggers.length > 1) { next(); }
+    else if (k === 'ArrowLeft'  && triggers.length > 1) { prev(); }
+    else if (k === 'Tab') {
+      var f = triggers.length > 1 ? [closeBtn, prevBtn, nextBtn] : [closeBtn];
+      var idx = f.indexOf(document.activeElement);
+      e.preventDefault();
+      if (e.shiftKey) idx = idx <= 0 ? f.length - 1 : idx - 1;
+      else            idx = (idx < 0 || idx === f.length - 1) ? 0 : idx + 1;
+      f[idx].focus();
+    }
+  });
+
+  // swipe left / right on touch screens
+  var sx = 0, sy = 0;
+  lb.addEventListener('touchstart', function(e) { sx = e.touches[0].clientX; sy = e.touches[0].clientY; }, {passive: true});
+  lb.addEventListener('touchend', function(e) {
+    if (triggers.length < 2) return;
+    var dx = e.changedTouches[0].clientX - sx;
+    var dy = e.changedTouches[0].clientY - sy;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.3) { dx < 0 ? next() : prev(); }
+  }, {passive: true});
+})();
 </script>
 </body>
 </html>
