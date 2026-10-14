@@ -1,8 +1,13 @@
 name: Fetch images
 
-# Run manually: Actions tab -> "Fetch images" -> Run workflow.
+# Runs automatically when pushed to the local-images branch (and can also be
+# started manually once this file is on the default branch).
 # Downloads the full-size originals into images/<page>/ and commits them.
+# Commits made by this workflow do not trigger another run.
 on:
+  push:
+    branches: [local-images]
+    paths: [".github/workflows/fetch-images.yml", "scripts/fetch_images.py", "images/manifest.json"]
   workflow_dispatch:
 
 permissions:
