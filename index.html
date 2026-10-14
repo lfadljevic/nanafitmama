@@ -188,6 +188,13 @@ nav.scrolled{background:rgba(255,248,243,.92);backdrop-filter:blur(18px);-webkit
 .ts-name{font-size:.85rem;font-weight:700;color:var(--text);line-height:1.3}
 .ts-role{font-size:.75rem;color:var(--muted)}
 @media(max-width:600px){.ts-item{flex:0 0 88vw;padding:2rem 1.6rem 1.8rem}.ts-wrap::before,.ts-wrap::after{width:5vw}}
+/* dots below the cards */
+.ts-dots{display:flex;align-items:center;justify-content:center;margin-top:.2rem}
+.ts-dot{position:relative;width:8px;height:8px;margin:0 .28rem;padding:0;border:none;border-radius:4px;background:rgba(200,144,126,.28);cursor:pointer;transition:width .4s cubic-bezier(.34,1.56,.64,1),background .35s var(--ease)}
+.ts-dot::after{content:'';position:absolute;top:-10px;bottom:-10px;left:-5px;right:-5px}
+.ts-dot.active{width:28px;background:var(--rose)}
+.ts-dot:hover:not(.active){background:rgba(200,144,126,.55)}
+.ts-dot:focus-visible{outline:2px solid var(--rose);outline-offset:3px}
 
 /* ── CONTACT ── */
 .sec-contact{background:var(--peach-lt);text-align:center}
@@ -479,6 +486,16 @@ footer{background:var(--dark);color:rgba(255,255,255,.5);padding:3.5rem 4rem;tex
     </div><!-- /ts-outer -->
   </div><!-- /ts-wrap -->
 
+  <!-- dots -->
+  <div class="ts-dots" id="tsDots" role="group" aria-label="Odaberi iskustvo">
+    <button type="button" class="ts-dot active" aria-label="Iskustvo 1"></button>
+    <button type="button" class="ts-dot" aria-label="Iskustvo 2"></button>
+    <button type="button" class="ts-dot" aria-label="Iskustvo 3"></button>
+    <button type="button" class="ts-dot" aria-label="Iskustvo 4"></button>
+    <button type="button" class="ts-dot" aria-label="Iskustvo 5"></button>
+    <button type="button" class="ts-dot" aria-label="Iskustvo 6"></button>
+  </div>
+
 </section>
 
 
@@ -595,6 +612,17 @@ document.querySelectorAll('a[href^="#"]').forEach(function(a) {
   var velX = 0, lastX = 0, lastT = 0;
   var autoTimer, AUTO_MS = 5500;
 
+  // dots: the active one follows the *logical* card (clones count as their original)
+  var dots = Array.prototype.slice.call(document.querySelectorAll('.ts-dot'));
+  function logicalIndex() { return ((cur - CLONE) % TOTAL + TOTAL) % TOTAL; }
+  function updateDots() {
+    var li = logicalIndex();
+    dots.forEach(function(d, k) {
+      d.classList.toggle('active', k === li);
+      if (k === li) d.setAttribute('aria-current', 'true'); else d.removeAttribute('aria-current');
+    });
+  }
+
   // Build clones so the strip loops infinitely
   // Layout: [clone(4,5,6) | real(1-6) | clone(1,2,3)]
   var real = Array.prototype.slice.call(track.children);
@@ -622,6 +650,7 @@ document.querySelectorAll('a[href^="#"]').forEach(function(a) {
 
   function snapTo(idx, animated) {
     cur = idx;
+    updateDots();
     move(txFor(idx), animated !== false);
   }
 
@@ -702,6 +731,17 @@ document.querySelectorAll('a[href^="#"]').forEach(function(a) {
   outer.addEventListener('mouseenter', function() { clearTimeout(autoTimer); });
   outer.addEventListener('mouseleave', scheduleAuto);
   scheduleAuto();
+
+  // Dot click: jump to that card, taking the shorter way round the loop
+  dots.forEach(function(d, k) {
+    d.addEventListener('click', function() {
+      var delta = k - logicalIndex();
+      if (delta > TOTAL / 2) delta -= TOTAL;
+      else if (delta < -TOTAL / 2) delta += TOTAL;
+      snapTo(Math.max(0, Math.min(TOTAL + 2 * CLONE - 1, cur + delta)), true);
+      scheduleAuto();
+    });
+  });
 
   // Reposition on resize
   window.addEventListener('resize', function() { snapTo(cur, false); }, {passive:true});
