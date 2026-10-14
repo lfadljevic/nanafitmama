@@ -85,21 +85,24 @@
     /* ════════════════════════════
        HERO
     ════════════════════════════ */
-    #hero{background:var(--blush);min-height:82vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:10rem 6vw 12rem;position:relative;overflow:hidden}
+    #hero{background:var(--blush);text-align:center;padding:9.5rem 6vw 6rem;position:relative;overflow:hidden}
     .orb{position:absolute;border-radius:50%;filter:blur(70px);pointer-events:none;animation:orbDrift 14s ease-in-out infinite}
-    .orb-a{width:55vw;height:55vw;max-width:640px;max-height:640px;background:radial-gradient(circle,#F5B8D0 0%,transparent 70%);top:-25%;left:-15%;animation-delay:0s;opacity:.5}
-    .orb-b{width:40vw;height:40vw;max-width:500px;max-height:500px;background:radial-gradient(circle,#C4E4FF 0%,transparent 70%);top:-10%;right:-10%;animation-delay:5s;opacity:.45}
-    .orb-c{width:35vw;height:35vw;max-width:420px;max-height:420px;background:radial-gradient(circle,#C8E8DA 0%,transparent 70%);bottom:-15%;left:30%;animation-delay:8s;opacity:.45}
+    .orb-a{width:55vw;height:55vw;max-width:640px;max-height:640px;background:radial-gradient(circle,#F5B8D0 0%,transparent 70%);top:-180px;left:-15%;animation-delay:0s;opacity:.5}
+    .orb-b{width:40vw;height:40vw;max-width:500px;max-height:500px;background:radial-gradient(circle,#C4E4FF 0%,transparent 70%);top:-60px;right:-10%;animation-delay:5s;opacity:.45}
+    .orb-c{width:35vw;height:35vw;max-width:420px;max-height:420px;background:radial-gradient(circle,#C8E8DA 0%,transparent 70%);top:30%;right:-12%;animation-delay:8s;opacity:.45}
+    .orb-d{width:45vw;height:45vw;max-width:560px;max-height:560px;background:radial-gradient(circle,#E3DAF7 0%,transparent 70%);top:58%;left:-14%;animation-delay:3s;opacity:.55}
+    .orb-e{width:40vw;height:40vw;max-width:500px;max-height:500px;background:radial-gradient(circle,#F5B8D0 0%,transparent 70%);bottom:-120px;right:12%;animation-delay:6s;opacity:.45}
     @keyframes orbDrift{0%,100%{transform:translate(0,0) scale(1)}40%{transform:translate(30px,-20px) scale(1.05)}70%{transform:translate(-18px,22px) scale(.96)}}
-    .hero-inner{position:relative;z-index:1;max-width:720px}
+    .hero-inner{position:relative;z-index:1;max-width:720px;margin:0 auto}
     .hero-eyebrow{display:inline-flex;align-items:center;gap:.6rem;font-size:.7rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--rose);background:rgba(197,119,154,.1);border:1px solid rgba(197,119,154,.2);padding:.38rem 1.1rem .38rem .7rem;border-radius:50px;margin-bottom:2rem}
     .hero-eyebrow-dot{width:7px;height:7px;border-radius:50%;background:var(--rose)}
 
     /* ════════════════════════════
        GALLERY
     ════════════════════════════ */
-    #gallery{background:var(--cream)}
-    .g-head{text-align:center;margin-bottom:3.5rem}
+    .hero-gallery{position:relative;z-index:1;max-width:1160px;margin:3.5rem auto 0}
+    .g-head{text-align:center;margin-bottom:2.2rem}
+    .g-head .tag{margin-bottom:0}
     .g-grid{-webkit-column-count:3;column-count:3;-webkit-column-gap:1.4rem;column-gap:1.4rem;max-width:1160px;margin:0 auto}
     .g-item{display:block;position:relative;overflow:hidden;margin:0 0 1.4rem;border-radius:20px;background:linear-gradient(135deg,var(--blush),var(--lav));box-shadow:0 8px 32px rgba(46,31,31,.08);-webkit-column-break-inside:avoid;page-break-inside:avoid;break-inside:avoid;-webkit-mask-image:-webkit-radial-gradient(white,black)}
     .g-item:nth-child(4n+2){background:linear-gradient(135deg,var(--sage),var(--blush))}
@@ -180,7 +183,8 @@
     }
     @media(max-width:600px){
       .sec-pad{padding:5rem 5vw 7rem}
-      #hero{padding:8rem 5vw 10rem}
+      #hero{padding:7.5rem 5vw 4rem}
+      .hero-gallery{margin-top:2.5rem}
       .g-grid{-webkit-column-gap:.8rem;column-gap:.8rem}
       .g-item{margin-bottom:.8rem;border-radius:14px}
       .footer-top{flex-direction:column;align-items:flex-start}
@@ -210,109 +214,101 @@
   <div class="orb orb-a"></div>
   <div class="orb orb-b"></div>
   <div class="orb orb-c"></div>
+  <div class="orb orb-d"></div>
+  <div class="orb orb-e"></div>
   <div class="hero-inner">
     <div class="hero-eyebrow"><span class="hero-eyebrow-dot"></span>NanaFitMama</div>
     <h1 class="h1 rv">Galerija</h1>
     <p class="p rv d1" style="max-width:520px;margin:.8rem auto 0;font-size:1rem">Iz naše vježbaonice - kako mi vježbamo - zavirite u naš svijet</p>
   </div>
-</section>
 
-<!-- wave → cream -->
-<div class="wave" style="background:var(--blush)">
-  <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M0,45 C200,90 450,10 720,50 C950,85 1200,15 1440,45 L1440,90 L0,90 Z" fill="#FFF8F3"/>
-  </svg>
-</div>
-
-<!-- ═══ GALLERY ═══ -->
-<section id="gallery" class="sec-pad">
-  <div class="inner">
+  <!-- gallery lives directly in the hero -->
+  <div class="hero-gallery">
     <div class="g-head">
-      <p class="tag tag-center rv">Galerija</p>
-      <h2 class="h2 rv d1"><em>Fotkice</em></h2>
+      <p class="tag tag-center rv">Fotkice</p>
     </div>
-    <div class="g-grid">
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_c15b88ede9244449b8dea00dfb74bbff~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_c15b88ede9244449b8dea00dfb74bbff~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 1">
-        <div class="g-frame" style="padding-top:74.894%"><img src="https://static.wixstatic.com/media/379b48_c15b88ede9244449b8dea00dfb74bbff~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_c15b88ede9244449b8dea00dfb74bbff~mv2.jpg" alt="Fotkica 1" width="470" height="352" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_7d6733ba84db4077bb9cc13b02be7b3a~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_7d6733ba84db4077bb9cc13b02be7b3a~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 2">
-        <div class="g-frame" style="padding-top:62.553%"><img src="https://static.wixstatic.com/media/379b48_7d6733ba84db4077bb9cc13b02be7b3a~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_7d6733ba84db4077bb9cc13b02be7b3a~mv2.jpg" alt="Fotkica 2" width="470" height="294" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_5cd5567280564d5da6ef1c0bc5ba92f5~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_5cd5567280564d5da6ef1c0bc5ba92f5~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 3">
-        <div class="g-frame" style="padding-top:51.489%"><img src="https://static.wixstatic.com/media/379b48_5cd5567280564d5da6ef1c0bc5ba92f5~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_5cd5567280564d5da6ef1c0bc5ba92f5~mv2.jpg" alt="Fotkica 3" width="470" height="242" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_1683d6b1e454441aaca8a1364a6ca85c~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_1683d6b1e454441aaca8a1364a6ca85c~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 4">
-        <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_1683d6b1e454441aaca8a1364a6ca85c~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_1683d6b1e454441aaca8a1364a6ca85c~mv2.jpg" alt="Fotkica 4" width="470" height="470" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_e220d24941ea46db99a4585a3c0dba0c~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_e220d24941ea46db99a4585a3c0dba0c~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 5">
-        <div class="g-frame" style="padding-top:74.894%"><img src="https://static.wixstatic.com/media/379b48_e220d24941ea46db99a4585a3c0dba0c~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_e220d24941ea46db99a4585a3c0dba0c~mv2.jpg" alt="Fotkica 5" width="470" height="352" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_2e2119beceae4e4197f9b1b78ced150d~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_2e2119beceae4e4197f9b1b78ced150d~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 6">
-        <div class="g-frame" style="padding-top:124.894%"><img src="https://static.wixstatic.com/media/379b48_2e2119beceae4e4197f9b1b78ced150d~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_2e2119beceae4e4197f9b1b78ced150d~mv2.jpg" alt="Fotkica 6" width="470" height="587" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_cb401bd672304fa98a8167bca21789df~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_cb401bd672304fa98a8167bca21789df~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 7">
-        <div class="g-frame" style="padding-top:69.149%"><img src="https://static.wixstatic.com/media/379b48_cb401bd672304fa98a8167bca21789df~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_cb401bd672304fa98a8167bca21789df~mv2.jpg" alt="Fotkica 7" width="470" height="325" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_0b25a9c44c0b4a1a8c7890dca9cd2da2~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_0b25a9c44c0b4a1a8c7890dca9cd2da2~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 8">
-        <div class="g-frame" style="padding-top:74.894%"><img src="https://static.wixstatic.com/media/379b48_0b25a9c44c0b4a1a8c7890dca9cd2da2~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_0b25a9c44c0b4a1a8c7890dca9cd2da2~mv2.jpg" alt="Fotkica 8" width="470" height="352" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_adea9768945540c8a1c0076377c8d253~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_adea9768945540c8a1c0076377c8d253~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 9">
-        <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_adea9768945540c8a1c0076377c8d253~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_adea9768945540c8a1c0076377c8d253~mv2.jpg" alt="Fotkica 9" width="470" height="470" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_1fc7a7e282254d1c95d0ed737f722240~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_1fc7a7e282254d1c95d0ed737f722240~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 10">
-        <div class="g-frame" style="padding-top:75.106%"><img src="https://static.wixstatic.com/media/379b48_1fc7a7e282254d1c95d0ed737f722240~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_1fc7a7e282254d1c95d0ed737f722240~mv2.jpg" alt="Fotkica 10" width="470" height="353" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_8ba7d6bd420d4650bbc0b66401a8d314~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_8ba7d6bd420d4650bbc0b66401a8d314~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 11">
-        <div class="g-frame" style="padding-top:75.106%"><img src="https://static.wixstatic.com/media/379b48_8ba7d6bd420d4650bbc0b66401a8d314~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_8ba7d6bd420d4650bbc0b66401a8d314~mv2.jpg" alt="Fotkica 11" width="470" height="353" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_f464154ecd0a4c1e8473eef76b24a4e1~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_f464154ecd0a4c1e8473eef76b24a4e1~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 12">
-        <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_f464154ecd0a4c1e8473eef76b24a4e1~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_f464154ecd0a4c1e8473eef76b24a4e1~mv2.jpg" alt="Fotkica 12" width="470" height="470" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_16c6653e89434f7faf022bf394862938~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_16c6653e89434f7faf022bf394862938~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 13">
-        <div class="g-frame" style="padding-top:80.0%"><img src="https://static.wixstatic.com/media/379b48_16c6653e89434f7faf022bf394862938~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_16c6653e89434f7faf022bf394862938~mv2.jpg" alt="Fotkica 13" width="470" height="376" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_47842159b7024536b293b0c665fe2362~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_47842159b7024536b293b0c665fe2362~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 14">
-        <div class="g-frame" style="padding-top:70.638%"><img src="https://static.wixstatic.com/media/379b48_47842159b7024536b293b0c665fe2362~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_47842159b7024536b293b0c665fe2362~mv2.jpg" alt="Fotkica 14" width="470" height="332" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_b155e853b7434a2c8aaf166058b441aa~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_b155e853b7434a2c8aaf166058b441aa~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 15">
-        <div class="g-frame" style="padding-top:63.191%"><img src="https://static.wixstatic.com/media/379b48_b155e853b7434a2c8aaf166058b441aa~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_b155e853b7434a2c8aaf166058b441aa~mv2.jpg" alt="Fotkica 15" width="470" height="297" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_cbcb368c678446e99b7b68603a45d01b~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_cbcb368c678446e99b7b68603a45d01b~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 16">
-        <div class="g-frame" style="padding-top:61.064%"><img src="https://static.wixstatic.com/media/379b48_cbcb368c678446e99b7b68603a45d01b~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_cbcb368c678446e99b7b68603a45d01b~mv2.jpg" alt="Fotkica 16" width="470" height="287" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_9f7144325f5742f79536c8846fbec041~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_9f7144325f5742f79536c8846fbec041~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 17">
-        <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_9f7144325f5742f79536c8846fbec041~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_9f7144325f5742f79536c8846fbec041~mv2.jpg" alt="Fotkica 17" width="470" height="470" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_791e8269b6974c8da8f28cb5e08b6daf~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_791e8269b6974c8da8f28cb5e08b6daf~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 18">
-        <div class="g-frame" style="padding-top:75.106%"><img src="https://static.wixstatic.com/media/379b48_791e8269b6974c8da8f28cb5e08b6daf~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_791e8269b6974c8da8f28cb5e08b6daf~mv2.jpg" alt="Fotkica 18" width="470" height="353" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_2c6b93cfef3c41978b63d79e1baa3ce8~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_2c6b93cfef3c41978b63d79e1baa3ce8~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 19">
-        <div class="g-frame" style="padding-top:84.894%"><img src="https://static.wixstatic.com/media/379b48_2c6b93cfef3c41978b63d79e1baa3ce8~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_2c6b93cfef3c41978b63d79e1baa3ce8~mv2.jpg" alt="Fotkica 19" width="470" height="399" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_09e2135a48e9412d9387546116dbe9a9~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_09e2135a48e9412d9387546116dbe9a9~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 20">
-        <div class="g-frame" style="padding-top:56.17%"><img src="https://static.wixstatic.com/media/379b48_09e2135a48e9412d9387546116dbe9a9~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_09e2135a48e9412d9387546116dbe9a9~mv2.jpg" alt="Fotkica 20" width="470" height="264" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_904bc9586880409eaf8550bcefeb2839~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_904bc9586880409eaf8550bcefeb2839~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 21">
-        <div class="g-frame" style="padding-top:98.511%"><img src="https://static.wixstatic.com/media/379b48_904bc9586880409eaf8550bcefeb2839~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_904bc9586880409eaf8550bcefeb2839~mv2.jpg" alt="Fotkica 21" width="470" height="463" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_0c872a8d58d64e92816f1f199bc3afaa~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_0c872a8d58d64e92816f1f199bc3afaa~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 22">
-        <div class="g-frame" style="padding-top:127.021%"><img src="https://static.wixstatic.com/media/379b48_0c872a8d58d64e92816f1f199bc3afaa~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_0c872a8d58d64e92816f1f199bc3afaa~mv2.jpg" alt="Fotkica 22" width="470" height="597" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_e47855ea211f43e8b935df5b33b22e95~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_e47855ea211f43e8b935df5b33b22e95~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 23">
-        <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_e47855ea211f43e8b935df5b33b22e95~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_e47855ea211f43e8b935df5b33b22e95~mv2.jpg" alt="Fotkica 23" width="470" height="470" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_fa50106556ab4b8cb767bed4430ad5a4~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_fa50106556ab4b8cb767bed4430ad5a4~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 24">
-        <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_fa50106556ab4b8cb767bed4430ad5a4~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_fa50106556ab4b8cb767bed4430ad5a4~mv2.jpg" alt="Fotkica 24" width="470" height="470" loading="lazy" decoding="async"></div>
-      </figure>
-      <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_e6b229729b6a411bbc949bbb28feb757~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_e6b229729b6a411bbc949bbb28feb757~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 25">
-        <div class="g-frame" style="padding-top:75.106%"><img src="https://static.wixstatic.com/media/379b48_e6b229729b6a411bbc949bbb28feb757~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_e6b229729b6a411bbc949bbb28feb757~mv2.jpg" alt="Fotkica 25" width="470" height="353" loading="lazy" decoding="async"></div>
-      </figure>
-    </div>
+      <div class="g-grid">
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_c15b88ede9244449b8dea00dfb74bbff~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_c15b88ede9244449b8dea00dfb74bbff~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 1">
+          <div class="g-frame" style="padding-top:74.894%"><img src="https://static.wixstatic.com/media/379b48_c15b88ede9244449b8dea00dfb74bbff~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_c15b88ede9244449b8dea00dfb74bbff~mv2.jpg" alt="Fotkica 1" width="470" height="352" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_7d6733ba84db4077bb9cc13b02be7b3a~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_7d6733ba84db4077bb9cc13b02be7b3a~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 2">
+          <div class="g-frame" style="padding-top:62.553%"><img src="https://static.wixstatic.com/media/379b48_7d6733ba84db4077bb9cc13b02be7b3a~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_7d6733ba84db4077bb9cc13b02be7b3a~mv2.jpg" alt="Fotkica 2" width="470" height="294" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_5cd5567280564d5da6ef1c0bc5ba92f5~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_5cd5567280564d5da6ef1c0bc5ba92f5~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 3">
+          <div class="g-frame" style="padding-top:51.489%"><img src="https://static.wixstatic.com/media/379b48_5cd5567280564d5da6ef1c0bc5ba92f5~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_5cd5567280564d5da6ef1c0bc5ba92f5~mv2.jpg" alt="Fotkica 3" width="470" height="242" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_1683d6b1e454441aaca8a1364a6ca85c~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_1683d6b1e454441aaca8a1364a6ca85c~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 4">
+          <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_1683d6b1e454441aaca8a1364a6ca85c~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_1683d6b1e454441aaca8a1364a6ca85c~mv2.jpg" alt="Fotkica 4" width="470" height="470" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_e220d24941ea46db99a4585a3c0dba0c~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_e220d24941ea46db99a4585a3c0dba0c~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 5">
+          <div class="g-frame" style="padding-top:74.894%"><img src="https://static.wixstatic.com/media/379b48_e220d24941ea46db99a4585a3c0dba0c~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_e220d24941ea46db99a4585a3c0dba0c~mv2.jpg" alt="Fotkica 5" width="470" height="352" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_2e2119beceae4e4197f9b1b78ced150d~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_2e2119beceae4e4197f9b1b78ced150d~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 6">
+          <div class="g-frame" style="padding-top:124.894%"><img src="https://static.wixstatic.com/media/379b48_2e2119beceae4e4197f9b1b78ced150d~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_2e2119beceae4e4197f9b1b78ced150d~mv2.jpg" alt="Fotkica 6" width="470" height="587" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_cb401bd672304fa98a8167bca21789df~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_cb401bd672304fa98a8167bca21789df~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 7">
+          <div class="g-frame" style="padding-top:69.149%"><img src="https://static.wixstatic.com/media/379b48_cb401bd672304fa98a8167bca21789df~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_cb401bd672304fa98a8167bca21789df~mv2.jpg" alt="Fotkica 7" width="470" height="325" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_0b25a9c44c0b4a1a8c7890dca9cd2da2~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_0b25a9c44c0b4a1a8c7890dca9cd2da2~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 8">
+          <div class="g-frame" style="padding-top:74.894%"><img src="https://static.wixstatic.com/media/379b48_0b25a9c44c0b4a1a8c7890dca9cd2da2~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_0b25a9c44c0b4a1a8c7890dca9cd2da2~mv2.jpg" alt="Fotkica 8" width="470" height="352" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_adea9768945540c8a1c0076377c8d253~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_adea9768945540c8a1c0076377c8d253~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 9">
+          <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_adea9768945540c8a1c0076377c8d253~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_adea9768945540c8a1c0076377c8d253~mv2.jpg" alt="Fotkica 9" width="470" height="470" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_1fc7a7e282254d1c95d0ed737f722240~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_1fc7a7e282254d1c95d0ed737f722240~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 10">
+          <div class="g-frame" style="padding-top:75.106%"><img src="https://static.wixstatic.com/media/379b48_1fc7a7e282254d1c95d0ed737f722240~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_1fc7a7e282254d1c95d0ed737f722240~mv2.jpg" alt="Fotkica 10" width="470" height="353" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_8ba7d6bd420d4650bbc0b66401a8d314~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_8ba7d6bd420d4650bbc0b66401a8d314~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 11">
+          <div class="g-frame" style="padding-top:75.106%"><img src="https://static.wixstatic.com/media/379b48_8ba7d6bd420d4650bbc0b66401a8d314~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_8ba7d6bd420d4650bbc0b66401a8d314~mv2.jpg" alt="Fotkica 11" width="470" height="353" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_f464154ecd0a4c1e8473eef76b24a4e1~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_f464154ecd0a4c1e8473eef76b24a4e1~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 12">
+          <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_f464154ecd0a4c1e8473eef76b24a4e1~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_f464154ecd0a4c1e8473eef76b24a4e1~mv2.jpg" alt="Fotkica 12" width="470" height="470" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_16c6653e89434f7faf022bf394862938~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_16c6653e89434f7faf022bf394862938~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 13">
+          <div class="g-frame" style="padding-top:80.0%"><img src="https://static.wixstatic.com/media/379b48_16c6653e89434f7faf022bf394862938~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_16c6653e89434f7faf022bf394862938~mv2.jpg" alt="Fotkica 13" width="470" height="376" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_47842159b7024536b293b0c665fe2362~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_47842159b7024536b293b0c665fe2362~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 14">
+          <div class="g-frame" style="padding-top:70.638%"><img src="https://static.wixstatic.com/media/379b48_47842159b7024536b293b0c665fe2362~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_47842159b7024536b293b0c665fe2362~mv2.jpg" alt="Fotkica 14" width="470" height="332" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_b155e853b7434a2c8aaf166058b441aa~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_b155e853b7434a2c8aaf166058b441aa~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 15">
+          <div class="g-frame" style="padding-top:63.191%"><img src="https://static.wixstatic.com/media/379b48_b155e853b7434a2c8aaf166058b441aa~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_b155e853b7434a2c8aaf166058b441aa~mv2.jpg" alt="Fotkica 15" width="470" height="297" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_cbcb368c678446e99b7b68603a45d01b~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_cbcb368c678446e99b7b68603a45d01b~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 16">
+          <div class="g-frame" style="padding-top:61.064%"><img src="https://static.wixstatic.com/media/379b48_cbcb368c678446e99b7b68603a45d01b~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_cbcb368c678446e99b7b68603a45d01b~mv2.jpg" alt="Fotkica 16" width="470" height="287" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_9f7144325f5742f79536c8846fbec041~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_9f7144325f5742f79536c8846fbec041~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 17">
+          <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_9f7144325f5742f79536c8846fbec041~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_9f7144325f5742f79536c8846fbec041~mv2.jpg" alt="Fotkica 17" width="470" height="470" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_791e8269b6974c8da8f28cb5e08b6daf~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_791e8269b6974c8da8f28cb5e08b6daf~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 18">
+          <div class="g-frame" style="padding-top:75.106%"><img src="https://static.wixstatic.com/media/379b48_791e8269b6974c8da8f28cb5e08b6daf~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_791e8269b6974c8da8f28cb5e08b6daf~mv2.jpg" alt="Fotkica 18" width="470" height="353" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_2c6b93cfef3c41978b63d79e1baa3ce8~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_2c6b93cfef3c41978b63d79e1baa3ce8~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 19">
+          <div class="g-frame" style="padding-top:84.894%"><img src="https://static.wixstatic.com/media/379b48_2c6b93cfef3c41978b63d79e1baa3ce8~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_2c6b93cfef3c41978b63d79e1baa3ce8~mv2.jpg" alt="Fotkica 19" width="470" height="399" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_09e2135a48e9412d9387546116dbe9a9~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_09e2135a48e9412d9387546116dbe9a9~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 20">
+          <div class="g-frame" style="padding-top:56.17%"><img src="https://static.wixstatic.com/media/379b48_09e2135a48e9412d9387546116dbe9a9~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_09e2135a48e9412d9387546116dbe9a9~mv2.jpg" alt="Fotkica 20" width="470" height="264" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_904bc9586880409eaf8550bcefeb2839~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_904bc9586880409eaf8550bcefeb2839~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 21">
+          <div class="g-frame" style="padding-top:98.511%"><img src="https://static.wixstatic.com/media/379b48_904bc9586880409eaf8550bcefeb2839~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_904bc9586880409eaf8550bcefeb2839~mv2.jpg" alt="Fotkica 21" width="470" height="463" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_0c872a8d58d64e92816f1f199bc3afaa~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_0c872a8d58d64e92816f1f199bc3afaa~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 22">
+          <div class="g-frame" style="padding-top:127.021%"><img src="https://static.wixstatic.com/media/379b48_0c872a8d58d64e92816f1f199bc3afaa~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_0c872a8d58d64e92816f1f199bc3afaa~mv2.jpg" alt="Fotkica 22" width="470" height="597" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_e47855ea211f43e8b935df5b33b22e95~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_e47855ea211f43e8b935df5b33b22e95~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 23">
+          <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_e47855ea211f43e8b935df5b33b22e95~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_e47855ea211f43e8b935df5b33b22e95~mv2.jpg" alt="Fotkica 23" width="470" height="470" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_fa50106556ab4b8cb767bed4430ad5a4~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_fa50106556ab4b8cb767bed4430ad5a4~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 24">
+          <div class="g-frame" style="padding-top:100.0%"><img src="https://static.wixstatic.com/media/379b48_fa50106556ab4b8cb767bed4430ad5a4~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_fa50106556ab4b8cb767bed4430ad5a4~mv2.jpg" alt="Fotkica 24" width="470" height="470" loading="lazy" decoding="async"></div>
+        </figure>
+        <figure class="g-item rv" data-lightbox data-full="https://static.wixstatic.com/media/379b48_e6b229729b6a411bbc949bbb28feb757~mv2.jpg/v1/fit/w_1800,h_1800,q_85/379b48_e6b229729b6a411bbc949bbb28feb757~mv2.jpg" role="button" tabindex="0" aria-label="Povećaj sliku 25">
+          <div class="g-frame" style="padding-top:75.106%"><img src="https://static.wixstatic.com/media/379b48_e6b229729b6a411bbc949bbb28feb757~mv2.jpg/v1/fit/w_800,h_800,q_85/379b48_e6b229729b6a411bbc949bbb28feb757~mv2.jpg" alt="Fotkica 25" width="470" height="353" loading="lazy" decoding="async"></div>
+        </figure>
+      </div>
   </div>
 </section>
 
-<!-- wave → blush -->
-<div class="wave" style="background:var(--cream)">
+<!-- wave → blush (hero → CTA) -->
+<div class="wave" style="background:var(--blush)">
   <svg viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M0,50 C400,5 800,80 1200,30 C1330,10 1400,60 1440,45 L1440,90 L0,90 Z" fill="#FEF2F7"/>
   </svg>
