@@ -41,3 +41,9 @@ The pages use Jekyll includes and layouts (files starting with `---` or containi
 so they only display correctly after Jekyll has built them. Opening the files directly or with a plain
 file server shows raw template code. Check changes on the GitHub Pages address, or run Jekyll locally
 (`bundle install`, then `bundle exec jekyll serve --unpublished`, then open `http://localhost:4000/nanafitmama/`).
+
+## Migrated posts
+The 251 posts from the old Wix blog are in `_posts/` with their original dates, categories and text.
+Their photos are in `images/blog/` (`<post>.jpg` = thumbnail on the blog list, `<post>-1.jpg` = photo inside the text).
+Migrated posts have `hide_image: true`, so the thumbnail is not repeated at the top of the article (as on the old site).
+`migration/old-to-new-urls.csv` lists every old Wix address with its new address (useful for redirects when moving to the own domain).

@@ -1,8 +1,0 @@
-posts checked: 251 | identical to Wix text/structure: 251 | with differences: 0
-overview cards: 251 (expected 251)
-overview: thumbnails missing on disk: 0 | cards without image: 0
-overview categories: {'': 5, 'lifestyle': 74, 'nana-knjiga': 137, 'sport-zdravlje': 35}
-filter chips: ['Svi članci', 'Nana&Knjiga', 'Sport&Zdravlje', 'lifestyle']
-first cards (newest first): ['Književni Fellini', 'Ponekad odustani', 'Život je satira']
-post folders in built site: 251
-PROBLEMS: 0

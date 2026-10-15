@@ -1,2 +1,0 @@
-images: 358 in manifest, 0 saved now, 358 already there, 0 failed
-integrity: 0 unreadable | total 87.2 MB | smallest (299, 448) | largest (2048, 2048)
