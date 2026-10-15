@@ -28,7 +28,8 @@ async function shoot(browser, url, vp) {
   });
   await page.evaluate(() => document.fonts && document.fonts.ready);
   await page.waitForLoadState('networkidle');
-  await page.waitForTimeout(400);
+  await page.evaluate(() => Promise.all([...document.images].map((i) => (i.decode ? i.decode().catch(() => {}) : null))));
+  await page.waitForTimeout(800);
   const buf = await page.screenshot({ fullPage: true });
   const broken = await page.evaluate(() =>
     [...document.images].filter((i) => i.complete && i.naturalWidth === 0).map((i) => i.getAttribute('src'))
