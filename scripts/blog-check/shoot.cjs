@@ -60,7 +60,7 @@ async function shoot(browser, url, vp) {
           fs.writeFileSync(`${OUT}/${p}-${vpName}-new.png`, b.buf);
         }
       }
-      lines.push(`[compare] ${vpName.padEnd(7)} ${p.padEnd(13)} ${msg} | status ${a.status}/${b.status} | broken imgs old ${a.broken.length} new ${b.broken.length} ${b.broken.slice(0, 3).join(',')} | js errors new ${b.errors.length}`);
+      lines.push(`[compare] ${vpName.padEnd(7)} ${p.padEnd(13)} ${msg} | status ${a.status}/${b.status} | broken imgs old ${a.broken.length} ${a.broken.slice(0, 2).join(",")} new ${b.broken.length} ${b.broken.slice(0, 3).join(',')} | js errors new ${b.errors.length}`);
     }
     for (const [name, path] of blogPages) {
       const b = await shoot(browser, NEW + path, vp);

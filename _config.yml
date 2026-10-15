@@ -16,7 +16,14 @@ baseurl: "/nanafitmama"
 # ── Blog ───────────────────────────────────────────────────────
 # Post address: /post/<title-from-file-name>/   (same pattern as the old Wix blog)
 # Post files:   _posts/YYYY-MM-DD-title.md
-permalink: /post/:title/
+# (Set for posts only, so the existing pages keep addresses like /o-meni.html)
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      permalink: /post/:title/
 
 plugins:
   - jekyll-feed
