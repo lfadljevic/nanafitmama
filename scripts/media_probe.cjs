@@ -4,7 +4,8 @@ const fs = require('fs');
   const out = process.argv[2]; fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch();
   const p = await b.newPage({ viewport: { width: 1440, height: 900 } });
-  await p.goto('https://www.nanamilatic.com/o-meni', { waitUntil: 'networkidle', timeout: 90000 });
+  await p.goto('https://www.nanamilatic.com/o-meni', { waitUntil: 'domcontentloaded', timeout: 90000 });
+  await p.waitForTimeout(6000);
   let last = 0;
   for (let i = 0; i < 40; i++) {
     await p.mouse.wheel(0, 900); await p.waitForTimeout(500);

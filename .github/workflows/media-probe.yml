@@ -17,7 +17,8 @@ jobs:
           mkdir tools && cd tools && npm init -y >/dev/null
           npm i playwright >/dev/null
           npx playwright install --with-deps chromium >/dev/null
-          cp ../scripts/media_probe.cjs . && node media_probe.cjs ../_probe
+          cp ../scripts/media_probe.cjs . && (node media_probe.cjs ../_probe 2>&1 | tee ../_probe-log.txt; true)
+          mkdir -p ../_probe && cp ../_probe-log.txt ../_probe/log.txt
       - name: Commit results
         if: always()
         run: |
