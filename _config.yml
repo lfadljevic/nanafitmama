@@ -25,6 +25,10 @@ defaults:
       layout: post
       permalink: /post/:title/
 
+# Keep quotation marks exactly as typed (no automatic curly quotes)
+kramdown:
+  smart_quotes: apos,apos,quot,quot
+
 plugins:
   - jekyll-feed
 

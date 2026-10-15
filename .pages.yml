@@ -68,3 +68,8 @@ content:
         options:
           format: markdown
           rename: true
+
+# Keep extra front-matter fields that the form does not show (e.g. hide_image on migrated posts)
+settings:
+  content:
+    merge: true
