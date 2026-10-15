@@ -1,0 +1,70 @@
+# Pages CMS configuration – the writing screen for blog posts (https://app.pagescms.org)
+
+# Photos uploaded through the CMS are saved in images/blog/ and used as /images/blog/<file>
+media:
+  input: images/blog
+  output: /images/blog
+  extensions: [jpg, jpeg, png, webp, gif]
+
+content:
+  - name: posts
+    label: Blog članci
+    type: collection
+    path: _posts
+    format: yaml-frontmatter
+    # File name = date + title, e.g. 2026-10-20-naslov.md  (the address becomes /post/naslov/)
+    filename: "{year}-{month}-{day}-{primary}.md"
+
+    # Articles are hidden with "Objavljeno" instead of being deleted or renamed
+    # (renaming would change the article's web address).
+    operations:
+      create: true
+      rename: false
+      delete: false
+
+    view:
+      primary: title
+      fields: [title, date, kategorija, published]
+      sort: [date, title]
+      default:
+        sort: date
+        order: desc
+
+    fields:
+      - name: title
+        label: Naslov
+        type: string
+        required: true
+
+      - name: date
+        label: Datum objave
+        type: date
+        options:
+          format: yyyy-MM-dd
+
+      - name: image
+        label: Naslovna slika
+        type: image
+        description: Slika koja se prikazuje na vrhu članka i na popisu članaka.
+        options:
+          rename: true
+
+      - name: kategorija
+        label: Kategorija
+        type: select
+        options:
+          values: [lifestyle, "Sport&Zdravlje", "Nana&Knjiga"]
+
+      - name: published
+        label: Objavljeno
+        type: boolean
+        default: true
+        description: Ugasite za skicu – članak se neće prikazivati na stranici dok ga ne objavite.
+
+      - name: body
+        label: Tekst članka
+        type: rich-text
+        description: Prvi odlomak prikazuje se i kao kratki uvod na popisu članaka.
+        options:
+          format: markdown
+          rename: true

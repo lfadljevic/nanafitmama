@@ -1,7 +1,17 @@
 # nanafitmama
 Nana fit mama website (GitHub Pages + Jekyll).
 
-## Writing a blog post
+## Writing blog posts with the CMS (Pages CMS)
+Posts are written at https://app.pagescms.org. The writing screen has fields for title, date,
+cover photo, category, text and an **Objavljeno** (published) switch. Saving creates the post file
+in `_posts/` and uploads the photo to `images/blog/`; the site updates a minute or two later.
+The screen is configured in `.pages.yml`.
+
+- **Unpublish instead of delete:** switch **Objavljeno** off. The post disappears from the site but stays in the CMS.
+  Deleting and renaming are switched off on purpose (renaming would change the post's web address).
+- **Categories** are a fixed list in `.pages.yml` (`lifestyle`, `Sport&Zdravlje`, `Nana&Knjiga`).
+
+## Writing a post by hand (without the CMS)
 Create a file in `_posts/` named `YYYY-MM-DD-naslov.md` (the file name becomes the address: `/post/naslov/`):
 
 ```
@@ -25,3 +35,9 @@ Ostatak teksta…
 ## Site address
 `_config.yml` has `baseurl: "/nanafitmama"` while the site runs at `lfadljevic.github.io/nanafitmama`.
 When moving to a custom domain, set `baseurl: ""` and `url:` to that domain.
+
+## Previewing the site
+The pages use Jekyll includes and layouts (files starting with `---` or containing `{% include %}`),
+so they only display correctly after Jekyll has built them. Opening the files directly or with a plain
+file server shows raw template code. Check changes on the GitHub Pages address, or run Jekyll locally
+(`bundle install`, then `bundle exec jekyll serve --unpublished`, then open `http://localhost:4000/nanafitmama/`).
