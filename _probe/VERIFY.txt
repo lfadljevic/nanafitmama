@@ -1,12 +1,8 @@
-posts checked: 251 | identical to Wix text/structure: 247 | with differences: 4
+posts checked: 251 | identical to Wix text/structure: 251 | with differences: 0
 overview cards: 251 (expected 251)
 overview: thumbnails missing on disk: 0 | cards without image: 0
 overview categories: {'': 5, 'lifestyle': 74, 'nana-knjiga': 137, 'sport-zdravlje': 35}
 filter chips: ['Svi članci', 'Nana&Knjiga', 'Sport&Zdravlje', 'lifestyle']
 first cards (newest first): ['Književni Fellini', 'Ponekad odustani', 'Život je satira']
 post folders in built site: 251
-PROBLEMS: 4
-  svaka-10-aktivna-trudnica: block 3 text differs: '\\1. održavanje dobrog kardiovaskularnog sustava (ili čak pob' vs '1. održavanje dobrog kardiovaskularnog sustava (ili čak pobo'
-  moramo-glasnije-pricati-o-tjelovjezbi: block 8 text differs: '\\1. održavanje dobrog kardiovaskularnog sustava (ili čak pob' vs '1. održavanje dobrog kardiovaskularnog sustava (ili čak pobo'
-  znacaj-vjezbaja-u-trudnoci-za-bebicu-u-trbuhu: block 2 text differs: '\\1. razvoj, rast i optimalno funkcioniranje placente (organ ' vs '1. razvoj, rast i optimalno funkcioniranje placente (organ k'
-  ne-okrecimo-ledja-bolesti: block 0 text differs: '\\4. veljače je Međunarodni dan borbe protiv raka. Ne poznam ' vs '4. veljače je Međunarodni dan borbe protiv raka. Ne poznam o'
+PROBLEMS: 0
