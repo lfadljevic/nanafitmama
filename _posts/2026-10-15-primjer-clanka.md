@@ -1,12 +1,9 @@
 ---
-layout: post
-title: "Primjer članka"
+title: Primjer članka
 date: 2026-10-15
 image: /images/program/prenatal.jpg
 kategorija: lifestyle
-# Ovo je samo probni članak. "published: false" znači da NIJE vidljiv na stranici.
-# Promijenite u "true" (ili u uređivaču uključite "Objavljeno") da ga objavite.
-published: false
+published: true
 ---
 Ovo je prvi odlomak članka. On se automatski prikazuje i kao kratki uvod na popisu svih članaka, pa je dobro da ukratko kaže o čemu je tekst.
 
