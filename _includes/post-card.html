@@ -1,0 +1,19 @@
+{%- comment -%}
+  One post card (used on the blog overview and in "Najnoviji članci").
+  Parameter: post
+{%- endcomment -%}
+{%- assign p = include.post -%}
+<article class="post-card rv" data-category="{{ p.kategorija | slugify }}">
+  <a class="post-card-img" href="{{ p.url | relative_url }}" tabindex="-1" aria-hidden="true">
+    {%- if p.image %}<img src="{{ p.image | relative_url }}" alt="" loading="lazy"/>{% endif -%}
+  </a>
+  <div class="post-card-body">
+    <div class="post-meta">
+      {%- if p.kategorija %}<span class="post-cat">{{ p.kategorija }}</span>{% endif -%}
+      <span>{% include read-time.html text=p.content %}</span>
+    </div>
+    <h2 class="post-card-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h2>
+    <p class="p">{{ p.excerpt | strip_html | strip | truncatewords: 28 }}</p>
+    <a class="post-more" href="{{ p.url | relative_url }}">Čitaj dalje →</a>
+  </div>
+</article>

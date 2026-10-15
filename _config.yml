@@ -1,0 +1,31 @@
+# NanaFitMama – Jekyll configuration (GitHub Pages)
+
+title: NanaFitMama
+description: Prenatal & postnatal fitness – Nana Milatić
+lang: hr
+timezone: Europe/Zagreb
+author: Nana Milatić
+
+# ── Site address ───────────────────────────────────────────────
+# While the site lives at https://lfadljevic.github.io/nanafitmama/ the
+# baseurl must be "/nanafitmama". When the site moves to its own domain
+# (e.g. nanamilatic.com), set baseurl to "" and url to that domain.
+url: "https://lfadljevic.github.io"
+baseurl: "/nanafitmama"
+
+# ── Blog ───────────────────────────────────────────────────────
+# Post address: /post/<title-from-file-name>/   (same pattern as the old Wix blog)
+# Post files:   _posts/YYYY-MM-DD-title.md
+permalink: /post/:title/
+
+plugins:
+  - jekyll-feed
+
+# Files that are part of the repository but not of the website
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  - vendor
+  - node_modules

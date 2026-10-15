@@ -1,0 +1,19 @@
+{% comment %}
+  Shared top navigation.
+  Parameters:
+    active  – which link is highlighted: pocetna | o-meni | program | galerija | blog
+    contact – optional link for "Prijavi se" (default: #contact on the same page)
+{% endcomment %}
+{%- assign contact_href = include.contact | default: '#contact' -%}
+<nav id="nav">
+  <a href="{{ '/index.html' | relative_url }}" class="nav-logo">Nana<em>Fit</em>Mama</a>
+  <ul class="nav-links">
+    <li><a href="{{ '/index.html' | relative_url }}"{% if include.active == 'pocetna' %} class="active-link"{% endif %}>Početna</a></li>
+    <li><a href="{{ '/o-meni.html' | relative_url }}"{% if include.active == 'o-meni' %} class="active-link"{% endif %}>O meni</a></li>
+    <li><a href="{{ '/program.html' | relative_url }}"{% if include.active == 'program' %} class="active-link"{% endif %}>Program</a></li>
+    <li><a href="{{ '/galerija.html' | relative_url }}"{% if include.active == 'galerija' %} class="active-link"{% endif %}>Galerija</a></li>
+    <li><a href="{{ '/blog/' | relative_url }}"{% if include.active == 'blog' %} class="active-link"{% endif %}>Blog</a></li>
+    <li><a href="{{ contact_href }}" class="nav-pill">Prijavi se</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
+</nav>
