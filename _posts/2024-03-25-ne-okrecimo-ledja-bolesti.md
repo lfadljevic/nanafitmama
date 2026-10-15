@@ -6,7 +6,7 @@ hide_image: true
 kategorija: "lifestyle"
 published: true
 ---
-\4. veljače je Međunarodni dan borbe protiv raka. Ne poznam osobu koja u svojoj obitelji nije imala nekoga tko se borio s nekim oblikom tumora. Gotovo da ne znam osobu koja nije izgubila nekog u svojoj blizini zbog te zloćudne beštije (kako je moja L znala reći) i gotovo da ne znam čovjeka koji u ovom trenutku nema u blizini nekoga tko se ne bori.
+4\. veljače je Međunarodni dan borbe protiv raka. Ne poznam osobu koja u svojoj obitelji nije imala nekoga tko se borio s nekim oblikom tumora. Gotovo da ne znam osobu koja nije izgubila nekog u svojoj blizini zbog te zloćudne beštije (kako je moja L znala reći) i gotovo da ne znam čovjeka koji u ovom trenutku nema u blizini nekoga tko se ne bori.
 
 Ne znam da li ćemo doživjeti lijek koji će liječiti ovu stravičnu bolest koja oduzima dostojanstvo i ljude natjera da se puno prerano oproste od svojih voljenih. Nadam se. Nadamo se svi.
 
@@ -20,4 +20,4 @@ Duboko vjerujem da su nam u životu sve lekcije dane da kroz njih učimo i raste
 
 A ti lipa moja gore iznad oblaka, nadam se, vjerujem, gledaš i paziš na mene.
 
-\4. veljače je Međunarodni dan borbe protiv raka. Ne okrećimo leđa bolesti. Budimo tu za one koji nas najviše trebaju
+4\. veljače je Međunarodni dan borbe protiv raka. Ne okrećimo leđa bolesti. Budimo tu za one koji nas najviše trebaju

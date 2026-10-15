@@ -61,7 +61,10 @@ def esc(text):
 
 
 def esc_line_start(line):
-    if re.match(r"^(#|\+|-|=|\d+[.)]\s)", line):
+    m = re.match(r"^(\d+)([.)])(\s)", line)
+    if m:  # "1. text" would become a numbered list: escape the dot, not the digit
+        return "%s\\%s%s%s" % (m.group(1), m.group(2), m.group(3), line[m.end():])
+    if re.match(r"^(#|\+|-|=)", line):
         return "\\" + line
     return line
 

@@ -22,21 +22,21 @@ Stoga da ponovimo;
 
 Šerajte, promovirajte, još uvijek je porazan podatak da u Hrvatskoj svaka deseta trudnica vježba, a evo vam 'samo' 8 razloga koliko je to važno;
 
-\1. održavanje dobrog kardiovaskularnog sustava (ili čak poboljšanje)
+1\. održavanje dobrog kardiovaskularnog sustava (ili čak poboljšanje)
 
-\2. poboljšanje psihološkog stanja trudnice (smanjenje anksioznosti, prevencija depresivnih stanja)
+2\. poboljšanje psihološkog stanja trudnice (smanjenje anksioznosti, prevencija depresivnih stanja)
 
-\3. poboljšanje kvalitete sna, smanjenje nesanice koja je česta u trudnoći
+3\. poboljšanje kvalitete sna, smanjenje nesanice koja je česta u trudnoći
 
-\4. smanjenje bolova u leđima, bolova koji pogađaju 90% trudnica, ali se ta brojka znatno smanjuje ukoliko trudnica vježba
+4\. smanjenje bolova u leđima, bolova koji pogađaju 90% trudnica, ali se ta brojka znatno smanjuje ukoliko trudnica vježba
 
-\5. smanjenje rizika za gestacijski dijabetes (u Hrvatskoj je ta brojka znatno porasla unatrag nekoliko godina) i poboljšanje rada probavnog sustava
+5\. smanjenje rizika za gestacijski dijabetes (u Hrvatskoj je ta brojka znatno porasla unatrag nekoliko godina) i poboljšanje rada probavnog sustava
 
-\6. smanjen rizik od urinarne inkontinencije
+6\. smanjen rizik od urinarne inkontinencije
 
-\7. generalno poboljšanje fitness statusa trudnice (snažnije i zdravije srce, krvne žile i mišići)
+7\. generalno poboljšanje fitness statusa trudnice (snažnije i zdravije srce, krvne žile i mišići)
 
-\8. smanjen period oporavka nakon poroda i brži povratak altivnostima koje su ženu veselile prije trudnoće
+8\. smanjen period oporavka nakon poroda i brži povratak altivnostima koje su ženu veselile prije trudnoće
 
 Za sve info i savjete, pišite na mail [nana.milatic@gmail.com](mailto:nana.milatic@gmail.com)
 
