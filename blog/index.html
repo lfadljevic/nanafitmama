@@ -34,6 +34,7 @@ description: Priče o vježbanju, majčinstvu i knjigama – Nana Milatić
       {% include post-card.html post=post %}
       {%- endfor %}
     </div>
+    <div class="blog-more"><button type="button" class="btn btn-ghost" id="showMore" hidden>Prikaži još članaka</button></div>
     {%- else %}
     <p class="lead blog-empty">Uskoro stižu novi članci. Navratite ponovno!</p>
     {%- endif %}
@@ -41,20 +42,38 @@ description: Priče o vježbanju, majčinstvu i knjigama – Nana Milatić
 </section>
 
 <script>
-// Category filter (works without reloading the page)
+// Category filter + "show more" (all posts stay on one page; 12 are shown at a time)
 (function () {
+  var PAGE = 12;
+  var grid = document.getElementById('postGrid');
+  if (!grid) return;
+  var cards = grid.querySelectorAll('.post-card');
   var box = document.getElementById('blogFilter');
-  if (!box) return;
-  var chips = box.querySelectorAll('.filter-chip');
-  var cards = document.querySelectorAll('#postGrid .post-card');
-  box.addEventListener('click', function (e) {
-    var chip = e.target.closest('.filter-chip');
-    if (!chip) return;
-    var f = chip.getAttribute('data-filter');
-    chips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+  var more = document.getElementById('showMore');
+  var filter = 'all', shown = PAGE;
+
+  function apply() {
+    var matches = 0;
     cards.forEach(function (card) {
-      card.hidden = !(f === 'all' || card.getAttribute('data-category') === f);
+      var ok = filter === 'all' || card.getAttribute('data-category') === filter;
+      if (ok) matches++;
+      card.hidden = !(ok && matches <= shown);
     });
-  });
+    if (more) more.hidden = matches <= shown;
+  }
+
+  if (box) {
+    var chips = box.querySelectorAll('.filter-chip');
+    box.addEventListener('click', function (e) {
+      var chip = e.target.closest('.filter-chip');
+      if (!chip) return;
+      filter = chip.getAttribute('data-filter');
+      shown = PAGE;
+      chips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+      apply();
+    });
+  }
+  if (more) more.addEventListener('click', function () { shown += PAGE; apply(); });
+  apply();
 })();
 </script>

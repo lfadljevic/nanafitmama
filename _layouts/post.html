@@ -15,11 +15,12 @@ layout: default
 
 <!-- ═══ ARTICLE ═══ -->
 <article class="post-article">
-  {%- if page.image %}
+  {%- if page.image and page.hide_image != true %}
   <figure class="post-cover rv"><img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}"/></figure>
   {%- endif %}
+  {%- capture img_prefix %}<img loading="lazy" src="{{ site.baseurl }}/images/{% endcapture %}
   <div class="post-body">
-    {{ content }}
+    {{ content | replace: '<img src="/images/', img_prefix }}
   </div>
   {%- if page.kategorija %}
   <div class="post-tags"><span class="tag">{{ page.kategorija }}</span></div>
