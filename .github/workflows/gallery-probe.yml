@@ -1,0 +1,42 @@
+name: Gallery probe (temporary)
+
+# Renders the old Wix gallery page in a browser, scrolls to the end and records every
+# image in order (plus the raw HTML). Results are committed to _probe/.
+on:
+  push:
+    branches: [gallery-completion]
+    paths: [".github/workflows/gallery-probe.yml", "scripts/gallery_probe.cjs"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Raw HTML
+        continue-on-error: true
+        run: |
+          mkdir -p _probe
+          curl -sS -L -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36" \
+            -o _probe/gallery-raw.html -w "raw: %{http_code} %{size_download} bytes\n" https://www.nanamilatic.com/galerry | tee _probe/gallery-raw.txt
+      - name: Render, scroll, record
+        run: |
+          mkdir tools && cd tools && npm init -y >/dev/null
+          npm i playwright >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+          cp ../scripts/gallery_probe.cjs . && node gallery_probe.cjs ../_probe
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -f _probe
+          git commit -qm "Gallery probe results (temporary)" || echo "nothing to commit"
+          git pull -q --rebase
+          git push
