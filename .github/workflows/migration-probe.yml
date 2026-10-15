@@ -1,11 +1,11 @@
 name: Wix migration probe (temporary)
 
-# Fetches the blog feed, sitemaps and two raw post pages from the old Wix site
-# into _probe/ so the migration script can be written against the real markup.
+# Fetches all blog posts from the old Wix site into _probe/ (post data, bodies,
+# image sizes) so the converter can be built and tested against real content.
 on:
   push:
     branches: [wix-migration]
-    paths: [".github/workflows/migration-probe.yml"]
+    paths: [".github/workflows/migration-probe.yml", "scripts/wix_fetch.py"]
   workflow_dispatch:
 
 permissions:
@@ -16,23 +16,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Fetch
-        run: |
-          mkdir -p _probe
-          UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
-          get() { curl -sS -L -A "$UA" -o "_probe/$1" -w "$1 -> %{http_code} %{size_download} bytes\n" "$2" || echo "$1 FAILED"; }
-          {
-            get sitemap.xml            "https://www.nanamilatic.com/sitemap.xml"
-            get blog-posts-sitemap.xml "https://www.nanamilatic.com/blog-posts-sitemap.xml"
-            get blog-feed.xml          "https://www.nanamilatic.com/blog-feed.xml"
-            get blog-1.html            "https://www.nanamilatic.com/blog-1"
-            get post-kad-spusti-gard.html "https://www.nanamilatic.com/post/kad-spusti%C5%A1-gard"
-            get post-knjizevni-fellini.html "https://www.nanamilatic.com/post/knji%C5%BEevni-fellini"
-          } | tee _probe/STATUS.txt
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 lxml
+      - name: Fetch all posts
+        run: python3 scripts/wix_fetch.py
       - name: Commit results
+        if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           git add -f _probe
-          git commit -qm "Probe results from the Wix site (temporary)"
+          git commit -qm "Probe results from the Wix site (temporary)" || echo "nothing to commit"
+          git pull -q --rebase
           git push
