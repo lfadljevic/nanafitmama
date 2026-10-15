@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+  <div class="orb orb-c"></div>
+  <div class="hero-inner">
+    <a href="{{ '/blog/' | relative_url }}" class="back-link">← Svi članci</a>
+    <h1 class="h1 post-title rv">{{ page.title }}</h1>
+    <p class="post-byline rv d1">{{ site.author }} · {{ page.date | date: "%d.%m.%Y." }} · {% include read-time.html text=content %}</p>
+  </div>
+</section>
+
+<!-- ═══ ARTICLE ═══ -->
+<article class="post-article">
+  {%- if page.image %}
+  <figure class="post-cover rv"><img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}"/></figure>
+  {%- endif %}
+  <div class="post-body">
+    {{ content }}
+  </div>
+  {%- if page.kategorija %}
+  <div class="post-tags"><span class="tag">{{ page.kategorija }}</span></div>
+  {%- endif %}
+</article>
+
+<!-- ═══ MORE POSTS ═══ -->
+{%- assign others = site.posts | where_exp: "item", "item.url != page.url" %}
+{%- if others.size > 0 %}
+<section class="recent-sec">
+  <div class="inner">
+    <div class="recent-head">
+      <h2 class="h2 rv">Najnoviji <em>članci</em></h2>
+      <a href="{{ '/blog/' | relative_url }}" class="post-more">Svi članci →</a>
+    </div>
+    <div class="post-grid">
+      {%- for item in others limit: 3 %}
+      {% include post-card.html post=item %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}

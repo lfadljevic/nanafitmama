@@ -1,0 +1,7 @@
+{%- comment -%}
+  Estimated reading time. Parameter: text – the post body.
+  About 180 words per minute, always at least 1 minute.
+{%- endcomment -%}
+{%- assign words = include.text | strip_html | number_of_words -%}
+{%- assign mins = words | divided_by: 180 | plus: 1 -%}
+{{ mins }} min čitanja

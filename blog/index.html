@@ -1,0 +1,60 @@
+---
+layout: default
+title: Blog
+description: Priče o vježbanju, majčinstvu i knjigama – Nana Milatić
+---
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+  <div class="orb orb-c"></div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow"><span class="hero-eyebrow-dot"></span>NanaFitMama</div>
+    <h1 class="h1 rv">Blog</h1>
+    <p class="p rv d1" style="max-width:520px;margin:.8rem auto 0;font-size:1rem">Priče o vježbanju, majčinstvu i knjigama</p>
+  </div>
+</section>
+
+<!-- ═══ POSTS ═══ -->
+<section class="blog-sec">
+  <div class="inner">
+    {%- assign categories = site.posts | map: "kategorija" | compact | uniq | sort %}
+    {%- if categories.size > 1 %}
+    <div class="blog-filter" id="blogFilter" role="group" aria-label="Kategorije">
+      <button type="button" class="filter-chip is-active" data-filter="all">Svi članci</button>
+      {%- for c in categories %}
+      <button type="button" class="filter-chip" data-filter="{{ c | slugify }}">{{ c }}</button>
+      {%- endfor %}
+    </div>
+    {%- endif %}
+
+    {%- if site.posts.size > 0 %}
+    <div class="post-grid" id="postGrid">
+      {%- for post in site.posts %}
+      {% include post-card.html post=post %}
+      {%- endfor %}
+    </div>
+    {%- else %}
+    <p class="lead blog-empty">Uskoro stižu novi članci. Navratite ponovno!</p>
+    {%- endif %}
+  </div>
+</section>
+
+<script>
+// Category filter (works without reloading the page)
+(function () {
+  var box = document.getElementById('blogFilter');
+  if (!box) return;
+  var chips = box.querySelectorAll('.filter-chip');
+  var cards = document.querySelectorAll('#postGrid .post-card');
+  box.addEventListener('click', function (e) {
+    var chip = e.target.closest('.filter-chip');
+    if (!chip) return;
+    var f = chip.getAttribute('data-filter');
+    chips.forEach(function (c) { c.classList.toggle('is-active', c === chip); });
+    cards.forEach(function (card) {
+      card.hidden = !(f === 'all' || card.getAttribute('data-category') === f);
+    });
+  });
+})();
+</script>

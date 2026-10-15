@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="hr">
 <head>
@@ -205,18 +207,7 @@
 <div id="bar"></div>
 
 <!-- ═══ NAV ═══ -->
-<nav id="nav">
-  <a href="index.html" class="nav-logo">Nana<em>Fit</em>Mama</a>
-  <ul class="nav-links">
-    <li><a href="index.html">Početna</a></li>
-    <li><a href="o-meni.html">O meni</a></li>
-    <li><a href="program.html">Program</a></li>
-    <li><a href="#" class="active-link">Galerija</a></li>
-    <li><a href="#contact">Blog</a></li>
-    <li><a href="#contact" class="nav-pill">Prijavi se</a></li>
-  </ul>
-  <button class="nav-toggle" id="navToggle" aria-label="Menu">☰</button>
-</nav>
+{% include nav.html active="galerija" %}
 
 <!-- ═══ HERO ═══ -->
 <section id="hero">
@@ -366,30 +357,7 @@
 </div>
 
 <!-- ═══ FOOTER ═══ -->
-<footer>
-  <div class="footer-top">
-    <a href="index.html" class="footer-logo">Nana<em>Fit</em>Mama</a>
-    <ul class="footer-nav">
-      <li><a href="index.html">Početna</a></li>
-      <li><a href="o-meni.html">O meni</a></li>
-      <li><a href="program.html">Program</a></li>
-      <li><a href="#">Galerija</a></li>
-      <li><a href="#contact">Kontakt</a></li>
-    </ul>
-    <div class="footer-social">
-      <a href="https://www.facebook.com/nana.milatic.5" class="soc-btn" aria-label="Facebook" target="_blank" rel="noopener">
-        <svg width="17" height="17" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-      </a>
-      <a href="https://www.instagram.com/nanafitmama" class="soc-btn" aria-label="Instagram" target="_blank" rel="noopener">
-        <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg>
-      </a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p class="footer-copy">© 2025 NanaFitMama · Nana Milatić. Sva prava pridržana.</p>
-    <p class="footer-sub">Embrace the Miracle of Motherhood</p>
-  </div>
-</footer>
+{% include footer.html %}
 
 <script>
 // Progress bar
