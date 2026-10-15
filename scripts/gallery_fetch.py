@@ -8,7 +8,7 @@ for n,i in enumerate(ids,1):
     if n<=25 and os.path.exists(path):
         im=Image.open(path)
     else:
-        req=urllib.request.Request(f'https://static.wixstatic.com/media/{i}',headers={'User-Agent':'Mozilla/5.0'})
+        req=urllib.request.Request(f'https://static.wixstatic.com/media/{i}.jpg',headers={'User-Agent':'Mozilla/5.0'})
         data=urllib.request.urlopen(req,timeout=60).read()
         open(path,'wb').write(data)
         im=Image.open(io.BytesIO(data))
