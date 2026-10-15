@@ -1,0 +1,73 @@
+name: Wix migration run (temporary)
+
+# Downloads the full-size blog images from the old Wix site, builds the site the way
+# GitHub Pages does, checks every migrated post against the original text and takes
+# screenshots. Results are committed to _probe/ and the images to images/blog/.
+# Remove this file (and scripts/, _probe/) before merging.
+on:
+  push:
+    branches: [wix-migration]
+    paths:
+      - ".github/workflows/migration-run.yml"
+      - "scripts/**"
+      - "_layouts/**"
+      - "_includes/**"
+      - "_posts/**"
+      - "blog/**"
+      - "assets/**"
+      - "_config.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests beautifulsoup4 lxml pillow
+
+      - name: Download full-size images from Wix
+        continue-on-error: true
+        run: python3 scripts/fetch_blog_images.py 2>&1 | tee _probe/IMAGES.txt
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Build the site (same Jekyll as GitHub Pages)
+        run: bundle exec jekyll build --trace
+
+      - name: Compare built posts with the original Wix text
+        continue-on-error: true
+        run: python3 scripts/wix_verify.py _site
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Screenshots
+        continue-on-error: true
+        run: |
+          mkdir -p srv && cp -r _site srv/nanafitmama
+          python3 -m http.server 8082 --directory srv >/dev/null 2>&1 &
+          mkdir tools && cd tools && npm init -y >/dev/null
+          npm i playwright >/dev/null
+          npx playwright install --with-deps chromium >/dev/null
+          sleep 2
+          cp ../scripts/wix_shots.cjs . && node wix_shots.cjs ../_probe/shots ../_probe/expected.json
+
+      - name: Commit images and results
+        if: always()
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add images _probe/VERIFY.txt _probe/IMAGES.txt _probe/shots
+          git commit -qm "Wix migration run: images and check results" || echo "nothing to commit"
+          git pull -q --rebase
+          git push
