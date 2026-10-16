@@ -1,0 +1,43 @@
+== A nanamilatic.com
+185.230.63.186
+185.230.63.107
+185.230.63.171
+== AAAA nanamilatic.com
+== CNAME nanamilatic.com
+== NS nanamilatic.com
+ns2.wixdns.net.
+ns3.wixdns.net.
+== A www.nanamilatic.com
+cdn3.wixdns.net.
+cfd.wixdns.net.
+162.159.143.12
+172.66.3.8
+== AAAA www.nanamilatic.com
+cdn3.wixdns.net.
+cfd.wixdns.net.
+== CNAME www.nanamilatic.com
+cdn3.wixdns.net.
+== NS www.nanamilatic.com
+cdn3.wixdns.net.
+cfd.wixdns.net.
+== MX nanamilatic.com
+== TXT nanamilatic.com
+== CAA nanamilatic.com
+== SOA nanamilatic.com
+ns6.wixdns.net. support.wix.com. 2024032615 10800 3600 1209600 3600
+== DMARC
+== whois
+== HTTP apex
+HTTP/1.1 301 Moved Permanently
+Location: https://nanamilatic.com/
+HTTP/2 301 
+location: https://www.nanamilatic.com/
+server-timing: cache;desc=miss, varnish;desc=miss, dc;desc=virginia-phy
+server: Pepyaka
+HTTP/2 200 
+server: cloudflare
+server-timing: cache;desc=hit, varnish;desc=hit_miss, dc;desc=fastly_virginia-phy_cf
+== HTTP www
+HTTP/2 200 
+server: cloudflare
+server-timing: cache;desc=hit, varnish;desc=hit_hit, dc;desc=fastly_cf
