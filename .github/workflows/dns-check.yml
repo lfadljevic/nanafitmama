@@ -1,0 +1,30 @@
+name: DNS check (temporary)
+on:
+  push:
+    branches: [domain-setup]
+    paths: [".github/workflows/dns-check.yml"]
+permissions:
+  contents: write
+jobs:
+  dns:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Look up DNS
+        run: |
+          mkdir -p _probe
+          D=nanamilatic.com
+          {
+            for h in $D www.$D; do for t in A AAAA CNAME NS; do echo "== $t $h"; dig +short $t $h; done; done
+            for t in MX TXT CAA SOA; do echo "== $t $D"; dig +short $t $D; done
+            echo "== DMARC"; dig +short TXT _dmarc.$D
+            echo "== whois"; whois $D 2>&1 | grep -iE "registrar:|registrar url|creation|expir|name server|status" | head -20
+            echo "== HTTP apex"; curl -sSIL -m 20 -A "Mozilla/5.0" http://$D | grep -iE "^HTTP|^location|^server" | head
+            echo "== HTTP www"; curl -sSIL -m 20 -A "Mozilla/5.0" https://www.$D | grep -iE "^HTTP|^location|^server" | head
+          } > _probe/dns.txt 2>&1
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
+          git add -f _probe; git commit -qm "DNS check results (temporary)" || echo nothing
+          git pull -q --rebase; git push
