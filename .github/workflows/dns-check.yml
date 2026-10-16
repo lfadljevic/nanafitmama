@@ -14,14 +14,21 @@ jobs:
         run: |
           mkdir -p _probe
           D=nanamilatic.com
-          {
-            for h in $D www.$D; do for t in A AAAA CNAME NS; do echo "== $t $h"; dig +short $t $h; done; done
-            for t in MX TXT CAA SOA; do echo "== $t $D"; dig +short $t $D; done
-            echo "== DMARC"; dig +short TXT _dmarc.$D
-            echo "== whois"; whois $D 2>&1 | grep -iE "registrar:|registrar url|creation|expir|name server|status" | head -20
-            echo "== HTTP apex"; curl -sSIL -m 20 -A "Mozilla/5.0" http://$D | grep -iE "^HTTP|^location|^server" | head
-            echo "== HTTP www"; curl -sSIL -m 20 -A "Mozilla/5.0" https://www.$D | grep -iE "^HTTP|^location|^server" | head
-          } > _probe/dns.txt 2>&1
+          curl -sS -m 30 https://rdap.verisign.com/com/v1/domain/$D -o _probe/rdap.json || echo "rdap failed" > _probe/rdap.err
+          python3 - <<'PY' > _probe/dns.txt
+          import json
+          d=json.load(open('_probe/rdap.json'))
+          print('status:',d.get('status'))
+          print('nameservers:',[n.get('ldhName') for n in d.get('nameservers',[])])
+          for e in d.get('events',[]): print(e.get('eventAction'),e.get('eventDate'))
+          for en in d.get('entities',[]):
+              if 'registrar' in en.get('roles',[]):
+                  print('registrar entity:')
+                  for v in en.get('vcardArray',[None,[]])[1]:
+                      if v[0] in ('fn','org'): print(' ',v[0],v[3])
+                  print(' ids:',en.get('publicIds'))
+          print('links:',[l.get('href') for l in d.get('links',[])])
+          PY
       - name: Commit
         if: always()
         run: |
