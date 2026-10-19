@@ -5,6 +5,8 @@ image: /images/blog/roman-o-nekadasnjoj-diktaturi-u-danas-tolerantnom-portugalu.
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/roman-o-nekadašnjoj-diktaturi-u-danas-tolerantnom-portugalu"
 ---
 Ima nas koji ne putujemo koliko bi htjeli, ali zato uvijek imamo priliku putovati kroz knjige, romane, učiti o drugim kulturama, tuđim nacionalnim mukama, proživljenim strahotama.
 

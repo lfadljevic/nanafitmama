@@ -5,6 +5,8 @@ image: /images/blog/put-kojim-se-rjedje-ide.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/put-kojim-se-rjeđe-ide"
 ---
 I što ima veze da imaš očekivanja koja su pregažena?! Što ima veze da si nekoga krivo procijenio, ocijenio pa se okretanjem leđa zabio u tebe?! Što znači savjet 'štedi svoje srce'', 'pazi kome ga daješ'?!
 

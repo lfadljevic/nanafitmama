@@ -5,6 +5,8 @@ image: /images/blog/o-teskim-temama-treba-govoriti.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/o-teškim-temama-treba-govoriti"
 ---
 Dvoje maturanata susreće se na školskom zvoniku s kojeg i jedan i drugi imaju želju skočiti. I dok je Njoj ta pomisao više strana, On o samoubojstvu već duže, intenzivno razmišlja. Ona je ostala bez sestre koju je obožavala, poginula je dok su se (na Njen nagovor) vraćale s koncerta, a On je školski redikul, predmet sprdnje, ogovaranja i bullynga. Ona ima divne roditelje, podršku sa svih strana, omiljena je u društvu, On živi u disfunkcionalnoj obitelji, zlostavljan od oca koji ih je između ostalog i napustio, u cijeloj školi i oko nje ima svega dvoje-troje prijatelja. Ona želi živjeti, samo nakon svega ne zna kako, On želi umrijeti, samo nije odlučio na koji način će skončati svoju patnju.
 

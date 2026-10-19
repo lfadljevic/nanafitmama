@@ -5,6 +5,8 @@ image: /images/blog/u-perimeno-meno-treba-drugacije.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/u-perimeno-meno-treba-drugačije"
 ---
 Kad moji doma, od Marića do klinaca čuju riječ Perimeno ili Meno, nastane opća sprdnja. Ne zato jer podcjenjuju navedeno stanje već zato jer je termin P/M prisutan na sve strane, informacije stižu, razglabaju se i dijele pa sam evo iz tog razloga odlučila ovdje napisati nekoliko rečenica kako bih vam prenjela svoje iskustvo, kao žena i trener, s ovih pedeset godina na leđima i u maternici. Puno toga sam naučila i kroz rad s drugim ženama, kroz dugi niz godina, jer mnoge su sa mnom još od njihovih perimeno dana do danas kada je iza njih i meno i klimaks i sad uživaju u sedamdesetima, oslobođene hormonskog rock and rola.
 

@@ -5,6 +5,8 @@ image: /images/blog/tijelo-i-psiha-imaju-velike-koristi-od-tjelovjezbe.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/tijelo-i-psiha-imaju-velike-koristi-od-tjelovježbe"
 ---
 Pisala sam vam o Prenatal programu vježbanja, tj. vježbanju u trudnoći, a danas nekoliko rečenica i važnih napomena za vježbanje nakon poroda tj. Postnatalno vježbanje.
 

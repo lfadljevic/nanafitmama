@@ -5,6 +5,8 @@ image: /images/blog/ima-li-smisla-biti-ziv-a-ne-pomagati-drugome.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/ima-li-smisla-biti-živ-a-ne-pomagati-drugome"
 ---
 Ne mogu vam opisati koliko me ova malena knjižica od kojih stotinjak stranica oduševila. Na tako ‘malo’ stranica, sažeto je sve; priča koja te tjera da se zamisliš, povijest o kojoj nisi ništa znala te onaj osjećaj ispunjenja kada na kraju sklopiš korice. Jeste li znali (ja nisam) da su u Irskoj između 18. i 20. stoljeća postojale Magdalenske praonice, institucija koju su vodile protestantske i katoličke časne, a u kojoj su se prisilno nalazile djevojke koje su nešto skrivile, od tinejdžerskih trudnoća, do ne prihvatljivog (za obitelj) ponašanja, djevojke s mentalnim poteškoćama, djevojke ‘lakog’ morala…
 

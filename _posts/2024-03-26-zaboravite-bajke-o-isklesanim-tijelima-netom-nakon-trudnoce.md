@@ -5,6 +5,8 @@ image: /images/blog/zaboravite-bajke-o-isklesanim-tijelima-netom-nakon-trudnoce.
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/zaboravite-bajke-o-isklesanim-tijelima-netom-nakon-trudnoće"
 ---
 Danas sam u razgovoru s jednom svojom kolegicom, koja se bavi istim poslom kao i ja, i bavi se sa dušom i znanjem, zaključila kako je trenutno u Zagrebu najezda ‘stručnjaka’ iz područja prenatala i postnatala. Što je najgore od svega, puno takvih kvazi stručnjaka,usuđujem se reči, na žalost (a pitam se i na koji način) dobije komadić medijskog prostora i time, naravno, dodatno popularizira svoj rad, rad o kojem bi se itekako dalo debatirati. Sve je to zastrašujuće, ali ne čudi, jer se navedeno prepoznalo kao niša u kojoj treneri vide dodatnu zaradu, misleči najčešće laganu (‘jer zašto ako primjerice vodim crossfit ne bi bila podobna voditi i obične trudnice’), a žene su u tom periodu osjetljive i sklone povjerovati dobro zapakiranom i marketinški dobro odrađenom paketu.
 

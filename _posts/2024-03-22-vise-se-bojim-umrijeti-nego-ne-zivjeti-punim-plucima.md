@@ -5,6 +5,8 @@ image: /images/blog/vise-se-bojim-umrijeti-nego-ne-zivjeti-punim-plucima.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/više-se-bojim-umrijeti-nego-ne-živjeti-punim-plućima"
 ---
 'Kao roditelj smatraš da si potreban, ali to nije točno. Svak se snalazi sam. Tko kaže da je ukupno opterećenje koje stvaram drugima manje od ukupnog olakšanja koje im pružam. Ne mislim da je tako. Nisam ja ta koja olakšava, prije opterećujem. A trebala bih to moći. Kao majka. To mi je posao. Olakšavati drugima. Nikad to nisam učinila nikome.'
 

@@ -5,6 +5,8 @@ image: /images/blog/prenatalni-fitness-nije-samo-vjezbanje-misica-to-je-i-odlica
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/prenatalni-fitness-nije-samo-vježbanje-mišića-to-je-i-odličan-mentalni-trening"
 ---
 [https://www.naturala.hr/nana-milatic-prenatalni-fitness-nije-samo-vjezbanje-misica-to-je-i-odlican-mentalni-trening/](https://www.naturala.hr/nana-milatic-prenatalni-fitness-nije-samo-vjezbanje-misica-to-je-i-odlican-mentalni-trening/)
 

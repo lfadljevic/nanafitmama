@@ -5,6 +5,8 @@ image: /images/blog/kratka-prica-je-knjizevni-desert.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/kratka-priča-je-književni-desert"
 ---
 Pčelinja obitelj je knjiga sa sedam kratkih (prekratkih) priča slovenske književnice Anje Mugerli za koju je autorica dobila Europsku nagradu za književnost. Ja bih joj dala sve nagrade koje se mogu dati.
 

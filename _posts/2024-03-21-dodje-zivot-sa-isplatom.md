@@ -5,6 +5,8 @@ image: /images/blog/dodje-zivot-sa-isplatom.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/dođe-život-sa-isplatom"
 ---
 Razmišljam si koliko vremena mora proći da bi sav tvoj uloženi trud koji si godinama gradio konačno sjeo na svoje?! Zanimljivo je kako te samo nešto štrecne oko duše jedno jutro dok oblačiš cipele i juriš na svoj posao pa pomisliš kako si znao skupljati Bugare, jesti burek za ručak, odgađati nabavku, a sad bi možda sushi ili onu bio bio varijantu kokosovog ulja jer ti kokice s običnim nisu više toliko napete.
 

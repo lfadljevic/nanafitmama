@@ -5,6 +5,8 @@ image: /images/blog/trazite-veliku-loptu-u-predradjaoni.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/tražite-veliku-loptu-u-predrađaoni"
 ---
 Kako je moguće da u dvadesetiprvom stoljeću, u rodilištu grada Zagreba, moja trudnica koja je tjedan dana prije termina smještena na odjel i čeka porod, smještena zbog hipertenzije (znači čista predostrožnost), uredne trudnoće, zamoli veliku loptu kako bi olakšala pritisak na zdjelicu i bolove u leđima, na što se u sobi pojavi fizijatrica i stubokom se čudi ideji s komentarom da je skakanje na lopti kontraproduktivno jer može NAUDITI BEBI I SEBI (da uputim one koji ne znaju-radi se o laganim poskocima koji, dokazano je baš olakšavaju napetost duž kralježnice tj. djeluju na rastrećenje okolnih tkiva i mišića, smanjuju pritisak na zdjelicu i otklanjaju bolove).
 

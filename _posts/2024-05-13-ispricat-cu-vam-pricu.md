@@ -5,6 +5,8 @@ image: /images/blog/ispricat-cu-vam-pricu.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/ispričat-ću-vam-priču"
 ---
 Ispričat ću vam priču o jednoj ženi. Bila je u naizgeld skladnom braku. Braku gdje je sve svoje težnje i ciljeve podredila njemu i djeci za bolje sutra. Bila je divlja, ali i tu divljost je zatomila. Godine su prolazile, mater joj je znala reći-nisi sretna, ona bi se uvrijedila, svađalačkim tonom negirala. Ali duboko, duboko u svojoj nutrini, znala je da nešto nije kako treba.
 

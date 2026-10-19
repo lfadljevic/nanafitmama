@@ -5,6 +5,8 @@ image: /images/blog/dzabe-sve-skupe-vecere-ako-si-u-nemiru.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/džabe-sve-skupe-večere-ako-si-u-nemiru"
 ---
 3 stvari su mi u životu jako važne. Mislim, mogla bih nabrojati i više, ali 3 su ključne, 3 određuju sve dalje. Sport, glazba i književnost (čitanje&pisanje).
 

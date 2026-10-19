@@ -5,6 +5,8 @@ image: /images/blog/imate-li-vi-podvojene-osjecaje-oko-majcinstva.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/imate-li-vi-podvojene-osjećaje-oko-majčinstva"
 ---
 ‘Kako je glupo pomisliti da djeci možemo govoriti o sebi prije nego što navrše barem pedeset godina. Zahtijevati da nas vide kao osobu, a ne kao funkciju. Reći: ja sam vaša prošlost, vi počinjete od mene, slušajte me, moglo bi vam koristiti.’
 

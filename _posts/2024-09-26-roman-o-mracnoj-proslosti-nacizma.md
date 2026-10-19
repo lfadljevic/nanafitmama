@@ -5,6 +5,8 @@ image: /images/blog/roman-o-mracnoj-proslosti-nacizma.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/roman-o-mračnoj-prošlosti-nacizma"
 ---
 Koliko mora biti šokantno da s dvanaest godina saznaš da ti je djed kojeg voliš i idealiziraš, u mladosti bio lider Hitlerove mladeži?! Kasnije se moraš pomiriti sa sudbinom jer je taj isti djed osuđen na 20g. zatvora za zločine protiv humanosti.
 

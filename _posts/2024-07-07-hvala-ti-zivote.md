@@ -5,6 +5,8 @@ image: /images/blog/hvala-ti-zivote.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/hvala-ti-živote"
 ---
 Ponekad se pitam čime sam zaslužila ovakvu ljubav, jel’ me onaj gore počastio nasumično ili prema zasluzi?! Jer ljubav koju primam i u kojoj se kupam godinama, čini se nestvarna.
 

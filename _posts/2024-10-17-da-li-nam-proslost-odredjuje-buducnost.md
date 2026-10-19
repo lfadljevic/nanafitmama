@@ -5,6 +5,8 @@ image: /images/blog/da-li-nam-proslost-odredjuje-buducnost.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/da-li-nam-prošlost-određuje-budućnost"
 ---
 ‘Trebali bi novac potrošiti na nešto što nas usrećuje. Možemo novcem doći do uspomena, ali ne možemo uspomenama doći do novca, osim ako niste trgovac antikvitetima. Imajte to na umu, Arthure, stari moj.’
 

@@ -5,6 +5,8 @@ image: /images/blog/koliko-te-kosta-bjeg-od-proslosti.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/koliko-te-košta-bjeg-od-prošlosti"
 ---
 Obožavam romane koji imaju svega nekoliko likova, gdje se na prvu čini kako nema puno radnje, gdje je glavni naglasak na psihološku igru protagonista. Ptičji Tribunal (genijalan naziv) nagrađivane Norveške književnice Agnes Ravatn je baš to. Mala knjižica koju pročitaš u 2 dana, ali toliko močna da ti je žao što jesi, tako brzo.
 

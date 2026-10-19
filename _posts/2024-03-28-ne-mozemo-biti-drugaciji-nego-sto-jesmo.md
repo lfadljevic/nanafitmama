@@ -5,6 +5,8 @@ image: /images/blog/ne-mozemo-biti-drugaciji-nego-sto-jesmo.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/ne-možemo-biti-drugačiji-nego-što-jesmo"
 ---
 \-Zar ti ne želiš biti drugačija?-upitala sam-živjeti drugačijim životom?
 

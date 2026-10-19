@@ -5,6 +5,8 @@ image: /images/blog/ocaj-je-suprotno-od-ljubavi.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/očaj-je-suprotno-od-ljubavi"
 ---
 Nedavno me draga prijateljica pitala-daj neku preporuku za knjigu, brzo ćemo na more. Rekla sam joj-čitam nešto senzacionalno, uskoro će recenzija.
 

@@ -5,6 +5,8 @@ image: /images/blog/ako-volis-kratke-price.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/ako-voliš-kratke-priče"
 ---
 ‘Može se voljeti i ako se ne razumije’, kaže Etgar Keret u svojoj zbirci priča Kvar na rubu galaksije.
 

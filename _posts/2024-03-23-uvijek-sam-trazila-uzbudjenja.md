@@ -5,6 +5,8 @@ image: /images/blog/uvijek-sam-trazila-uzbudjenja.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/uvijek-sam-tražila-uzbuđenja"
 ---
 ![](/images/blog/uvijek-sam-trazila-uzbudjenja-1.jpg)
 

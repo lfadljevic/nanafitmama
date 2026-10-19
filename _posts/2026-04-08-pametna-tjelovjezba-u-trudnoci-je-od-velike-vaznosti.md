@@ -5,6 +5,8 @@ image: /images/blog/pametna-tjelovjezba-u-trudnoci-je-od-velike-vaznosti.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/pametna-tjelovježba-u-trudnoći-je-od-velike-važnosti"
 ---
 Svake godine gledam kako napraviti izmjene u svom poslu. Kako se malo osloboditi, manje raditi, imati više energije za godine koje su veliki izazov nama ženama.Ove godine sam razmišljala da možda odustanem od rada s trudnicama. Imam svoj web, ali nigdje se ne oglašavam, društvene mreže su mi privatna razonoda, a vremena su se stubokom promijenila.
 

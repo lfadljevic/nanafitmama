@@ -5,6 +5,8 @@ image: /images/blog/starjeti-znaci-uciti-gubiti.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/starjeti-znači-učiti-gubiti"
 ---
 ‘Starjeti znači učiti gubiti. Iz tjedna u tjedan, ili tu negdje, registrirate neki novi manjak, novu promjenu, novu štetu. Ja to vidim.’
 

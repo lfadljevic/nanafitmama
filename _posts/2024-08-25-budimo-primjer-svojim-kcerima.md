@@ -5,6 +5,8 @@ image: /images/blog/budimo-primjer-svojim-kcerima.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/budimo-primjer-svojim-kćerima"
 ---
 Čudan neki san sam noćas snivala. Pa se zatekoh kako u ranu zoru susrećem teške misli na tanjuru.
 

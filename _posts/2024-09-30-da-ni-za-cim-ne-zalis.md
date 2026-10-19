@@ -5,6 +5,8 @@ image: /images/blog/da-ni-za-cim-ne-zalis.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/da-ni-za-čim-ne-žališ"
 ---
 Hodala sam kroz racvjetala stabla kestena i duboko disala. Nisu mirisi kao u proljeće, ali ja, iako sam dijete travnja, silno ljubim i pozdravljam jesen. Pogotovo ovaj početak, ovu nježnost u toplini, a svježinu kada ti je najviše potrebno, pred san.
 

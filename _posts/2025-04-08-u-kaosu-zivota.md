@@ -5,6 +5,8 @@ image: /images/blog/u-kaosu-zivota.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/u-kaosu-života"
 ---
 \.\.\.Nikad nisam mislila da bi mi to moglo nedostajati. Ta tri dobra akorda. I Joni Mitchell je u pravu. Ne znaš što imaš dok bez toga ne ostaneš. Nekoć sam mislila da je to buka, tek obična buka. Taj ritam koji potmulo udara, ponavljanje istih riječi, voli me, voli, stakleno srce, želim biti tvoj pas. Ali Iggy Pop, on će izgnati ova sranja. Kad sam bila mlada i napola pankerica, gledala sam ga u Marqueeju, u ulici Wardour. Možeš me zamisliti sa sasvim kratko ošišanom kosom i probušenom usnom kako poskakujem u razrezanoj majici dok na pozornici skače onaj božanski mršavi bog?! Ali sada znam o čemu je tu bila riječ, Jonathane, radilo se o životu, o svoj toj buci, i znoju, i slini, tom kaosu, toj kakofoniji, tim trima akordima i glasovima koji se jedva čuju, radilo se o životu, a ne o ovoj\.\.\.ovoj smrti\.\.\.
 

@@ -5,6 +5,8 @@ image: /images/blog/martina-mlinarevic-se-mora-citati.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/martina-mlinarević-se-mora-čitati"
 ---
 ‘Šta bude od ljubavi kad te izrežu k’o od kolaž papira i kažu-eto te ko nova.
 

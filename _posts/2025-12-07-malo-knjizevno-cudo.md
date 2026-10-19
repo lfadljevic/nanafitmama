@@ -5,6 +5,8 @@ image: /images/blog/malo-knjizevno-cudo.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/malo-književno-čudo"
 ---
 Priča počnje strašnom tragedijom.
 

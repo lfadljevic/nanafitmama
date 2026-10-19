@@ -5,6 +5,8 @@ image: /images/blog/zivot-privilegiranih-je-kao-na-nekom-tronu.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/život-privilegiranih-je-kao-na-nekom-tronu"
 ---
 'Clearly money has somthing to do with life.'
 

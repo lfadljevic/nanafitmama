@@ -5,6 +5,8 @@ image: /images/blog/u-vjecnoj-borbi-sa-sotonom.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/u-vječnoj-borbi-sa-sotonom"
 ---
 Zadnje dvije knjige koje sam pročitala nisu bile vrijedne preporuke. Ali knjiga, roman koji sam upravo završila, ogromna je preporuka, preporuka s naglaskom ‘nije za one slabog želuca’.
 

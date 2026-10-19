@@ -5,6 +5,8 @@ image: /images/blog/svaka-zena-treba-imati-svoje-zene.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/svaka-žena-treba-imati-svoje-žene"
 ---
 Žena ženi može biti vuk, ali i najveći potporanj, onaj noseći zid koji drži kuću da se ne uruši. Često toga nismo svijesne ili uzimamo zdravo za gotovo, a važno je da važnije ne može biti.
 

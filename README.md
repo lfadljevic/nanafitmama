@@ -33,14 +33,19 @@ Ostatak teksta…
 - `_posts/2026-10-15-primjer-clanka.md` is an unpublished sample.
 
 ## Site address
-`_config.yml` has `baseurl: "/nanafitmama"` while the site runs at `lfadljevic.github.io/nanafitmama`.
-When moving to a custom domain, set `baseurl: ""` and `url:` to that domain.
+The site runs on its own domain, **https://www.nanamilatic.com** (the bare `nanamilatic.com` redirects to it).
+- The `CNAME` file in the root holds the domain – do not delete it.
+- `_config.yml` has `url: "https://www.nanamilatic.com"` and `baseurl: ""`.
+- DNS lives at the domain's provider (Plus Hosting / Joker.com): four `A` records for the bare domain
+  (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153) and a `CNAME` for `www` pointing to `lfadljevic.github.io`.
+- Old Wix addresses keep working through `redirect_from` in the front matter (`/galerry`, `/blog-1`, `/services-1`, `/contact`,
+  and the old `/post/...` addresses that contained č, ć, š, ž, đ).
 
 ## Previewing the site
 The pages use Jekyll includes and layouts (files starting with `---` or containing `{% include %}`),
 so they only display correctly after Jekyll has built them. Opening the files directly or with a plain
 file server shows raw template code. Check changes on the GitHub Pages address, or run Jekyll locally
-(`bundle install`, then `bundle exec jekyll serve --unpublished`, then open `http://localhost:4000/nanafitmama/`).
+(`bundle install`, then `bundle exec jekyll serve --unpublished`, then open `http://localhost:4000/`).
 
 ## Migrated posts
 The 251 posts from the old Wix blog are in `_posts/` with their original dates, categories and text.

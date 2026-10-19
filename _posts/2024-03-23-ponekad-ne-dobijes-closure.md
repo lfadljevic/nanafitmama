@@ -5,6 +5,8 @@ image: /images/blog/ponekad-ne-dobijes-closure.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/ponekad-ne-dobiješ-closure"
 ---
 ![](/images/blog/ponekad-ne-dobijes-closure-1.jpg)
 

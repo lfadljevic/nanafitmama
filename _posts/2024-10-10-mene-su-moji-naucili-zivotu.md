@@ -5,6 +5,8 @@ image: /images/blog/mene-su-moji-naucili-zivotu.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/mene-su-moji-naučili-životu"
 ---
 Mene su moji naučili životu.
 

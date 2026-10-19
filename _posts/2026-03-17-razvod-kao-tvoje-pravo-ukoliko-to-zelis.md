@@ -5,6 +5,8 @@ image: /images/blog/razvod-kao-tvoje-pravo-ukoliko-to-zelis.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/razvod-kao-tvoje-pravo-ukoliko-to-želiš"
 ---
 Jeste li znali da su se građani Irske izborili za ukidanje ustavne zabrane zakona o razvodu tek 1995.godine?! Zakon je usvojen godinu nakon s tek manje od jednim postotkom protiv.
 

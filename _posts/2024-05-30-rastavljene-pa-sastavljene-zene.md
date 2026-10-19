@@ -5,6 +5,8 @@ image: /images/blog/rastavljene-pa-sastavljene-zene.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/rastavljene-pa-sastavljene-žene"
 ---
 Ponekad pomislim da bi brakovi trebali trajati desetak godina. Nakon tog probnog roka, priči je kraj, eventualno dođeš u matični ured obnoviti licencu, posebnim zahtjevom, uz kupljene biljege na trafici i uplatom u državni proračun. Jedino bi tako, možda, ljudi imali vremena razmisliti, promisliti, odlučiti što dalje u novoj dekadi, da li se isplati?!
 

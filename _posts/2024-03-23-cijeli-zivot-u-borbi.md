@@ -5,6 +5,8 @@ image: /images/blog/cijeli-zivot-u-borbi.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/cijeli-život-u-borbi"
 ---
 Cijeli život u borbi sama sa sobom. Umorih se brate mili.
 

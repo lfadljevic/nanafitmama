@@ -5,6 +5,8 @@ image: /images/blog/hvala-svima-koji-su-mi-uljepsali-2025-god.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/hvala-svima-koji-su-mi-uljepšali-2025-god"
 ---
 Mi koji imamo svoj biznis, a pogotovo kad si ‘one man band’, ne možemo si baš dopustiti spajanje, sami sebi podariti kolektivni, a bome niti božićnicu.
 

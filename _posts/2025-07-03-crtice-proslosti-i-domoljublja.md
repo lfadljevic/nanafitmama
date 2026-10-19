@@ -5,6 +5,8 @@ image: /images/blog/crtice-proslosti-i-domoljublja.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/crtice-prošlosti-i-domoljublja"
 ---
 Baš sam ljuta na sebe što rijetko posegnem za hrv autorom. Ne znam zašto je tomu tako. Ali kad se dogodi oduševljenje za hrv tekstom, nitko sretniji od mene.
 

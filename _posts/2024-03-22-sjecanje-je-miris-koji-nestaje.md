@@ -5,6 +5,8 @@ image: /images/blog/sjecanje-je-miris-koji-nestaje.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/sjećanje-je-miris-koji-nestaje"
 ---
 ‘Sjećanje je miris koji nestaje. Iščezava poput jasnog zalaska sunca’.
 

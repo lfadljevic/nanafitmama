@@ -5,6 +5,8 @@ image: /images/blog/zivot-je-satira.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/život-je-satira"
 ---
 "Bojiš li se?"
 

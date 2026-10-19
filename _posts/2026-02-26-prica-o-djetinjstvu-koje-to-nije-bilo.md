@@ -5,6 +5,8 @@ image: /images/blog/prica-o-djetinjstvu-koje-to-nije-bilo.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/priča-o-djetinjstvu-koje-to-nije-bilo"
 ---
 Francesca Marija Benvenuto je talijanska odvjetnica, doktorirala na kaznenom pravu, odrasla u Napulju. Ali Benvenuto je svojim prvijencem Baš ljubav postala i respektabilna književnica.
 

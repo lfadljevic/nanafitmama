@@ -5,6 +5,8 @@ image: /images/blog/kolika-je-nasa-snaga-duha.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/kolika-je-naša-snaga-duha"
 ---
 Nije se bolje moglo spojiti, ova podivljala kiša, ovaj pijani vjetar i sumornost neba koja te tjera pod pokrivač, kad stigneš, da se sakriješ i utopliš sa štivom u ruci.
 

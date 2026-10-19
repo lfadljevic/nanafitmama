@@ -5,6 +5,8 @@ image: /images/blog/vaznije-je-da-smo-u-zdravom-tijelu-nego-isklesanih-gluteusa.
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/važnije-je-da-smo-u-zdravom-tijelu-nego-isklesanih-gluteusa"
 ---
 Primjer prvi-dobar dan Nana, čula sam da vodite vježbe za trudnice. Počela sam se jako debljati pa bih trebala početi vježbati.
 

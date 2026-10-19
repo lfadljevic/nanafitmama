@@ -5,6 +5,8 @@ image: /images/blog/sandor-marai-jedan-od-najvecih.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/sandor-marai-jedan-od-najvećih"
 ---
 Jeste li čitali Sandor Maraia? Ako niste, već danas potražite neku njegovu knjigu.
 

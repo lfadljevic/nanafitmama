@@ -5,6 +5,8 @@ image: /images/blog/kada-prestaje-zrtva-za-djecu.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/kada-prestaje-žrtva-za-djecu"
 ---
 ‘Djeca toga nisu svijesna, ali traže od tebe više nego što se ljudski može dati. Čak i kad su već odrasla, očekuju da odgovaraš za njih. Ne vide gdje završavaju oni, gdje počinješ ti pa misle da je sve njihovo. Da im život pripada. Da matere nemaju osobni život.
 

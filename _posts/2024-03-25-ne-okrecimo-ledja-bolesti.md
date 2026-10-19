@@ -5,6 +5,8 @@ image: /images/blog/ne-okrecimo-ledja-bolesti.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/ne-okrećimo-leđa-bolesti"
 ---
 4\. veljače je Međunarodni dan borbe protiv raka. Ne poznam osobu koja u svojoj obitelji nije imala nekoga tko se borio s nekim oblikom tumora. Gotovo da ne znam osobu koja nije izgubila nekog u svojoj blizini zbog te zloćudne beštije (kako je moja L znala reći) i gotovo da ne znam čovjeka koji u ovom trenutku nema u blizini nekoga tko se ne bori.
 

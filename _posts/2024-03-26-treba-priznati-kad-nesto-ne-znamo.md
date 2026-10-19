@@ -5,6 +5,8 @@ image: /images/blog/treba-priznati-kad-nesto-ne-znamo.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/treba-priznati-kad-nešto-ne-znamo"
 ---
 Jučer opet puno razgovora o specifičnim ženskim problemima (iako ima i muškaraca koji imaju problema sa mišićima zdjeličnog dna). Bilo da je grupa Prenatal, Postnatal ili Zdrava kralježnica, naglasak na zdravlje ove izuzetno važne regije je ključna. Jeste li znali da mišići zdjeličnog dna spadaju u one najdublje mišiće, stabilizatore našeg trupa?!
 

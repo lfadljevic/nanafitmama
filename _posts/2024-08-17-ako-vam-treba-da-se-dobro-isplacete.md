@@ -5,6 +5,8 @@ image: /images/blog/ako-vam-treba-da-se-dobro-isplacete.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/ako-vam-treba-da-se-dobro-isplačete"
 ---
 Trebalo mi je neko vrijeme da se posložim nakon ove knjige. Totalno me satrala\.\.\.
 

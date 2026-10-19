@@ -5,6 +5,8 @@ image: /images/blog/knjizevna-poslastica.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/književna-poslastica"
 ---
 ‘Najgori osjećaj koji proživljava zaljubljen čovjek je nesigurnost. Ponekad se i najdosadniji brak bez strasti čini boljim. Nesigurnost izvrće značenja i truje povjerenje. U dobro utvrđenom gradu svaki je stražar potencijalni izdajnik.’
 

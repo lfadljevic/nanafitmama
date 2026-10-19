@@ -5,6 +5,8 @@ image: /images/blog/postporodjajna-depresija-je-stravicna-stvar-1.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/postporođajna-depresija-je-stravična-stvar-1"
 ---
 Jednom davno dobila sam zahtjev za poruku na messenger od muškarca kojeg ne poznam, a obzirom da takve poruke ne otvaram, srećom, prvih nekoliko riječi nagnalo me da to ipak učinim (znate kako se u tim zahtjevima vidi par redaka, ali ne i cijela poruka). Ugl, taj muškarac me molio da njegovu suprugu primim na Postnatal, program koji je usmjeren na žene nakon babinja, gdje mame dolaze sa bebicama pa na taj način pokušavaju rehabilitirati svoje tijelo nakon poroda, ali i svoju psihu, bondajući se sa drugim mamama i njihovim bebicama.
 

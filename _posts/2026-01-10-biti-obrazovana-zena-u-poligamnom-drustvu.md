@@ -5,6 +5,8 @@ image: /images/blog/biti-obrazovana-zena-u-poligamnom-drustvu.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/biti-obrazovana-žena-u-poligamnom-društvu"
 ---
 ‘Ženo naša, kaže se u narodu kad muškarac nešto posjeduje, pa se to nešto udvostruči, njemu to ne smeta, je li tako?
 

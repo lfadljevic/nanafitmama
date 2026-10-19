@@ -5,6 +5,8 @@ image: /images/blog/tuzan-zivot-sylvije-plath.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/tužan-život-sylvije-plath"
 ---
 ‘Imala sam sebe, a onda sam se napustila.’
 

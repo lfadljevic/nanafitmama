@@ -5,6 +5,8 @@ image: /images/blog/kada-jedan-trenutak-odredi-zivot.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/kada-jedan-trenutak-odredi-život"
 ---
 Ne pišem vam o filmu, jer film još nisam pogledala i ne znam hoću li, pišem vam o romanu koji je 2008. dobio nagradu British Book Awards za knjigu godine. S pravom.
 

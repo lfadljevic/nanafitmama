@@ -5,6 +5,8 @@ image: /images/blog/tko-su-zene-amazonke.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/tko-su-žene-amazonke"
 ---
 Amazonke-(grčki: a-ne, bez;mazos-dojka)
 

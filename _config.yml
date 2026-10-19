@@ -7,11 +7,10 @@ timezone: Europe/Zagreb
 author: Nana Milatić
 
 # ── Site address ───────────────────────────────────────────────
-# While the site lives at https://lfadljevic.github.io/nanafitmama/ the
-# baseurl must be "/nanafitmama". When the site moves to its own domain
-# (e.g. nanamilatic.com), set baseurl to "" and url to that domain.
-url: "https://lfadljevic.github.io"
-baseurl: "/nanafitmama"
+# The site lives on its own domain (GitHub Pages, custom domain).
+# baseurl stays empty. (Before the domain switch it was "/nanafitmama".)
+url: "https://www.nanamilatic.com"
+baseurl: ""
 
 # ── Blog ───────────────────────────────────────────────────────
 # Post address: /post/<title-from-file-name>/   (same pattern as the old Wix blog)
@@ -31,6 +30,7 @@ kramdown:
 
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from   # keeps old Wix addresses working (redirect_from in front matter)
 
 # Files that are part of the repository but not of the website
 exclude:

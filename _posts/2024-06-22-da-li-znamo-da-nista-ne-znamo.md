@@ -5,6 +5,8 @@ image: /images/blog/da-li-znamo-da-nista-ne-znamo.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/da-li-znamo-da-ništa-ne-znamo"
 ---
 Koja knjiga ljudi moji. Već na prvu, ne znam zašto, privukla me dojmljiva ilustracija ovog romana o kojem ću vam napisati par redaka. Sobovi, životinje koje obožavam, opet ne znam zašto (možda djelomično i zato jer je Frani, dok je bila mala, Rudolf bio najdraži crtić kojeg smo gotovo svakodnevno morali gledati) i djevojčica u narodnoj nošnji naroda Saami (to sam naučila) sa sobovskim rogovima na glavi.
 

@@ -5,6 +5,8 @@ image: /images/blog/roman-koji-te-uci-suosjecati.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/roman-koji-te-uči-suosjećati"
 ---
 ‘Voljeti je znao samo kroz zabrinutost. Zauvijek je ostao stariji brat.’
 

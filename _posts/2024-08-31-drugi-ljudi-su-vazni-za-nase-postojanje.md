@@ -5,6 +5,8 @@ image: /images/blog/drugi-ljudi-su-vazni-za-nase-postojanje.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/drugi-ljudi-su-važni-za-naše-postojanje"
 ---
 'Ono zbog čega starimo nije samo vrijeme, nego ono vrijeme koje je loše provedeno'
 

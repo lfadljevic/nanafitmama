@@ -5,6 +5,8 @@ image: /images/blog/najcitanija-knjiga-u-italiji-2022-god.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/najčitanija-knjiga-u-italiji-2022-god"
 ---
 La Stampa je napisala-roman koji daje glas našem nemiru…
 

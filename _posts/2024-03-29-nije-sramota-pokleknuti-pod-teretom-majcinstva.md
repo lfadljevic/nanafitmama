@@ -5,6 +5,8 @@ image: /images/blog/nije-sramota-pokleknuti-pod-teretom-majcinstva.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/nije-sramota-pokleknuti-pod-teretom-majčinstva"
 ---
 Radim s jednom ženom postnatalnu rehabilitaciju. Nije vježbala sa mnom u trudnoći tako da se dobro ne poznajemo, dobila je preporuku za vježbanje od prijateljice koja je bila moja vježbačica. Dobila je i mali vjetar u leđa da se javi jer baš i nije sportski tip, sada joj pogotovo nije do vježbanja jer sama brine o maloj bebici (muž radi po cijele dane, roditelji i svekrva ne žive u Zagrebu), ali bolovi u leđima i zdjelici natjerali su ju da me ipak nazove.
 

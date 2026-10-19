@@ -5,6 +5,8 @@ image: /images/blog/podrska-partnera-u-postnatalnom-periodu-je-svemir.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/podrška-partnera-u-postnatalnom-periodu-je-svemir"
 ---
 ![](/images/blog/podrska-partnera-u-postnatalnom-periodu-je-svemir.jpg)
 

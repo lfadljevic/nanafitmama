@@ -5,6 +5,8 @@ image: /images/blog/potreba-da-se-sacuvamo.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/potreba-da-se-sačuvamo"
 ---
 Ima ljudi zaljubljenih u život, zaljubljenih u nebo, u mirise i okuse, zaljubljenih u svaki korak svoga puta.
 

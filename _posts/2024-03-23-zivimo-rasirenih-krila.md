@@ -5,6 +5,8 @@ image: /images/blog/zivimo-rasirenih-krila.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/živimo-raširenih-krila"
 ---
 Čarobno jutro zadnjeg dana godišnjeg. Mir, tišina, Lilo se još nije pošteno razbudila, umorna od iznenadnog, jučerašnjeg plivanja, moja prija spava, čak i cvrčci još drijemaju.
 

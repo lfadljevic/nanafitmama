@@ -5,6 +5,8 @@ image: /images/blog/jednog-dana-je-odlucila.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/jednog-dana-je-odlučila"
 ---
 Otišao je na put, a ona je odahnula. Kćer kod prijateljice, tom prespavljivanju se danima veselila, sin u izlasku. Taman.
 

@@ -5,6 +5,8 @@ image: /images/blog/zivot-u-perimeno-meno.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/život-u-perimeno-meno"
 ---
 Probudiš se u zoru (o spavanju nešto kasnije) i ne možeš stati na svoje stopalo. Prsti još ajde de, ali peta\.\.\.
 

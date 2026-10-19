@@ -5,6 +5,8 @@ image: /images/blog/sto-ne-popravimo-ponavljamo.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/što-ne-popravimo-ponavljamo"
 ---
 Kada sam bila mlada, bila sam zlopamtilo. U biti, bolje reći da sam se dugo ljutila i dugo zamjerala onima koji su mi učinili nepravdu (po mojim viđenjima). Onda sam narasla, život se dogodio i pogled na nepraštanje se promijenio.
 

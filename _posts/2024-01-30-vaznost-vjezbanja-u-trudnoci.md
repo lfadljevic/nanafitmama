@@ -5,6 +5,8 @@ image: /images/blog/vaznost-vjezbanja-u-trudnoci.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/važnost-vježbanja-u-trudnoći"
 ---
 ![](/images/blog/vaznost-vjezbanja-u-trudnoci-1.png)
 

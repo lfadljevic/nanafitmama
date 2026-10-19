@@ -5,6 +5,8 @@ image: /images/blog/treba-zivot-olabaviti.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/treba-život-olabaviti"
 ---
 Nije dobro kad smo sa životom preozbiljni. Život te, kao zločesta mačeha, tresne po glavi.
 

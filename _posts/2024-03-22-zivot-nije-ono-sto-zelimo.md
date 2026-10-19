@@ -5,6 +5,8 @@ image: /images/blog/zivot-nije-ono-sto-zelimo.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/život-nije-ono-što-želimo"
 ---
 'Život nije ono što želimo, nego ono što imamo.To je jednostavno tako'
 

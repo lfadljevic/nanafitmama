@@ -5,6 +5,8 @@ image: /images/blog/cuvena-dijastaza.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/čuvena-dijastaza"
 ---
 Svaka trudnica doživjeti će tijekom trudnoće razdvajanje prednjih trbušnih mišića u tzv. dijastazu. Razdvajanje je naravno neminovno obzirom da se trbuh širi, tijelo je puno hormona relaksina koji sve sveze na tijelu rasteže, a bebica u maternici raste i dodatno radi pritisak na vanjsku stijenku trbuha (najviše je tu vidljiva linea alba, ona tamna pruga posred trbuha tj. vezivna opna između mišića). Naravno, razdvojenost trbušne muskulature može se dogoditi i pretilim osobama te osobama koje nepravilno vježbaju, rade fizički posao itd., ali to je već za neki drugi blog.
 

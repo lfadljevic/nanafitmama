@@ -5,6 +5,8 @@ image: /images/blog/malo-o-povijesti-malo-o-ceznji.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/malo-o-povijesti-malo-o-čežnji"
 ---
 Škotska je zemlja koja je kroz svoju povijest doživjela mnoge raskole unutar svoje crkve. Sigurno smo svi pogledali pregršt filmova na tu temu, npr. o kraljici Mariji Stuart ili Margareti.
 

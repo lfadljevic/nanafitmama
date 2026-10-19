@@ -5,6 +5,8 @@ image: /images/blog/sutnja-je-nista.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/šutnja-je-ništa"
 ---
 Jednom sam pročitala da nam život određuje jedan veliki trenutak u kojem smo morali donjeti odluku da li postupiti ovako ili onako. Samo jedan takav veliki trenutak s velikom odlukom zna odrediti u kojem smjeru će nam život ići dalje.
 

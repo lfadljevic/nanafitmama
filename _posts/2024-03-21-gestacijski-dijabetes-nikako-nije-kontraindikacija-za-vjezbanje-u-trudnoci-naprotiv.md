@@ -5,6 +5,8 @@ image: /images/blog/gestacijski-dijabetes-nikako-nije-kontraindikacija-za-vjezba
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/gestacijski-dijabetes-nikako-nije-kontraindikacija-za-vježbanje-u-trudnoći-naprotiv"
 ---
 Ponukana jednom trudnicom koja je, usprkos gestacijskom dijabetesu, problemima s karpalnim kanalom i konstantnim refluksom, neki dan izjavila-toliko boljki u trudnoći, ali nikad se fizički, u tijelu nisam bolje osjećala (redovna je na vježbama za trudnice i još ponavlja preko vikenda vježbice koje se dogovorimo da treba ponoviti), stavljam ovdje opet vrlo važan post vezan za navedene teme jer situacija se do dana današnjeg nije puno promijenila. I dalje su trudničke čekaone pune ne aktivnih trudnica, trudnica koje ne vježbaju, ali i trudnica koje nitko nije niti educirao koliko je tjelovježba važnija tada nego ikada do tada.
 

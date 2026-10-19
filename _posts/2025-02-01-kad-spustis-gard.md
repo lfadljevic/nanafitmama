@@ -5,6 +5,8 @@ image: /images/blog/kad-spustis-gard.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/kad-spustiš-gard"
 ---
 ![](/images/blog/kad-spustis-gard-1.jpg)
 

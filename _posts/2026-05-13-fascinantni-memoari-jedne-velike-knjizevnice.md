@@ -5,6 +5,8 @@ image: /images/blog/fascinantni-memoari-jedne-velike-knjizevnice.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/fascinantni-memoari-jedne-velike-književnice"
 ---
 ‘Ne zato što je nisam voljela, nego da bih je mogla nastaviti voljeti.’
 

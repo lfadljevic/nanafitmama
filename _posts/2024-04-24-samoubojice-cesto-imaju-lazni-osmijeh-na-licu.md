@@ -5,6 +5,8 @@ image: /images/blog/samoubojice-cesto-imaju-lazni-osmijeh-na-licu.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/samoubojice-često-imaju-lažni-osmijeh-na-licu"
 ---
 Jeste li znali da je Seneka, čuveni rimski filozof i književnik (rekli bi life coach svoga vremena) tvrdio da konačna potvrda slobode čovjeka leži u samoubojstvu?!
 

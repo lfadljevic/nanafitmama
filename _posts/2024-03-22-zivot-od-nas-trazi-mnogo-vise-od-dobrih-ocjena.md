@@ -5,6 +5,8 @@ image: /images/blog/zivot-od-nas-trazi-mnogo-vise-od-dobrih-ocjena.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/život-od-nas-traži-mnogo-više-od-dobrih-ocjena"
 ---
 Bernardine Evaristo prva je crnkinja koja je osvojila nagradu Booker za roman Djevojka, žena, drugo (roman koji me nije izuo iz cipela kao mnoge), a to je, prije 4god., bila važna prekretnica za britansku književnu scenu. I ne samo britansku. Žena koja definitivno ima snažan glas, čiji se aktivizam za ženska prava, prava svih diskriminiranih, rasno i rodno, čuje na široko i na daleko, kroz njena djela, kroz njezin rad na svim frontovima.
 

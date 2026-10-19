@@ -5,6 +5,8 @@ image: /images/blog/savrseno-ne-savrsena-obitelj.webp
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/savršeno-ne-savršena-obitelj"
 ---
 Mi smo savršeno nesavršena funkcionalno disfunkcionalna obitelj. Možda je do korijena, gena kamenih, a možda se takav rodiš. Kod nas je sigurno kombinacija.
 

@@ -5,6 +5,8 @@ image: /images/blog/prijateljica-je-napisala-zbirku-kratkih-prica.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/prijateljica-je-napisala-zbirku-kratkih-priča"
 ---
 Kažu da je forma kratke priče jedna od najtežih u književnosti. Sjetite se npr. školske zadaće (nz da li se dan danas tako zove obzirom da se u današnje vrijeme sve promijenjeno). Koliko ti je bilo zahtjevno u četrdesetipet minuta stvoriti priču koja ima uvod, razdradu i nekakav zaključak?
 

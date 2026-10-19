@@ -5,6 +5,8 @@ image: /images/blog/cudo-koliko-covjek-ima-snage.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/čudo-koliko-čovjek-ima-snage"
 ---
 Točno se sjećam osjećaja koji sam imala u kostima kada sam, s pogledom na Prokljan, pisala ove riječi. Tada sam mislila da ću radikalnim zaokretima u životu (po ne znam koji put) staviti točku, barem do nekog novog poglavlja koje neće biti baš odmah iza ugla. Kad ono\.\.\.
 

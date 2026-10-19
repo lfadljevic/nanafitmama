@@ -5,6 +5,8 @@ image: /images/blog/otkrila-sam-na-sto-covjek-moze-biti-spreman.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/otkrila-sam-na-što-čovjek-može-biti-spreman"
 ---
 ‘Otkrila sam na što čovjek može biti spreman, a to znači na sve. Na uzvišene ili smrtne želje, na osutnost ponosa, na vjerovanja i postupke, koji su mi se kod drugih ljudi činili besmislenima, sve do trenutka kada sam im se i ja pridružila. I ne znajući, još više me je povezao sa svijetom.’
 

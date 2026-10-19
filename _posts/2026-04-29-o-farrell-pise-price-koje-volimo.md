@@ -5,6 +5,8 @@ image: /images/blog/o-farrell-pise-price-koje-volimo.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/o-farrell-piše-priče-koje-volimo"
 ---
 Kroz život sam najčešće birala malo teža književna djela. Zapisujem mjesecima naslove prateći razne književne portale, u knjižnici volim malo popričati s knjižničarkom, a često od mame, prof. književnosti ili prijateljice, jednako lude za knjigama, dobijem u ruke neko dobro štivo koje, kažu, vrijedi pročitati.
 

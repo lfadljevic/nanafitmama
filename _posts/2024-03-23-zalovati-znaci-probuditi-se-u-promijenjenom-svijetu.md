@@ -5,6 +5,8 @@ image: /images/blog/zalovati-znaci-probuditi-se-u-promijenjenom-svijetu.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/žalovati-znači-probuditi-se-u-promijenjenom-svijetu"
 ---
 ‘Počela sam shvaćati da je žalovanje zapravo gradnja svojevrsnih skela koje će spriječiti da se zgrada sruši u nadi da će jednog dana ponovo biti sposobna stajati samostalno.’
 
