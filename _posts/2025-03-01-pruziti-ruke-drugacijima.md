@@ -5,6 +5,8 @@ image: /images/blog/pruziti-ruke-drugacijima.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/pružiti-ruke-drugačijima"
 ---
 'Ne postoji osoba kojoj nema spasa. Postoje samo oni koji odustanu od pokušaja da spase druge’
 

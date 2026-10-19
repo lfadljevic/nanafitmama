@@ -5,6 +5,8 @@ image: /images/blog/bez-obzira-kakvi-su-tvoji-grijesi-oni-nisu-sve-sto-jesi.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/bez-obzira-kakvi-su-tvoji-grijesi-oni-nisu-sve-što-jesi"
 ---
 Ne znam kada sam se zadnji put gušila u suzama čitajući knjigu. Naše sretno vrijeme, roman najuspješnije korejske književnice Ji-young Gong, učinio mi je baš to, da suze ne mogu zaustaviti i da mi knedla u grlu stoji još dugo nakon što sam završila s čitanjem.
 

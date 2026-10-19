@@ -5,6 +5,8 @@ image: /images/blog/sto-kada-ti-sve-ide-ukrivo.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/što-kada-ti-sve-ide-ukrivo"
 ---
 ‘Vrijeme je da godinu dana privedem kraju. Naučila sam barem jednu novu stvar: potpuno disanje. Da uvijek treba više izdahnuti nego udahnuti. Jednostavno je to upamtiti: uvijek više davati nego uzimati.’
 

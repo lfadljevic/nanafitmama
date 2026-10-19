@@ -4,6 +4,8 @@ date: 2026-09-22 10:33:05 +0200
 image: /images/blog/knjizevni-fellini.jpg
 hide_image: true
 published: true
+redirect_from:
+  - "/post/književni-fellini"
 ---
 Zamisli priču; čovjeku iznenada umre žena (riječ je o mladim ljudima), ostaje sam sa curicom od deset godina i tako ostavljen na rubu ambisa odluči postupiti krajnje neobično-preseliti svoj život ispred škole svoje kćeri kako bi ona znala da je on tu i kako bi joj na taj način bilo lakše (i ne samo njoj, ali toga u početku nije svjestan).
 

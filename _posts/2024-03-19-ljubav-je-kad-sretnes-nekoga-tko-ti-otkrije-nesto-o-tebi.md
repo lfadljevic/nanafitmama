@@ -5,6 +5,8 @@ image: /images/blog/ljubav-je-kad-sretnes-nekoga-tko-ti-otkrije-nesto-o-tebi.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/ljubav-je-kad-sretneš-nekoga-tko-ti-otkrije-nešto-o-tebi"
 ---
 Na koricama piše- ‘Najljepši roman na svijetu’, Corriere della Sera (u Italiji je ujedno bio i najprodavaniji).
 

@@ -5,6 +5,8 @@ image: /images/blog/moramo-glasnije-pricati-o-tjelovjezbi.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/moramo-glasnije-pričati-o-tjelovježbi"
 ---
 Dođem kod svog ginekologa, ambulanta puna trudnica, pričam ja s njim o vježbanju, kaže on meni-Nane moja (nakon toliko godina intimnog druženja smo si bliski, a još je i moj korčulanin) ja im govorim da vježbaju, ali od njih trideset, jedna ili dvije poslušaju.
 

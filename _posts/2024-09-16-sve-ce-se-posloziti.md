@@ -5,6 +5,8 @@ image: /images/blog/sve-ce-se-posloziti.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/sve-će-se-posložiti"
 ---
 Cijeli jedan život ne bi bio dovoljan da se u detalje ispriča život ovih deset godina, od nastanka ove fotografije na vrhu Paklenice do danas.
 

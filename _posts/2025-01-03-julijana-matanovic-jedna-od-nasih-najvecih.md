@@ -5,6 +5,8 @@ image: /images/blog/julijana-matanovic-jedna-od-nasih-najvecih.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/julijana-matanović-jedna-od-naših-najvećih"
 ---
 Da nije prošao Božić, rekla bih vam; kupite knjigu Rođena na Božić, Julijane Matanović, nekome na dar.
 

@@ -5,6 +5,8 @@ image: /images/blog/znacaj-vjezbaja-u-trudnoci-za-bebicu-u-trbuhu.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/značaj-vježbaja-u-trudnoći-za-bebicu-u-trbuhu"
 ---
 Neki dan me jedna trudnica priupitala da li vježbanje u trudnoći ima benefite i za bebicu u trbuhu, kao što ima i za nju. Volim takva pitanja jer su znak da žena razmišlja o zdravlju djeteta dok još nije niti ugledalo ovaj svijet, a kada stigne, nema sumnje da će mu pružiti svu moguću skrb i ljubav. Pa kad je već priupitano,a o tome se puno ne priča, evo da ovdje nabrojimo nekoliko važnih prednosti vježbanja kroz trudnoću za naše male glavice;
 

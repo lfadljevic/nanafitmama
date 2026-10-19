@@ -5,6 +5,8 @@ image: /images/blog/zivot-se-ne-smije-ignorirat.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/život-se-ne-smije-ignorirat"
 ---
 ‘Jasno da se život koji se živi, kakav god da je, naprosto ne smije ignorirati’
 

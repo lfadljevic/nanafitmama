@@ -5,6 +5,8 @@ image: /images/blog/u-postnatalnoj-rehabilitaciji-nema-instant-rjesenja.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/u-postnatalnoj-rehabilitaciji-nema-instant-rješenja"
 ---
 Nazove mene danas jedna klijentica i pita za postnatalno vježbanje. Nakon uvodnog razgovora, kaže da je prošli tjedan pokušala ići na vježbanje s bebama kod jedne mlade kineziologinje, ali da joj se nikako nije dopalo jer je imala osjećaj da je program za nju prezahtjevan i da joj tijelo s takvim vježbama pati (3mj. nakon poroda, druga beba).
 

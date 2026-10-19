@@ -5,6 +5,8 @@ image: /images/blog/nebitno-je-koliko-titula-imas-budi-covjek-prije-svega.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/nebitno-je-koliko-titula-imaš-budi-čovjek-prije-svega"
 ---
 Svojedobno, dok je moja mater radila na jednom Institutu, okružena samim dr.sc.mr.prof., a i sama dio akademske elite, ostala sam iznenađena kada sam ju tamo jedno jutro potražila, nije bila u svojoj sobi, a niti u susjednoj, a jedna kolegica mi reče-ona ti pije kavu s našom Božicom u čajnoj kuhinjici.
 

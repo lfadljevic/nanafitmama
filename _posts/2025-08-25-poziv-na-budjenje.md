@@ -5,6 +5,8 @@ image: /images/blog/poziv-na-budjenje.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/poziv-na-buđenje"
 ---
 Žene moje drage, prestanimo upirati prstom u perimeno/meno, vikati da nas tijelo izdaje, da nismo više svoje. Jer svoje smo više nego ikad.
 

@@ -5,6 +5,8 @@ image: /images/blog/ne-dajte-se-zene-moje.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/ne-dajte-se-žene-moje"
 ---
 Jedna meni bliska osoba ima problema s muškarcem koji je ljubomoran i posesivan. Pa ucjenjuje, izokreće priču da se ona osjeća kriva, jer ona je preotvorena, preomaloobućena, prenešto. Trudim se smirenim razgovorom ukazati na izopaćenost cijele situacije, ali ona ga, naravno, brani. Ona je pametna, obrazovana, on je sve to isto samo još malo bolestan u glavu. Pa su prekinuli, jer je posljednja ucjena bila 2 much. Pa su se pomirili jer je on došao na vrata s buketom cvijeća veličine Medvednice i citirajući Pabla Nerudu. A ona Nerudu naj voli, ima njegove pjesme i u PDF-u i na zidu svoje spavaće sobe. Vrte se u krug, kao kad moja Ljiljana sebi lovi rep. I onda prijateljica kasni s odgovorima na moje poruke, odugovlači s dogovorom za kavu. Bira rađe one koje će joj potvrditi da je bolje imati bilo koga nego biti sam, da je tako ipak lakše, a i koja veza nema svoje drame?! Ja u glavu, bez okolišanja, a to se izbjegava kada si duboko unutra. 'Reci mi ono što želim ćuti, a ne ono što misliš', jednom davno, jedna druga prija mi je rekla u sličnoj priči.
 

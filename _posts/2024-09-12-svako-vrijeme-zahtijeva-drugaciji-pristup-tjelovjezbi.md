@@ -5,6 +5,8 @@ image: /images/blog/svako-vrijeme-zahtijeva-drugaciji-pristup-tjelovjezbi.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/svako-vrijeme-zahtijeva-drugačiji-pristup-tjelovježbi"
 ---
 Imam osjećaj da smo mi žene majstorice u iscrpljivanju samih sebe. Da guramo i kad treba i kad ne treba, da idemo do otkaza i tek tada, možda, kada se tijelo ili glava pobune, razmišljamo o nekoj promjeni.
 

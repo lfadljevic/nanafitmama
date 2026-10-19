@@ -5,6 +5,8 @@ image: /images/blog/zivot-je-sve-samo-ne-posten.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/život-je-sve-samo-ne-pošten"
 ---
 Sve što je lijepo, dođe i prođe. Prođe tako radost, ali i tuga. Prođu i godine, prođu i razni ljudi kroz tvoj život, prođe i žgaravica.
 

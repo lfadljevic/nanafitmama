@@ -5,6 +5,8 @@ image: /images/blog/treba-znati-sto-ljubav-nije.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/treba-znati-što-ljubav-nije"
 ---
 Ima ona jedna ‘još uvijek ne znam što želim, ali znam dobro što ne želim.’ I to je životna istina.
 

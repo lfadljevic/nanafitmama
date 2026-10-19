@@ -5,6 +5,8 @@ image: /images/blog/oza-se-cita.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/oza-se-čita"
 ---
 …’Tijekom godina osvjedočio se da je ono što uzrokuje sram i ponos uglavnom jače od drugih razvikanih nagona kojima se vole baviti romantičari. Ljudi žarko žude zadiviti ili očarati druge da bi ispunili neki nedostatak u sebi. To što im nedostaje, Joel je u sebi zvao ljubavlju, no nikad to nikome nije rekao, osim jednom Ivriji koja mu je odgovorila bez čuđenja: ‘Ali to je poznati klišej’.’
 

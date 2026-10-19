@@ -5,6 +5,8 @@ image: /images/blog/voli-dok-mozes-voljeti.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/voli-dok-možeš-voljeti"
 ---
 Voli, dok voljeti možeš.
 

@@ -5,6 +5,8 @@ image: /images/blog/price-o-neobicno-obicnim-zenama.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/priče-o-neobično-običnim-ženama"
 ---
 Uvijek sam bila ljubitelj kratkih priča. I zato sam se na prvu zaljubila u nobelovku Allice Munro. Nako nje, duže vrijeme, pod ruku mi nije dospjela neka zbirka priča koja bi izazvala bar približnu reakciju.
 

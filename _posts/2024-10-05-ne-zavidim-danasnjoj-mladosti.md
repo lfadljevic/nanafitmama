@@ -5,6 +5,8 @@ image: /images/blog/ne-zavidim-danasnjoj-mladosti.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/ne-zavidim-današnjoj-mladosti"
 ---
 Ne zavidim današnjoj mladosti. Nemaju sitnih želja, nemaju velika iznenađenja, nemaju potragu za odgovorima. Sve im je dano, sve im je na izvolte, svaki odgovor dostupan u svakom trenutku.
 

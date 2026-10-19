@@ -5,6 +5,8 @@ image: /images/blog/mozda-postoje-ljepsa-vremena-ali-ovo-je-nase.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/možda-postoje-ljepša-vremena-ali-ovo-je-naše"
 ---
 ‘Sloboda je ono što radite s onim što vam je dano.’
 

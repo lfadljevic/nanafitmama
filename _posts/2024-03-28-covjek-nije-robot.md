@@ -5,6 +5,8 @@ image: /images/blog/covjek-nije-robot.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/čovjek-nije-robot"
 ---
 Imaš tu neku veliku vjeru u ljude, vjeru da će svak biti drug, da će biti čovjek. Jer ne znaš drugačije. Ali odavno je gospon Šafranek rekao malom Perici-Perice, ljudi su svinje.
 

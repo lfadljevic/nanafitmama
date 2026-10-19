@@ -5,6 +5,8 @@ image: /images/blog/djeca-nas-cuju.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/djeca-nas-čuju"
 ---
 Imala je pinki pofarbanu sobu. Zidove koje je u buntovnoj fazi išarala sve do plafona crnim markerima, ruževima za usta, olovkama za oči.
 

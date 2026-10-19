@@ -5,6 +5,8 @@ image: /images/blog/kako-bi-mogao-voljeti-moras-prvo-znati-cime-volis.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/kako-bi-mogao-voljeti-moraš-prvo-znati-čime-voliš"
 ---
 „Kako bi mogao voljeti, moraš prvo znati čime voliš“
 

@@ -5,6 +5,8 @@ image: /images/blog/samo-postojanje-knjiznica-najbolji-je-dokaz-da-mozda-jos-uvi
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/samo-postojanje-knjižnica-najbolji-je-dokaz-da-možda-još-uvijek-ima-nade-za-budućnost-ljudskog-roda"
 ---
 Godine 1813. Savez ženskih klubova u Kentuckyju uvjerio je baruna ugljena J.C.Mayoa da subvencionira knjižničarsku službu na konjima kako bi knjige stigle do ljudi u siromašnim i zabačenim područjima. Iako je taj projekt zaživio, uskoro je bio ugašen da bi ga F.D.Roosevelt ponovo pokrenuo 1935. s ciljem da se zaposli što veći broj žena i da se pisana riječ dovede u Apalači gorje i u predjela koja nemaju knjižnice i škole.
 

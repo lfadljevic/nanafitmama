@@ -5,6 +5,8 @@ image: /images/blog/zbog-nase-djece-treba-popraviti-sebe.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/zbog-naše-djece-treba-popraviti-sebe"
 ---
 ‘Svjesno živjeti je veliki napor. Majka je bila odsječena od svojih istinskih osjećaja i preuzela je tuđe načine govora, naučene formule i konvencionalne geste. Majka je bila ona koja se posvetila svojim uvrijeđenostima i pretvorila ih u svoj identitet.’
 

@@ -5,6 +5,8 @@ image: /images/blog/ljubavnici-i-ludjaci.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/ljubavnici-i-luđaci"
 ---
 Rijetko kada pišem nešto vezano za politiku jer ne volim rasprave o istoj, ali jutros su me probudili neki duhovi prošlosti, neka sjećanja na mladu Nanu žestokih stavova, razmišljanja i djelovanja, pa mi došlo da zavirim i obrišem prašinu sa stare teke u kojoj sam početkom devedesetih osviješteno, adolescentski zapisivala misli, citate, ulomke iz najdražih knjiga.
 

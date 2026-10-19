@@ -5,6 +5,8 @@ image: /images/blog/sjecanje-cuva-samo-ono-sto-zeli.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/sjećanje-čuva-samo-ono-što-želi"
 ---
 ‘Je li zato neumoljivi protok vremena blagoslov ili prokletstvo u isti mah? Kad sam bila uhvaćena u kovitlac iz kojeg nisam mogla isplivati, netko koga sam otad zaboravila rekao mi je-‘i to će proći.’.?Ovo je valjda bio dokaz. Taj savjet primjenjiv je i na one koji se muče i na one kojima je život ispunjen obiljem. Prvima daje snagu da izdrže, drugima da budu ponizni.’.
 

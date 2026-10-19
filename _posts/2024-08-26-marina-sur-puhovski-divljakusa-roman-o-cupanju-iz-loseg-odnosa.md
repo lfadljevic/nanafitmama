@@ -5,6 +5,8 @@ image: /images/blog/marina-sur-puhovski-divljakusa-roman-o-cupanju-iz-loseg-odno
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/marina-šur-puhovski-divljakuša-roman-o-čupanju-iz-lošeg-odnosa"
 ---
 Kako je teško priznati samome sebi da si pogriješio, da je tvoja odluka da nekome pokloniš svoje biće, pažnju, ljubav, bila sasvim ukrivo. Jednom sam pričala s dragom prijateljicom koja se, kao mnogi od nas, godinama čupala iz lošeg braka. Na moje pitanje, obzirom da je moja prija vrlo pametna žena, zašto ranije nije otišla, iskreno mi je odgovorila-nisam htjela odustati jer bi to značilo da sam skroz krivo odabrala, a ako sam skroz krivo odabrala, kakva sam ja to, tko sam?! Zvuči poznato?
 

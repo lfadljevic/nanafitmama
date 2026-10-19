@@ -5,6 +5,8 @@ image: /images/blog/biti-zena-uvijek-ce-znaciti-dodatni-teret.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/biti-žena-uvijek-će-značiti-dodatni-teret"
 ---
 “Djevojčica je.”
 

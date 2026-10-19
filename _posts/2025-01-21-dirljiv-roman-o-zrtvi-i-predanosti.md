@@ -5,6 +5,8 @@ image: /images/blog/dirljiv-roman-o-zrtvi-i-predanosti.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/dirljiv-roman-o-žrtvi-i-predanosti"
 ---
 ‘Ljudi su svagdje pokvareni. Nisu dobri. Želiš vidjeti zla čovjeka? Daj običnom čovjeku moć kakvu nije mogao zamisliti. Vidjet ćeš koliko je dobar kad može sve što poželi.’
 

@@ -5,6 +5,8 @@ image: /images/blog/ima-muzeva-i-ima-the-muzeva.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/ima-muževa-i-ima-the-muževa"
 ---
 Uvijek volim pohvalit muške jer muški se trebaju hvaliti kada za to postoji valjani razlog, jer muški su kao mala djeca i vole da ih se hvali (a uostalom, tko ne voli?!) i zato jer sam uvjerena da u životu postoji puno više loših spojeva nego što postoji individualno loših muškaraca ili žena.
 

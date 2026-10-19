@@ -5,6 +5,8 @@ image: /images/blog/ljubi-sve-sto-jesi.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/ljubi-sve-što-jesi"
 ---
 Fantastično je kada ti se dogodi da te netko zavoli baš takvu kakva jesi, sa svim burama i neverama. I da te ne bi mijenjao ni prepravljao. A dogodit će se, ne ako jako želiš, pa pišeš po zidu afirmacije, nego ako se ogoliš, uđeš u sebe, pa izađeš, pa se takva ponudiš drugome.
 

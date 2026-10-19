@@ -5,6 +5,8 @@ image: /images/blog/prica-o-vukovima-i-ljudima.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/priča-o-vukovima-i-ljudima"
 ---
 U Škotskoj, kao i u mnogim drugim državama Svijeta, eko sustav je u krizi. To znamo. Jedan od glavnih razloga, osim klimatskih promjena koje imaju svoje mjesto u svim glavnim vijestima, je nešto manje poznata problematika osiguravanje staništa autohtonim vrstama. O tome recimo osobno nisam znala više od onoga što bi usputno pročitala i pogledala na TV-u. A tema je jednako važna da se o njoj zna više i priča jednako kao o samim klimatskim promjenama.
 

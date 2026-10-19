@@ -5,6 +5,8 @@ image: /images/blog/ono-kad-se-ne-das.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/ono-kad-se-ne-daš"
 ---
 Promijenila sam treću pidžamu ovoga tjedna. Do kože mokra. Rekordno buđenje u zadnjih mjesec dana. Ujutro podočnjaci do poda, a baš sam se nadala da će mi život poklonit jednu prospavanu noć jer je u planu izlazak sa curama.
 

@@ -5,6 +5,8 @@ image: /images/blog/zaboraviti-znaci-ocistiti-oci.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/zaboraviti-znači-očistiti-oči"
 ---
 ‘Kad se čovjek sjeća, boji se samoće. Ljudi koji zbog straha od usamljenosti ostaju u tromim vezama, koji rađaju djecu da osvježe ustajalu ljubav, to su ljudi s najsnažnijim sjećanjima.’
 

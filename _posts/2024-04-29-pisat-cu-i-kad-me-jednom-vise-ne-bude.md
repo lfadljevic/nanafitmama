@@ -5,6 +5,8 @@ image: /images/blog/pisat-cu-i-kad-me-jednom-vise-ne-bude.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/pisat-ću-i-kad-me-jednom-više-ne-bude"
 ---
 "Pisat ću i kad me jednom više ne bude", rekla je prije smrti Marguerite Duras.
 

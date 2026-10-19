@@ -5,6 +5,8 @@ image: /images/blog/imas-li-svoju-motivacijsku-recenicu.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/imaš-li-svoju-motivacijsku-rečenicu"
 ---
 Vjerujem da svi imamo u životu jednu rečenicu (možda i više) što nam je nekad netko uputio, rečenicu koja nam je probila srce i pokrenula lavinu emocija.
 

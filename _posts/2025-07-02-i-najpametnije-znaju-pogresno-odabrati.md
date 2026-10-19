@@ -5,6 +5,8 @@ image: /images/blog/i-najpametnije-znaju-pogresno-odabrati.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/i-najpametnije-znaju-pogrešno-odabrati"
 ---
 Zanimljjvo je da sam ovu knjigu čitala posljednjih 48 sati, jer toliko ti s prekidima za dnevne poslove treba da ju pročitaš, dok je na jugu jedan muškarac pucao na drugog muškarca zbog ljubomore, zbog sumnje da mu je ovaj petljao nešto sa ženom (pukom srećom, upucani se ipak oporavlja i van životne opasnosti je), a drugi muškarac, negdje na sjeveru Lijepe naše, svoju ljubomoru je sproveo u akciju tako da je između sebe i žene aktivirao ručnu bombu i naravno, raznio njihova tijela na milione komada. Maloljetno dijete je u zadnji tren uspjelo istrčati iz kuće.
 

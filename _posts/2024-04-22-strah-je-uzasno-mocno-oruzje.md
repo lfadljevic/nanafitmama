@@ -5,6 +5,8 @@ image: /images/blog/strah-je-uzasno-mocno-oruzje.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/strah-je-užasno-močno-oružje"
 ---
 Strah je užasno močno oružje. Tjera te da činiš ono što ne želiš, da donosiš odluke koje inače ne bi donosio. Nešto slično je rečeno neki dan u jednom filmu. Pa me natjeralo da se zamislim. Zaronim. Okrenem par brojeva onih koji znaju više nego što će oni drugi koji te okružuju ikad znati o tebi. Pa promišljam i kontempliram.
 

@@ -5,6 +5,8 @@ image: /images/blog/mracni-svijet-shizofrenije.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/mračni-svijet-shizofrenije"
 ---
 Toliko je toga što ne znamo, ali je još više toga što ne razumijemo. Knjige u tome pomažu, da zaroniš u neki svijet o kojem pojma nemaš i o kojem možda i nisi puno toga željela znati.
 

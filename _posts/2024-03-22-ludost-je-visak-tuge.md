@@ -5,6 +5,8 @@ image: /images/blog/ludost-je-visak-tuge.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/ludost-je-višak-tuge"
 ---
 ‘Ludost možda nije ništa doli višak tuge i samo joj treba dati oduška.’
 

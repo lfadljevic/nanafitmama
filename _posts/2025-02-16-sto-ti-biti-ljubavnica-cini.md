@@ -5,6 +5,8 @@ image: /images/blog/sto-ti-biti-ljubavnica-cini.webp
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/što-ti-biti-ljubavnica-čini"
 ---
 'Ljude ne volimo zbog njihova ugodnog karaktera i rijetko ih kada preziremo zbog njihove zlobe. Ester kod Olofa nije privlačila zloba, nego pogled na ono što je svjetlucalo u pijesku, ono što je samo trebala izvući na površinu. Nije voljela Olofa zato što ju je loše tretirao, nego zato što joj je bilo toliko lijepo kada to nije činio.'
 

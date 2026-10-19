@@ -5,6 +5,8 @@ image: /images/blog/i-sve-ce-ovo-biti-jucer.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/i-sve-će-ovo-biti-jučer"
 ---
 ‘On je naš, ne tuđi. Taj neki Život o kojem svi pričaju. Jedan jedini kojeg imamo. I tu je, strpljivo nas čeka da zarijemo šake u njega i istisnemo sav slador. Ako ga ne popijemo, ukiselit će se. Ne može to dovijeka trajati. Na rubu je suza taj naš Život, kako odmičemo iskustvu. Ako ga ne iskoristimo, onda nije ni imao smisla. A nema teže stvari nego kasno spoznati da si sam sebe potratio. Bolja mjesta nisu poviše nas. Bolja mjesta jesu u nama.’
 

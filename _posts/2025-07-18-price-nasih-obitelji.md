@@ -5,6 +5,8 @@ image: /images/blog/price-nasih-obitelji.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/priče-naših-obitelji"
 ---
 Moja prababa iz Žrnova bila je opasna ženska. U biti većina žena iz Žrnova slovile su za opake ženske tako da to nije ništa čudno. Kažu da kad imaš ženu žrnovku, ne triba ti kučak (ilitiga pas). Posebno je bilo to da se ona, moja prababa, početkom dvadesetog stoljeća, u vremenima kada nije postojalo kanala za osnaživanje žena, odlučila izboriti za sebe i ono što je željela unatoč i u dišpet svima.
 

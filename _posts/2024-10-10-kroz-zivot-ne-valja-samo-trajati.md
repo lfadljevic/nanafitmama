@@ -5,6 +5,8 @@ image: /images/blog/kroz-zivot-ne-valja-samo-trajati.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/kroz-život-ne-valja-samo-trajati"
 ---
 Divno je kada zaslužiš dane za sebe, trenutke u kojima možeš birati užitak, a jedan od njih je užitak čitanja, i bivanja sam sa sobom, i promišljanja o sebi, o drugima, o svijetu u kojem si se eto čudom zadesila. Volim kada nasumice u knjižnici izaberem knjigu o kojoj ništa ne znam, a poslije mi se ta knjiga nasmiješi i kaže-jel tako da si baš mene trebala?!
 

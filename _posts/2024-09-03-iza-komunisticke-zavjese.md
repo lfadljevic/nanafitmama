@@ -5,6 +5,8 @@ image: /images/blog/iza-komunisticke-zavjese.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/iza-komunističke-zavjese"
 ---
 'Riječi znaju nanijeti bol, ali to isto znade napraviti i tišina.’
 

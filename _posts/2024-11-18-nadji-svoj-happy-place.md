@@ -5,6 +5,8 @@ image: /images/blog/nadji-svoj-happy-place.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/nađi-svoj-happy-place"
 ---
 Kada je vani debeli minus, ili temperatura oko nule, trebaš pronaći puno dobrih stvari, dobrih ljudi i priča koje te griju iznutra. U mojoj dvorani i s mojim ženama toga ne nedostaje.
 

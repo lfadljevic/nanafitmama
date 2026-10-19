@@ -5,6 +5,8 @@ image: /images/blog/sto-bi-bilo-kada-bi-postali-nevidljivi.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/što-bi-bilo-kada-bi-postali-nevidljivi"
 ---
 Johana Sebauer mlada je novinarka, s diplomom političkih znanosti (bitno za roman) koja je već debitantskim djelom Nincshof dobila veliku naklonost i publike i kritike.
 

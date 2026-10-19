@@ -5,6 +5,8 @@ image: /images/blog/s-murakamijem-se-preslagujes.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/s-murakamijem-se-preslaguješ"
 ---
 …’nema ničeg vrijednog na ovom svijetu do čega je lako doći. Ali kad uložiš dovoljno vremena i truda i dođeš do onoga što je teško postići, to postaje creme de la creme tvojeg života…’
 

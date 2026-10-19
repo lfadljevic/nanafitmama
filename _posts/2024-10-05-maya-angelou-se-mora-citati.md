@@ -5,6 +5,8 @@ image: /images/blog/maya-angelou-se-mora-citati.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/maya-angelou-se-mora-čitati"
 ---
 ‘Nikad se ne ponosim sudjelovanjem u nasilju, ali ipak znam da svatko od nas mora sebe dovoljno voljeti da bude spreman i sposoban obraniti se kad god je to potrebno’.
 

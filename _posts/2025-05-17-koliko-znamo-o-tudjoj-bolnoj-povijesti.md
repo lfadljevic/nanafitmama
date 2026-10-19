@@ -5,6 +5,8 @@ image: /images/blog/koliko-znamo-o-tudjoj-bolnoj-povijesti.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/koliko-znamo-o-tuđoj-bolnoj-povijesti"
 ---
 Koliko znamo o drugim narodima, o tuđim običajima, o tuđoj povijesti? Ne mislim tu samo na susjedne nam države, države bliže našem načinu života, mislim na one koji su daleki, nepoznati, o kojima naučiš ponešto tek kada ti prava literatura dođe pod ruku.
 

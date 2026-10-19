@@ -5,6 +5,8 @@ image: /images/blog/budimo-se-snazni.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/budimo-se-snažni"
 ---
 Radim s puno žena koje su imale karcinom. Odradile karcinom. Karcinom nije odradio njih. Na sreću. Jer u životu ti treba i vreća puna sreće, ne samo volja i želja da nešto riješiš. Te žene, te borkinje, dobile su novi život na dar. Uvid u svoju nutrinu, u ljude koji su oko njih, u važnosti koje su nastupile.
 

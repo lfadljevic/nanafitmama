@@ -5,6 +5,8 @@ image: /images/blog/sebe-cuvaj.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/sebe-čuvaj"
 ---
 Ajde ti sad zamisli da u ovim godinama kada te hormoni šamaraju sa svih strana, kada ne spavaš, više ne zbog djece, već zbog radosti pedesetih, kada si razdražljiva kao nekad u pubertetu samo s malo većom dozom svjesnosti idiotluka oko tebe (ee mladosti), ajde ti sad zamisli da još u krevetu, na kauču moraš podnositi onoga koji te ne podržava i ne njeguje. Zašto to žene sebi rade?!
 

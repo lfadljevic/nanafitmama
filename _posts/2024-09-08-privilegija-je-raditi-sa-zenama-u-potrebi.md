@@ -5,6 +5,8 @@ image: /images/blog/privilegija-je-raditi-sa-zenama-u-potrebi.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/privilegija-je-raditi-sa-ženama-u-potrebi"
 ---
 Kada sam se s osamnaest godina spremala za upis na Kineziološki fakultet, san je bio rad sa sportašima i život u sportu. Nakon prekida fakulteta, rođenja djeteta pa povratka na fakultet, pala je odluka o Prenatalnom programu, o jednom vidu fitnesa kroz kineziterapiju i pomno smišljene vježbe. Prof. Andijašević mi je tada rekla-vrlo je to hrabro, a ja sam s upitnikom, ali mladošću protkanom drskošću izašla s fakulteta.
 

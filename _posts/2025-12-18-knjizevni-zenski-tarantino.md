@@ -5,6 +5,8 @@ image: /images/blog/knjizevni-zenski-tarantino.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/književni-ženski-tarantino"
 ---
 ‘Možda joj je njezina vlastita majka, isto tako s rukama u vodi za pranje posuđa, prišapnula: ljudi s kojima dobro izlaziš na kraj u pravilu su ljudi koji će ti kasnije zabiti nož u leđa.’
 

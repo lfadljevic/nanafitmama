@@ -5,6 +5,8 @@ image: /images/blog/oda-posljednjem-romanu-obozavanog-marqueza.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/oda-posljednjem-romanu-obožavanog-marqueza"
 ---
 Na desetu godišnjicu smrti mog voljenog pisca Gabriela Marcia Marqueza objavljen je njegov posljednji roman Vidimo se u kolovozu, roman koji je napisao prije nego što ga je bolest, koja mu je kočila umne sposobnosti, potpuno onemogućila da dalje piše.
 

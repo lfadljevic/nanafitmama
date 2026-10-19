@@ -4,6 +4,8 @@ date: 2025-01-15 07:08:26 +0100
 image: /images/blog/roman-zbog-kojeg-ne-mozes-disati.jpg
 hide_image: true
 published: true
+redirect_from:
+  - "/post/roman-zbog-kojeg-ne-možeš-disati"
 ---
 Napisat ću vam par riječi o jednom potresnom romanu koji gotovo da čitaš u jednom dahu, a pritom umalo da i zaboraviš disati. Romanu o psihičkom poremećaju oca koji sustavno zlostavlja sina na sve moguće načine i roman o sinu koji stojički trpi nasilje, djelujući po očevim naredbama jer misli da podnošenjem nasilja, svojem ocu iskazuje ljubav i poštovanje.
 

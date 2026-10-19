@@ -5,6 +5,8 @@ image: /images/blog/odnos-majke-i-kceri-cesto-je-vrlo-kompleksan.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/odnos-majke-i-kćeri-često-je-vrlo-kompleksan"
 ---
 Jako sam se veselila ovoj knjizi, još od Interlibera, a nikako da mi dopadne u ruke. Eto konačno. Tražila sam ju i našla me je.
 

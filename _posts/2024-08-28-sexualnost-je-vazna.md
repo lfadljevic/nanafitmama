@@ -5,6 +5,8 @@ image: /images/blog/sexualnost-je-vazna.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/sexualnost-je-važna"
 ---
 ‘Ako je žudnja ljubav, nismo li svi onda grešnici?’
 

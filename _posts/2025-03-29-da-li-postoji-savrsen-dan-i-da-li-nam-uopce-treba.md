@@ -5,6 +5,8 @@ image: /images/blog/da-li-postoji-savrsen-dan-i-da-li-nam-uopce-treba.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/da-li-postoji-savršen-dan-i-da-li-nam-uopće-treba"
 ---
 Kada bi nas netko pitao da izaberemo najsavršeniji dan u našem životu, da li bi to bili u stanju?
 

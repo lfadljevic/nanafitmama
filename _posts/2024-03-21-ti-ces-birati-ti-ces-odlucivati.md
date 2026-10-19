@@ -5,6 +5,8 @@ image: /images/blog/ti-ces-birati-ti-ces-odlucivati.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true
+redirect_from:
+  - "/post/ti-ćeš-birati-ti-ćeš-odlučivati"
 ---
 Nikada nisi mislila da ćeš kuhati za dvoje, za troje…nisi mislila da bi mogla staviti nekoga na prvo mjesto, a sebe na hold. Nikada nisi mislila da ćeš raditi kontra svojeg bića, da ćeš na silu prihvaćati, popuštati, otpuštati. Nisi mislila ni da ćeš spustiti gard i dozvoliti ono pridržavanje kaputa, stolice, da će drugi za tebe otvarati boce pjenušca ili neke vrhunske kupaže.
 

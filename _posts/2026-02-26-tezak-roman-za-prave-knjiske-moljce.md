@@ -5,6 +5,8 @@ image: /images/blog/tezak-roman-za-prave-knjiske-moljce.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
+redirect_from:
+  - "/post/težak-roman-za-prave-knjiške-moljce"
 ---
 'Ta jesen bila je beskrajna, plamtjela je poput rane koja ne zacjeljuje-tako spora, kakva može biti samo jesen. No izblijedjeli bakar na drveću postupno se zgrušao poput ustajale krvi i jednog jutra na travi je zablistao mraz.’
 

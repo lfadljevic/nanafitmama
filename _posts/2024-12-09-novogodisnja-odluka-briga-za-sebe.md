@@ -5,6 +5,8 @@ image: /images/blog/novogodisnja-odluka-briga-za-sebe.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true
+redirect_from:
+  - "/post/novogodišnja-odluka-briga-za-sebe"
 ---
 Poražavajuća je činjenica da smo kao nacija među najdebljima u EU, da je porast pretilosti kod naše djece svake godine sve veći (a pretila djeca=pretili ljudi dns, sutra), kao i porast pekara na svakom kutu, da samo 6% Hrvata kontinuirano vježba (od toga, ispod 4% mojih trudnica, za razliku od 60% aktivnih trudnica drugdje u svijetu), da mnogi pod ozbiljnu aktivnost smatraju hodanje do posla i natrag (je, aktivnost je, ali nije zamjena za tjelovježbu), da smo u silnom skoku s problemima lokomotornog sutava, pogotovo kod mladih, da su nam poliklinike za rehabilitaciju prepune, a termini se traže ko suho zlato i da ne nabrajam dalje.
 
