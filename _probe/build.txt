@@ -1,0 +1,48 @@
+Configuration file: /home/runner/work/nanafitmama/nanafitmama/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /home/runner/work/nanafitmama/nanafitmama
+       Destination: /home/runner/work/nanafitmama/nanafitmama/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 4.218 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+== stubs
+CNAME
+assets
+blog
+blog-1.html
+contact.html
+feed.xml
+galerija.html
+galerry.html
+images
+index.html
+migration
+o-meni.html
+post
+program.html
+redirects.json
+services-1.html
+== galerry
+cat: _site/galerry/index.html: No such file or directory
+== diacritic post
+_site/post/valentinovo-u-pedesetima
+_site/post/vaznije-je-da-smo-u-zdravom-tijelu-nego-isklesanih-gluteusa
+_site/post/vaznost-vjezbanja-u-trudnoci
+_site/post/važnije-je-da-smo-u-zdravom-tijelu-nego-isklesanih-gluteusa.html
+_site/post/važnost-vježbanja-u-trudnoći.html
+== count redirect stubs
+157
+== CNAME
+www.nanamilatic.com
+== sitemap/feed host
+https://www.nanamilatic.com/feed.xml
+https://www.nanamilatic.com/
+== links with /nanafitmama
+_site/galerija.html
+_site/blog/index.html
+_site/post/voli-dok-mozes-voljeti/index.html
+== sample href
+href="o-meni.html"
+href="o-meni.html"
