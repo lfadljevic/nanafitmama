@@ -49,6 +49,6 @@ file server shows raw template code. Check changes on the GitHub Pages address, 
 
 ## Migrated posts
 The 251 posts from the old Wix blog are in `_posts/` with their original dates, categories and text.
-Their photos are in `images/blog/` (`<post>.jpg` = thumbnail on the blog list, `<post>-1.jpg` = photo inside the text).
+Their photos are in `images/blog/`. Where a post's thumbnail and its first photo were the same picture, one shared file is used for both.
 Migrated posts have `hide_image: true`, so the thumbnail is not repeated at the top of the article (as on the old site).
-`migration/old-to-new-urls.csv` lists every old Wix address with its new address (useful for redirects when moving to the own domain).
+Old Wix addresses are redirected to the new ones through the `redirect_from` lines in the posts.
