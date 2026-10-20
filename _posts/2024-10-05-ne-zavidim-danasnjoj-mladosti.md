@@ -12,7 +12,7 @@ Ne zavidim današnjoj mladosti. Nemaju sitnih želja, nemaju velika iznenađenja
 
 Ne zavidim današnjoj mladosti jer nikada neće znati koliko je na primjer lijepo čekanje, kako je čekati danima, tjednima pismo. Loviti poštara po ulici s pitanjem da li ima što za Milatić. Nikada neće znati za ono uzbuđenje kada telefon zvoni, a ti iz svoje sobe prisluškuješ što će tvoja mama reći onome tko je nazvao, da li će zabraniti razgovor, jer po njenom nemaš vremena za razgovor obzirom da nisi izvježbala onu etidu za sutrašnji sat klavira, ili će te s podignutom obrvom pozvati da se javiš, a kasnije rešetati pitanjima.
 
-![](/images/blog/ne-zavidim-danasnjoj-mladosti-1.jpg)
+![](/images/blog/ne-zavidim-danasnjoj-mladosti.jpg)
 
 Mladi danas nikada neće znati kako je kad si nešto silno želiš, svjesna da je gotovo nemoguće da se želja ostvari pa živiš u mašti i na stranicama Modre Laste i Brava. Nikada neće znati za ono ushićenje kada jedna osoba u razredu dobije od strica iz Njemačke konzervu kokakole ili olovku s mirišljavom gumicom ili nešto slično, poželjno, a mi fascinirani i željni svega, stojimo kao vojska i salutiramo, divimo se nedostižnom.
 

@@ -1,7 +1,7 @@
 ---
 title: "Razvod kao tvoje pravo, ukoliko to želiš"
 date: 2026-03-17 07:47:35 +0100
-image: /images/blog/razvod-kao-tvoje-pravo-ukoliko-to-zelis.jpg
+image: /images/blog/razvod-kao-tvoje-pravo-ukoliko-to-zelis-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

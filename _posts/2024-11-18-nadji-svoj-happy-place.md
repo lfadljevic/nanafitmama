@@ -1,7 +1,7 @@
 ---
 title: "Nađi svoj happy place"
 date: 2024-11-18 08:06:59 +0100
-image: /images/blog/nadji-svoj-happy-place.jpg
+image: /images/blog/nadji-svoj-happy-place-1.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true

@@ -1,7 +1,7 @@
 ---
 title: "Fascinantni memoari jedne velike književnice"
 date: 2026-05-13 07:33:49 +0200
-image: /images/blog/fascinantni-memoari-jedne-velike-knjizevnice.jpg
+image: /images/blog/fascinantni-memoari-jedne-velike-knjizevnice-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

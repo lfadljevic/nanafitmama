@@ -1,7 +1,7 @@
 ---
 title: "Ratnica velikog srca"
 date: 2025-07-10 07:15:58 +0200
-image: /images/blog/ratnica-velikog-srca.jpg
+image: /images/blog/ratnica-velikog-srca-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

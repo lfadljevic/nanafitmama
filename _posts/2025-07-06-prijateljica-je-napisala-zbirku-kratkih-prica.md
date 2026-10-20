@@ -1,7 +1,7 @@
 ---
 title: "Prijateljica je napisala zbirku kratkih priča"
 date: 2025-07-06 07:36:11 +0200
-image: /images/blog/prijateljica-je-napisala-zbirku-kratkih-prica.jpg
+image: /images/blog/prijateljica-je-napisala-zbirku-kratkih-prica-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

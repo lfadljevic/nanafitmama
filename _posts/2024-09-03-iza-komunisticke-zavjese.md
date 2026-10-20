@@ -10,7 +10,7 @@ redirect_from:
 ---
 'Riječi znaju nanijeti bol, ali to isto znade napraviti i tišina.’
 
-![](/images/blog/iza-komunisticke-zavjese-1.jpg)
+![](/images/blog/iza-komunisticke-zavjese.jpg)
 
 Koliko ne izgovoreno može učiniti štetu, koliko šutnja može biti bolna, koliko nerazumijevanja može nastati iz navedenog i koliko pogrešne ili konačne odluke općenito mogu promijeniti tijek života?!
 

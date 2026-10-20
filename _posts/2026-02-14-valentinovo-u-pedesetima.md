@@ -12,7 +12,7 @@ Pitala me jučer moja kćer gdje me ovaj moj vodi (baš tako je rekla-onaj tvoj)
 
 Naravno da je njoj u dvadesetima sve to nedovoljno i da ona sanja o šljokicama i vatrometu.
 
-![](/images/blog/valentinovo-u-pedesetima-1.jpg)
+![](/images/blog/valentinovo-u-pedesetima.jpg)
 
 Kao što u životu sve treba pustiti da dođe na svoje, ponekad uz male intervencije, a ponekad oboružani strpljenjem, čekajući, tako i poimanje ljubavi i pažnje treba ići svojim tijekom. Puno koraka moraš izbrojati da shvatiš prave vrijednosti, da bi se npr. cijenila prva jutarnja kava koju ti partner skuha (onako još pospan i nespretan), da bi na debelom minusu sjela u auto čija su prozorska stakla postrugana (jer je on na to mislio prije nego što je u svoj auto sjeo), da bi umjesto tebe umorne, On prošetao psa (iako i sam jedva stoji na nogama), da bi nazvao usred radnog dana samo da ti čuje glas, da te pita jel' glava konačno popustila…
 

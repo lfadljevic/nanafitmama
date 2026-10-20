@@ -1,7 +1,7 @@
 ---
 title: "Roman zbog kojeg ne možeš disati"
 date: 2025-01-15 07:08:26 +0100
-image: /images/blog/roman-zbog-kojeg-ne-mozes-disati.jpg
+image: /images/blog/roman-zbog-kojeg-ne-mozes-disati-1.jpg
 hide_image: true
 published: true
 redirect_from:

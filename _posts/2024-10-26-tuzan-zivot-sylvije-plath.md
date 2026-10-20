@@ -1,7 +1,7 @@
 ---
 title: "Tužan život Sylvije Plath"
 date: 2024-10-26 08:37:26 +0200
-image: /images/blog/tuzan-zivot-sylvije-plath.jpg
+image: /images/blog/tuzan-zivot-sylvije-plath-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

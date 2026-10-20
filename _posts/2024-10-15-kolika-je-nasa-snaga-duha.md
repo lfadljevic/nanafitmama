@@ -12,7 +12,7 @@ Nije se bolje moglo spojiti, ova podivljala kiša, ovaj pijani vjetar i sumornos
 
 Preluda ilustracija neznanog autora natjerala me neki dan da ju skinem s police knjižnice u Šubićevoj. Trebalo mi je svega tjedan dana da ju progutam.
 
-![](/images/blog/kolika-je-nasa-snaga-duha-1.jpg)
+![](/images/blog/kolika-je-nasa-snaga-duha.jpg)
 
 Teška, snažna, tužna i dirljiva priča o dječaku bez imena koji bježi iz svog sela gdje je život sve samo ne život, gdje suša i nasilje određuju postojanje i u svom bijegu, u kamenjaru, pustopoljini, susreće starog pastira, bez imena, bez ičega osim svoga stada.
 

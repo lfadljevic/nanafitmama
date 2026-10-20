@@ -1,7 +1,7 @@
 ---
 title: "Pružiti ruke drugačijima"
 date: 2025-03-01 07:38:32 +0100
-image: /images/blog/pruziti-ruke-drugacijima.jpg
+image: /images/blog/pruziti-ruke-drugacijima-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

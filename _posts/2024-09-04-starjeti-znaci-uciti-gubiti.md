@@ -1,7 +1,7 @@
 ---
 title: "Starjeti znači učiti gubiti"
 date: 2024-09-04 07:13:29 +0200
-image: /images/blog/starjeti-znaci-uciti-gubiti.jpg
+image: /images/blog/starjeti-znaci-uciti-gubiti-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

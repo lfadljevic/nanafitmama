@@ -1,7 +1,7 @@
 ---
 title: "Martina Mlinarević se mora čitati"
 date: 2025-12-18 07:40:49 +0100
-image: /images/blog/martina-mlinarevic-se-mora-citati.jpg
+image: /images/blog/martina-mlinarevic-se-mora-citati-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

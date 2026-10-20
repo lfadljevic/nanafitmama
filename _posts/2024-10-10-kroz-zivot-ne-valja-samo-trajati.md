@@ -10,7 +10,7 @@ redirect_from:
 ---
 Divno je kada zaslužiš dane za sebe, trenutke u kojima možeš birati užitak, a jedan od njih je užitak čitanja, i bivanja sam sa sobom, i promišljanja o sebi, o drugima, o svijetu u kojem si se eto čudom zadesila. Volim kada nasumice u knjižnici izaberem knjigu o kojoj ništa ne znam, a poslije mi se ta knjiga nasmiješi i kaže-jel tako da si baš mene trebala?!
 
-![](/images/blog/kroz-zivot-ne-valja-samo-trajati-1.jpg)
+![](/images/blog/kroz-zivot-ne-valja-samo-trajati.jpg)
 
 Ne čudi me da je autorica dolje navedenog romana dobila nagradu Man booker International 2016. Ova južnokoreanka piše maestralno. Pitko, životno, zadirući u vrlo teške teme-tko smo, da li dovoljno poznajemo sebe, da li poznajemo ljude s kojima smo odrasli, s kojima danas živimo\.\.\.
 

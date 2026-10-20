@@ -1,7 +1,7 @@
 ---
 title: "Književni (ženski) Tarantino"
 date: 2025-12-18 07:35:10 +0100
-image: /images/blog/knjizevni-zenski-tarantino.jpg
+image: /images/blog/knjizevni-zenski-tarantino-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

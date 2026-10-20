@@ -1,7 +1,7 @@
 ---
 title: "Kako se udaljiti, a ostati"
 date: 2024-11-15 06:50:52 +0100
-image: /images/blog/kako-se-udaljiti-a-ostati.jpg
+image: /images/blog/kako-se-udaljiti-a-ostati-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

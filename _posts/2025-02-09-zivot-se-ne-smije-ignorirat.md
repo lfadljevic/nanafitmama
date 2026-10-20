@@ -1,7 +1,7 @@
 ---
 title: "Život se ne smije ignorirat"
 date: 2025-02-09 08:18:09 +0100
-image: /images/blog/zivot-se-ne-smije-ignorirat.jpg
+image: /images/blog/zivot-se-ne-smije-ignorirat-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

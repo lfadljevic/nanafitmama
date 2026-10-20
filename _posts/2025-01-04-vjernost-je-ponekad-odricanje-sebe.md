@@ -1,7 +1,7 @@
 ---
 title: "Vjernost je ponekad odricanje sebe"
 date: 2025-01-04 07:29:50 +0100
-image: /images/blog/vjernost-je-ponekad-odricanje-sebe.jpg
+image: /images/blog/vjernost-je-ponekad-odricanje-sebe-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

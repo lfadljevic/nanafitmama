@@ -1,7 +1,7 @@
 ---
 title: "Obiteljske traume"
 date: 2025-09-27 08:35:35 +0200
-image: /images/blog/obiteljske-traume.jpg
+image: /images/blog/obiteljske-traume-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

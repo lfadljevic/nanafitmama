@@ -8,7 +8,7 @@ published: true
 ---
 Nisam neki ludi fan P. Coelha (iako mu skidam kapu za Alkemičara koji je do dan danas najprevedenija i najprodavanija knjiga živućeg autora, koja je i zbog istog ušla i u Guinessovu knjigu rekorda), ali njegova biografija koja je nastala u suradnji s novinarom Juan Ariasom, jedna je od zanimljivijih knjiga koje sam (davno doduše) pročitala. Coelho je fascinantan čovjek koji je u životu probao sve što se moglo probati, kojeg su roditelji čak smjestili u umobolnicu, koji je koketirao i s drogom i sa crnom magijom i sotonizmom (na pitanje o crnoj magiji od straha nije niti mogao, želio puno pričati, tek natruhe ozbiljnosti cijele priče koja mu je gotovo uništila život), kojeg su zatvarali, proganjali, mučili.
 
-![](/images/blog/o-znakovima-po-putu-1.jpg)
+![](/images/blog/o-znakovima-po-putu.jpg)
 
 Takvi ljudi moraju pričati i pisati o životu i davati putokaze i pojašnjenja, takvi ljudi znaju razliku dobra i zla. U jednom dijelu knjige Coelho stavlja naglasak na znakove koji nas prate kroz život. Ukoliko si dovoljno hrabar i prisutan da ih prepoznaš, služe ti kao putokazi, kao smjernice i potvrde. Životna istina.
 

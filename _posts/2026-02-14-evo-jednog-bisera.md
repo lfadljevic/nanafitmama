@@ -1,7 +1,7 @@
 ---
 title: "Evo jednog bisera"
 date: 2026-02-14 08:56:22 +0100
-image: /images/blog/evo-jednog-bisera.jpg
+image: /images/blog/evo-jednog-bisera-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

@@ -16,6 +16,6 @@ Zamislila sam se nad tim močnim riječima. Mislim da bi nam to svima trebao bit
 
 Koliko samo izgovora imamo. A što je od nas samih važnije i zašto da te bolest podsjeti koliko si sebe zanemario?! I ok, imaš djecu, muža, pesa, roditelje…svi oni traže svoje. Ali znaš onu-prvo sebi stavi masku s kisikom. Jer inače ćemo se svi podaviti.
 
-![](/images/blog/budimo-se-snazni-1.jpg)
+![](/images/blog/budimo-se-snazni.jpg)
 
 Život proleti, u tren oka ćeš ispunjavati obrazac za starački. Nisam life coach samo želim ovdje viknuti, kao s vrha planine, svima mojima do kojih mi je stalo i onima koji trebaju čuti, a ima ih-vodite brigu o sebi! Ne od sutra, od jučer.

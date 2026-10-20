@@ -13,7 +13,7 @@ Kupio burki i lokot. Onaj ozbiljan. Da mu bajk ne ukradu. I tako jednog dana, na
 
 Obiteljski ručkovi nedjeljom pretvorili su se u nostalgične razgovore o the bajku, burki očajan, preko noći se, ne svojom voljom, pretvorio u pješaka.
 
-![](/images/blog/burki-i-bajk-1.jpg)
+![](/images/blog/burki-i-bajk.jpg)
 
 I prođu tako 2 mjeseca, burki zbog nedostatka love, razmišlja o kupnji nekog polovnog, na Njuškalu kad ono\.\.\. Njegov bajk, guvernalom i pojačanom gumom, na fotki, na netu u oglasu. Šok i nevjerica. Provjeri jedan put, poveća fotku, popije burki čašu hladne vode da dođe k sebi i nazove, ne broj iz oglasa, nego muriju.
 

@@ -1,7 +1,7 @@
 ---
 title: "Krimi poslastica"
 date: 2025-02-15 07:08:21 +0100
-image: /images/blog/krimi-poslastica.jpg
+image: /images/blog/krimi-poslastica-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

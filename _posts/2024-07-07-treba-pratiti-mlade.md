@@ -12,7 +12,7 @@ Sinoć smo iz tog razloga s klincima bili na Grši. Već smo Gršu zalajkali u S
 
 Svako malo, kad bi se neki polupijani klinac sudario s nama dobili smo jedno pristojno ‘oprostite’ što je baš lijepo u današnje vrijeme, ako izuzmemo činjenicu da bi tako nešto rekli samo starcima, ali ne i da se sudare s puno mlađima od nas.
 
-![](/images/blog/treba-pratiti-mlade-1.jpg)
+![](/images/blog/treba-pratiti-mlade.jpg)
 
 Kad je na binu izašao Grše iz Trilja legenda, delirij. Liriksi su se bacali na sve strane. Onda neka Miach, klinke pomahnitale, mi naravno pojma nemamo o kome se radi pa ljubazno pitamo klinca sa Žujom do nas. A kad je ušetao Peki (sad se pravim važna, sinoć blage nisam imala) atmosfera je eksplodirala.
 

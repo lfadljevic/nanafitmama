@@ -10,7 +10,7 @@ Kakvih sve žena ima, to je čudo. Inspiracija i motivacija. Za život. Naprimje
 
 Moja X, tako ćemo ju zvati, koja uz troje djece, profesorski posao, nedavni karcinom uz sve prateće operacije i kemo, taman nakon što smo se zalaufale s vježbanjem, popravile (skoro) sve što se popraviti da, tijelo bez (gotovo) bolova, ona sretno i ponosno javlja da je odradila Premužićevu. Ponos. I njezin i moj.
 
-![](/images/blog/brini-o-tijelu-koje-te-trpi-1.jpg)
+![](/images/blog/brini-o-tijelu-koje-te-trpi.jpg)
 
 Nedugo nakon toga, sva očajna zove i kaže da je pala i strgala ruku. Longeta pa gips na programu. Boji se da ju opet ne slome bolovi od ne vježbanja, da ju bolnost tijela ne ograniči u svakodnevnim radnjama. Pita me-a jel mi možemo odraditi neki trening prilagođen mojem novom stanju, da ga snimimo pa da ga ponavljam dok mi ne skinu gips i dok se ne vratim redovnom vježbanju?!
 

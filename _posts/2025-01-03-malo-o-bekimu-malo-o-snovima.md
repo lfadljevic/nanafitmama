@@ -8,7 +8,7 @@ published: true
 ---
 Sinoć zgotovih Bekimov Život jednog nomada. Bolno iskrena autobiografija upakirana u zbrčkane dnevničke zapise.
 
-![](/images/blog/malo-o-bekimu-malo-o-snovima-1.jpg)
+![](/images/blog/malo-o-bekimu-malo-o-snovima.jpg)
 
 Ima tako tih nekih ljudi koji nikada ne pronađu željeni mir, pa lutaju svijetom, lutaju životom, a taj nemir često (ne uvijek) pretaču u neku vrstu umjetnosti. Na sreću je umjetnost u pitanju kod Bekima, na moju sreću književnost jer Bekim kaže da je probao sa sportom, nije išlo, pa je probao biti rock zvijezda, muzičar, nije polučilo uspjeha, pa je odlučio biti novinar, ni tu baš nije našao svoje mjesto pod suncem iako je s riječima znao (ali biti pisac i biti novinar ipak su dvije potpuno različite, iako naizgled bliske stvari).
 

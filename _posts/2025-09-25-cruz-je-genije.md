@@ -26,7 +26,7 @@ Malo je reć da sam fan portugalskog književnika Afonso Cruza. Ja se njemu isti
 
 Afonsovo pisanje je toliko poetično i bistro (‘čuda se događaju onim subotama kada to najmanje očekujemo’), a ne rijetko se dogodi da nakon pročitanog ne možeš srljati dalje nego trebaš zastati, promisliti, razmisliti. Obožavam takve pisce. Zbog takvih sam zaljubljena u književnost.
 
-![](/images/blog/cruz-je-genije-1.jpg)
+![](/images/blog/cruz-je-genije.jpg)
 
 ‘Ni svi kitovi ne lete’ naslov je romana koji se pozabavio umjetnicima, glazbenicima prije svega, blues i jazz muzičarima prije svega (preporuka ljubiteljima navedenih žanrova), ali Cruiz piše i o ljubavi, o čežnji, o izgubljenosti i nađenosti, pa čak i o hladnom ratu šezdesetih.
 

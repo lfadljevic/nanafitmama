@@ -10,7 +10,7 @@ redirect_from:
 ---
 Na koricama piše- ‘Najljepši roman na svijetu’, Corriere della Sera (u Italiji je ujedno bio i najprodavaniji).
 
-![](/images/blog/ljubav-je-kad-sretnes-nekoga-tko-ti-otkrije-nesto-o-tebi-1.jpg)
+![](/images/blog/ljubav-je-kad-sretnes-nekoga-tko-ti-otkrije-nesto-o-tebi.jpg)
 
 Možda, ali samo možda, Svježa voda za cvijeće nije najljepši, ukoliko si kao i moja malenkost strastveni zaljubljenik u književnost (pa se stoga ne usudiš odlučiti), ali definitivno je jedan od najljepših koje treba pročitati. Toliko poetičan, istovremeno i tužan i prekrasan, da ga je teško riječima dočarati.
 

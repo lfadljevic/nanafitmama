@@ -16,7 +16,7 @@ Ili ona najgora-sve je to s razlogom. Koja glupost. Ma s razlogom ti duša viče
 
 A kada bi samo znali koliko drugačije može biti.
 
-![](/images/blog/treba-znati-sto-ljubav-nije-1.jpg)
+![](/images/blog/treba-znati-sto-ljubav-nije.jpg)
 
 Samo treba čvrsto vjerovati da to što danas zovemo ljubavlju, ljubav nije. To je samo aranžman. Okićen, uljepšan da se svijetu svidi.
 

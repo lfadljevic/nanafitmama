@@ -1,7 +1,7 @@
 ---
 title: "Savršeno ne savršena obitelj"
 date: 2025-10-05 08:40:43 +0200
-image: /images/blog/savrseno-ne-savrsena-obitelj.webp
+image: /images/blog/savrseno-ne-savrsena-obitelj-1.webp
 hide_image: true
 kategorija: "lifestyle"
 published: true

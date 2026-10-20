@@ -12,7 +12,7 @@ Vjerujem da svi imamo u životu jednu rečenicu (možda i više) što nam je nek
 
 To je moglo doći od roditelja, u dobroj namjeri, od prijatelja s kojim si ušao u dublju raspravu ili čak svađu, isto tako i od brata ili sestre, a mogla je doći i od bivšeg partnera, usred teških bitki.
 
-![](/images/blog/imas-li-svoju-motivacijsku-recenicu-1.jpg)
+![](/images/blog/imas-li-svoju-motivacijsku-recenicu.jpg)
 
 tada si talasao u nekom ustaljenom ritmu, a nakon što si čuo bolne riječi, nešto se u tebi pokrenulo. E tako se ja sjećam svoje. Neću vam reći tko mi ju je uputio, ali ću vam reći da je pekla ko sam vrag i da nije izrečena u najboljoj namjeri.
 

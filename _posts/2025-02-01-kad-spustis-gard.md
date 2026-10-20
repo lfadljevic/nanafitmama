@@ -1,7 +1,7 @@
 ---
 title: "Kad spustiš gard"
 date: 2025-02-01 08:16:50 +0100
-image: /images/blog/kad-spustis-gard.jpg
+image: /images/blog/kad-spustis-gard-1.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true

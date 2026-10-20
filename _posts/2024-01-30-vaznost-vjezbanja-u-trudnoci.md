@@ -1,7 +1,7 @@
 ---
 title: "Važnost vježbanja u trudnoći !"
 date: 2024-01-30 21:15:07 +0100
-image: /images/blog/vaznost-vjezbanja-u-trudnoci.jpg
+image: /images/blog/vaznost-vjezbanja-u-trudnoci-1.png
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true

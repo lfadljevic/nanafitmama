@@ -1,7 +1,7 @@
 ---
 title: "Da li smo robovi?"
 date: 2024-11-30 07:06:04 +0100
-image: /images/blog/da-li-smo-robovi.jpg
+image: /images/blog/da-li-smo-robovi-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

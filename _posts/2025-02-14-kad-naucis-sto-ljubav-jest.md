@@ -1,7 +1,7 @@
 ---
 title: "Kad naučiš što ljubav jest"
 date: 2025-02-14 07:02:46 +0100
-image: /images/blog/kad-naucis-sto-ljubav-jest.jpg
+image: /images/blog/kad-naucis-sto-ljubav-jest-1.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true

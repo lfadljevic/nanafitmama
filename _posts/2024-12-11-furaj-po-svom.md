@@ -8,7 +8,7 @@ published: true
 ---
 Ne tako davno jedan moj story izazvao je tonu poruka i komentara. Baš sam se bila začudila. Na tom storyu, gdje je prijateljica snimila samo mene kako plešem, imam kaput do poda, šešir na glavi, dakle gola nisam, ali biće da su moji pokreti wannabe reperice nekoga isprovocirali da prosudi kako 'nemam više osamnaest' i kako sam biće u ovim godinama predodređena samo za dvokorak (koji nota bene ne volim plesati jer uvijek sam ta koja pokušava voditi).
 
-![](/images/blog/furaj-po-svom-1.jpg)
+![](/images/blog/furaj-po-svom.jpg)
 
 Ljudi moji, zašto se zamarati tko nas prosuđuje i osuđuje?! Zar je to bitno? Bitno da si u svojoj koži , onoj koju ne bi mijenjala za tuđu. Da te komentari ne dodiruju, da nema tog (osim možda tvoje matere, a i matere su nekad upitne s prosudbom) tko ti može reći-nisi onako trebala. Ako ti se pleše, pleši. Ako nemaš ritma, koga briga?! Ako to izgleda groteskno, who cares?! Jel se ti osjećaš dobro, ispunjeno, kao da ti srce poskakuje u ritmu? Onda-go fot it! Nek’ se raja smije, nek’ se zgraža, nek’ komentira. I neka ostane u svojim učmalim okvirima, pazeći da svaki korak bude odmjeren i primjeren. Ti furaj po svome. Da li se želiš svidjeti svjetini ili se želiš prvenstveno svidjeti sebi?! Pitam ja tebe.
 

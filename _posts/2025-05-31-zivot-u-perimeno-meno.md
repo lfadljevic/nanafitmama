@@ -20,7 +20,7 @@ Doktor ti klima glavom s već uobičajenom rečenicom-sve to ide u rok službe. 
 
 Da ti ne bi bilo dosadno, jedno 2-3mj. si živjela u uvjerenju da imaš rak mozga. Kako i ne bi kad su vrtoglavice bile takve da si se kao teški penzioner hvatala za sve živo i molila boga da za vrijeme treninga koji vodiš, vježbačice ne primjete tvoju 'slabost'.
 
-![](/images/blog/zivot-u-perimeno-meno-1.jpg)
+![](/images/blog/zivot-u-perimeno-meno.jpg)
 
 Sve to pratila su obilna krvarenja (muški ukoliko ovo uopće čitate, vrijeme ja da preskočite par redaka). Naravno, uz prateče grčeve, bolove i sve što ide u službu perimeno pms sindroma koji je gori nego onomad 91., kada si se zbog istog rušila u nesvjest. Završiš na operaciji polipa jer, obilna krvarenja u perimeno eto dovedu i do takvih tvorbi.
 

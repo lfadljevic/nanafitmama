@@ -10,7 +10,7 @@ redirect_from:
 ---
 Poražavajuća je činjenica da smo kao nacija među najdebljima u EU, da je porast pretilosti kod naše djece svake godine sve veći (a pretila djeca=pretili ljudi dns, sutra), kao i porast pekara na svakom kutu, da samo 6% Hrvata kontinuirano vježba (od toga, ispod 4% mojih trudnica, za razliku od 60% aktivnih trudnica drugdje u svijetu), da mnogi pod ozbiljnu aktivnost smatraju hodanje do posla i natrag (je, aktivnost je, ali nije zamjena za tjelovježbu), da smo u silnom skoku s problemima lokomotornog sutava, pogotovo kod mladih, da su nam poliklinike za rehabilitaciju prepune, a termini se traže ko suho zlato i da ne nabrajam dalje.
 
-![](/images/blog/novogodisnja-odluka-briga-za-sebe-1.jpg)
+![](/images/blog/novogodisnja-odluka-briga-za-sebe.jpg)
 
 'Mens sana in corpore sano', to već i ptice na grani znaju iako ne znaju latinski, ali primjeniti u praksi očito je puno teže. Ono što nam je suvremeni način života donio većinom je negativno po ljudsko zdravlje (ako izuzmemom napredak u medicini), ali ima i jedna dobra stvar; izgovor 'nema se vremena za odlazak u dvoranu' pada u vodu jer dns možeš sa svojim trenerom vježbati bez da gubiš živce u prometu i traženjem parkinga, iz topline vlastitog doma, kad odeš na poslovni put, kada te život odnese u krajeve gdje nema gyma (tako je jedna moja draga vježbačica vježbala sa mnom nedavno čak i u Brazilu:)).
 

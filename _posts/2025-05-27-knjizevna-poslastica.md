@@ -1,7 +1,7 @@
 ---
 title: "Književna poslastica"
 date: 2025-05-27 12:28:28 +0200
-image: /images/blog/knjizevna-poslastica.jpg
+image: /images/blog/knjizevna-poslastica-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

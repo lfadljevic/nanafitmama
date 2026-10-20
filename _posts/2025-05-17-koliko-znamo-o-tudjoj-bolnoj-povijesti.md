@@ -18,6 +18,6 @@ Naravno, sve navedeno je bilo moguće dok se nisu krenuli narušavati prirodni z
 
 Gradnja rezervata i prisila na život koji im nije blizak, život na jednom mjestu, u kućama, a ne pod vedrim nebom i u šatorima, nezaposlenost, neshvacenost, donjela je narodu Innu, ali i ostalim autohtonim narodima (bilo ih je još desetak na tom širem području) mnoge probleme, od psihičkih smetnji do konzumacije alkohola i droga u velikim količinama. Sve je to dokaz koliko se, narušavajući prirodni sklad čovjeka i prirode, narušava i ljudsko biće u samoj srži.
 
-![](/images/blog/koliko-znamo-o-tudjoj-bolnoj-povijesti-1.jpg)
+![](/images/blog/koliko-znamo-o-tudjoj-bolnoj-povijesti.jpg)
 
 Divan roman, topao, poučan, vjerujem da će se svidjeti mnogima koji vole prirodu te imaju, kao i ja, veliku želju jednoga dana pobjeći na neku morsku ili brdovitu osamu gdje će život biti jednostavniji, ali i kvalitetniji.

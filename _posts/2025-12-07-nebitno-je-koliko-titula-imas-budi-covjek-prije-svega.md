@@ -12,7 +12,7 @@ Svojedobno, dok je moja mater radila na jednom Institutu, okružena samim dr.sc.
 
 I stvarno, sjedi ona tamo za malim, neuglednim stolom,a teta Božica koja brine o čistoći Instituta, skuhanim kavama i ponekom čaju, sjedi tik do nje i pokazuje fotke svoje mnogobrojne unučadi mojoj mami. Mater ko mater, sa zanimanjem sve sluša i komentira kao da joj je rođena jedva dižući pogled da me pozdravi.
 
-![](/images/blog/nebitno-je-koliko-titula-imas-budi-covjek-prije-svega-1.jpg)
+![](/images/blog/nebitno-je-koliko-titula-imas-budi-covjek-prije-svega.jpg)
 
 Kroz život imam takvih priča i situacija kol'ko ti srce želi. Kada sam bila mlada i nezrela, nije mi to baš bilo najjasnije. Danas, to je tema koja me često razljuti jer je etiketiranja, intelektualnog snobizma i nedostatka finoće prema ljudima, rekla bih, na pretek. Odgajana sam da su svi ljudi isti, da zaslužuju jednaki tretman. Nema razlike da li imaš 3 doktorata ili si sakupljač flaša u kvartu.
 

@@ -12,7 +12,7 @@ Nešto me tako vuklo i prema ovoj knjizi, o kojoj ništa nisam znala, a koju sam
 
 Mars Room je striptiz bar u San Francuscu u kojem glavna junakinja, mlada, samohrana majka, zarađuje za život. Njezin život splet je nesretnih okolnosti, loših izbora i okruženja u kojem živi što sve naposlijetku dovede do ubojstva muškarca koji ju mjesecima proganja. Nakon što završi pred sudom, porotom i braniteljem kojeg nije briga niti da saslušaju što ima za reći niti da ju obrane, dobiva presudu ‘dvije doživotne’ i biva smještena u ženski zatvor, na odjel sa ženama najgoreg soja, na odjel gdje su životne priče svake od njih, strašan materijal za još strašniji filmski scenarij.
 
-![](/images/blog/ovaj-svijet-nije-jednak-za-sve-1.jpg)
+![](/images/blog/ovaj-svijet-nije-jednak-za-sve.jpg)
 
 Roman fantastično prikazuje nemilosrdan američki pravni sustav gdje nisu svi jednaki, život manjina, seksualnih i onih drugih, na slobodi i u zatvoru, siromaštvo i bijedu. Priča je to o većini žitelja ruralne Amerike, ali i (nama) primamljive Kalifornije gdje se nalazi još primamljiviji San Francisco koji je hipsterski i šminkerski san većine, ali autentičnim insajderima, ljudima s margine, omraženi grad koji te proguta i ispljune.
 

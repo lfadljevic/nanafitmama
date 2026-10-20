@@ -1,7 +1,7 @@
 ---
 title: "Roman o hororu nacizma"
 date: 2024-09-26 08:00:47 +0200
-image: /images/blog/roman-o-mracnoj-proslosti-nacizma.jpg
+image: /images/blog/roman-o-mracnoj-proslosti-nacizma-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

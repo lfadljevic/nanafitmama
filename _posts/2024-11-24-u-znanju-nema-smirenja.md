@@ -22,6 +22,6 @@ Fenomenalni opis borbe dobra&zla u nama, pokušaja da budemo ono što mislimo da
 
 Ovo dolje je jedna misao mladog Kifa, u trenutku kada se svijet oko njega raspada i kada postaje svjestan da ljubav prema njegovoj ženi, za koju je osjećao golemu zahvalnost, nije siguran da će opstati, da je ikada bio sposoban uzvratiti. Savršeno opisano.
 
-![](/images/blog/u-znanju-nema-smirenja-1.jpg)
+![](/images/blog/u-znanju-nema-smirenja.jpg)
 
 Ima ljudi koji s lakoćom kroče kroz život, vole na tom putu, dive se svemu i raduju svakome. A ima i onih drugih.
