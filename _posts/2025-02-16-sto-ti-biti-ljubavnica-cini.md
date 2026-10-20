@@ -1,7 +1,7 @@
 ---
 title: "Što ti biti ljubavnica čini"
 date: 2025-02-16 09:04:32 +0100
-image: /images/blog/sto-ti-biti-ljubavnica-cini.webp
+image: /images/blog/sto-ti-biti-ljubavnica-cini-1.webp
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

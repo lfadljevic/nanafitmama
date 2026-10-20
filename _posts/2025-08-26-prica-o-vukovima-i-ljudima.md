@@ -1,7 +1,7 @@
 ---
 title: "Priča o vukovima i ljudima"
 date: 2025-08-26 07:29:11 +0200
-image: /images/blog/prica-o-vukovima-i-ljudima.jpg
+image: /images/blog/prica-o-vukovima-i-ljudima-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

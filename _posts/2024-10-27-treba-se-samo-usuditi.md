@@ -28,7 +28,7 @@ Treba se samo usuditi.
 
 Kiša i dalje svira.
 
-![](/images/blog/treba-se-samo-usuditi-1.jpg)
+![](/images/blog/treba-se-samo-usuditi.jpg)
 
 Ovo dolje je lokva u Žrnovu, ispred zvonika, u selu moje babe gdje smo kao djeca bezbrižno činili dišpet. Žrnovo je na otoku Korčuli.
 

@@ -41,4 +41,4 @@ Stoga žene drage, trudnice drage, gledajte to ovako-dok rađate, vi trčite mar
 
 A evo kako moja divna trudnica, umjesto da leži u predrađaoni, priprema svoje tijelo koje će za par sat nakon ove fotografije gdje radi čučnjeve u rodilištu, donijeti na svijet prekrasnu, zdravu djevojčicu.
 
-![](/images/blog/pametna-tjelovjezba-u-trudnoci-je-od-velike-vaznosti-1.jpg)
+![](/images/blog/pametna-tjelovjezba-u-trudnoci-je-od-velike-vaznosti.jpg)

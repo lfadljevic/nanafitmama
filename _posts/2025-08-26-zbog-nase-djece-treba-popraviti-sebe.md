@@ -1,7 +1,7 @@
 ---
 title: "Zbog naše djece, treba popraviti sebe"
 date: 2025-08-26 07:35:59 +0200
-image: /images/blog/zbog-nase-djece-treba-popraviti-sebe.jpg
+image: /images/blog/zbog-nase-djece-treba-popraviti-sebe-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

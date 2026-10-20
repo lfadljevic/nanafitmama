@@ -14,6 +14,6 @@ Bila sam davno,davno tamo i jedva se povratila. Kao dijete sam se pitala zašto 
 
 Ima ona jedna-biti drugačiji u svijetu kopija je veliki uspjeh, odraz buntovništva. Ne sa ciljem da prkosiš svijetu već da prkosiš životu. Da si uz pomoć svoje hrabrosti zaštitila ono dijete u sebi, da si uz pomoć autentičnosti okupila prave ljude u svoj krug i da si gledajući se u ogledalo zadovoljna onim što vidiš.
 
-![](/images/blog/biti-vjeran-sebi-kako-bi-bio-vjeran-drugima-1.jpg)
+![](/images/blog/biti-vjeran-sebi-kako-bi-bio-vjeran-drugima.jpg)
 
 Jer jednoga dana pojavit će se i onaj koji će te prepoznati. U gomili će vidjeti samo tebe. Pa kada se zavoli tvoja drugačijost, takva ljubav uspavat će sve demone i dokazati da je tako vrijedilo.

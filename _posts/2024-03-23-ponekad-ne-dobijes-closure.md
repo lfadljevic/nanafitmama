@@ -1,7 +1,7 @@
 ---
 title: "Ponekad ne dobiješ closure"
 date: 2024-03-23 06:52:35 +0100
-image: /images/blog/ponekad-ne-dobijes-closure.jpg
+image: /images/blog/ponekad-ne-dobijes-closure-1.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true

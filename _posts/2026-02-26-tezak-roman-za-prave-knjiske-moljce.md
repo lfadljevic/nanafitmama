@@ -12,7 +12,7 @@ redirect_from:
 
 Ovo savršenstvo povezivanja riječi u poetske rečenice majstorstvo je Laure Sintija Černiauskaite, litvanske autorice koja je za Disanje u mramor (ulomak je iz romana) dobila Nagradu Europske unije za književnost kada je imala svega dvadesetipet godina. Njezin roman prvijenac je izuzetno težak i mračan, ali istovremeno toliko veličanstven u svom portretiranju likova i tema kao što su raspad obitelji, samoubojstvo, izdaja onih koji su nam najbliži\.\.\.
 
-![](/images/blog/tezak-roman-za-prave-knjiske-moljce-1.jpg)
+![](/images/blog/tezak-roman-za-prave-knjiske-moljce.jpg)
 
 Već dugo nisam, čitajući nečije djelo, rekla samoj sebi-e kada bi ja ovako pisala.
 

@@ -1,7 +1,7 @@
 ---
 title: "Što bi bilo kada bi postali nevidljivi?"
 date: 2025-08-26 07:44:05 +0200
-image: /images/blog/sto-bi-bilo-kada-bi-postali-nevidljivi.jpg
+image: /images/blog/sto-bi-bilo-kada-bi-postali-nevidljivi-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

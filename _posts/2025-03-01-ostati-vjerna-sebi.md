@@ -1,7 +1,7 @@
 ---
 title: "Ostati vjerna sebi"
 date: 2025-03-01 07:32:29 +0100
-image: /images/blog/ostati-vjerna-sebi.jpg
+image: /images/blog/ostati-vjerna-sebi-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

@@ -14,6 +14,6 @@ A ima i onih drugih, čija je duša toliko natopljena crnilom da o ljubavi i zal
 
 Što sam starija, povlačim se u svoj brlog, daleko od hladnoće, od težine ljudstva sa crnilom na duši. Nije to otpor ili nedo Bog uljepšavanje stvarnosti. Ne. To je prosta potreba za tišinom, potreba da sačuvam sebe i ne zaratim sa mnoštvom.
 
-![](/images/blog/potreba-da-se-sacuvamo-1.jpg)
+![](/images/blog/potreba-da-se-sacuvamo.jpg)
 
 Godine ti poklanjaju to oslobođenje od pravdanja i dokazivanja. Najčešće. Ne uvijek. Trudiš se. Nije to neka luda mudrost, samo želja da konačno skineš onaj teret viška koji si dugim putem nosila, misleći da sve to možeš i trebaš i da ga lijepo odložiš u kut i s vremena na vrijeme samo pobrišeš prašinu.

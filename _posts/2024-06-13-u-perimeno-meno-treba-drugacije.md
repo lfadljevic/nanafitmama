@@ -1,7 +1,7 @@
 ---
 title: "U Perimeno/Meno treba drugačije"
 date: 2024-06-13 07:47:55 +0200
-image: /images/blog/u-perimeno-meno-treba-drugacije.jpg
+image: /images/blog/u-perimeno-meno-treba-drugacije-1.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true

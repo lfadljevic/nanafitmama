@@ -1,7 +1,7 @@
 ---
 title: "O kvartovima"
 date: 2025-09-03 08:01:58 +0200
-image: /images/blog/o-kvartovima.jpg
+image: /images/blog/o-kvartovima-1.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true

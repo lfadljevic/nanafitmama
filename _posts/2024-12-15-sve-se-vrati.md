@@ -1,7 +1,7 @@
 ---
 title: "Sve se vrati"
 date: 2024-12-15 09:02:20 +0100
-image: /images/blog/sve-se-vrati.jpg
+image: /images/blog/sve-se-vrati-1.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true

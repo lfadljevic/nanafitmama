@@ -9,7 +9,7 @@ U poplavi ‘samo misli pozitivno’, ‘što zračiš to privlačiš’ i ostal
 
 Ajmo rađe postati svjesni sebe i tih dubina u nama, prigrliti ih i s njima divaniti, a ne od njih bježati, ajmo se rađe malo odmaknuti od gomile, da u toj gomili, zbog tog čuvenog zakona privlačnosti ne bi na sebe navukli ono što ne zaslužujemo, ajmo rađe sve što možemo pauzirati, otpustiti, biti ugodni i sa tamom kao što smo sa svjetlosti u nama.
 
-![](/images/blog/voli-blues-u-sebi-1.jpg)
+![](/images/blog/voli-blues-u-sebi.jpg)
 
 Silni pritisak pozitive i onaj silni osjećaj krivnje ako to nismo, ako se ne smijemo često, ne gledamo s optimizmom za dobro jutro, viđam to svakodnevno, rađa veliki kontra efekt. Na silu ne ide ništa. Ni konac u iglu, ni sunce na nebo.
 

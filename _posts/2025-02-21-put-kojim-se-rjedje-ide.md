@@ -14,7 +14,7 @@ Ma daj ga bez puno razmišljanja, bez puno zbrajanja i oduzimanja. Sve drugo je 
 
 I nauči vidat rane, nauči da je sve to dio obnove, dio tvoga puta (kojim rijetki idu). To je Scott Peck davno, lijepo napisao. Umjesto bremze, dodaj gas. Pa što bude. Prihvati suze i razočaranja, nitko od toga nije umro, doći će i one druge nagrade koje ne bi dobio da si kalkulirao.
 
-![](/images/blog/put-kojim-se-rjedje-ide-1.jpg)
+![](/images/blog/put-kojim-se-rjedje-ide.jpg)
 
 Nije život rulet, pa da staviš sve na jedan broj. Život je više Black Jack, onaj moment kada govoriš onom gore-još jednu kartu, još jednu kartu…I često izgubiš, ponekad i dobiješ, ali si bar dio igre. Za razliku od ovih koji se nisu usudili niti igrati.
 

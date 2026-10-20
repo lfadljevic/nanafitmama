@@ -1,7 +1,7 @@
 ---
 title: "O mladosti i ludosti"
 date: 2025-04-06 11:07:34 +0200
-image: /images/blog/o-mladosti-i-ludosti.jpg
+image: /images/blog/o-mladosti-i-ludosti-1.jpg
 hide_image: true
 published: true
 ---

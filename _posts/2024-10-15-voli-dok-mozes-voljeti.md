@@ -16,7 +16,7 @@ Upravo sam zgotovila jednu prekrasnu knjigu, jedan prekrasan roman koji je tolik
 
 Iako ne volim pisati kratak sadržaj jer onda imam filing kao da pišem lektiru, ovdje ću mojim knjigoljupcima samo dati kratki uvid. Da ih zainteresiram, dodatno.
 
-![](/images/blog/voli-dok-mozes-voljeti-1.jpg)
+![](/images/blog/voli-dok-mozes-voljeti.jpg)
 
 Roman počinje tako da se na Seulskom peronu podzemne željeznice So-nyo, 69togodišnja žena, odvoji od svog muža i nestane. I tu kreće potraga cijele obitelji za suprugom, majkom, bakom. I tu kreće kratka ispovjed svakog od njih, protkana kajanjem, preispitivanjem i silnom ljubavlju koju ili nisu dali dovoljno ili nisu dali uopće, a pritom su, svi redom, nestalu So-nyo uzimali zdravo za gotovo.
 

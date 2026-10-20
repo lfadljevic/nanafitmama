@@ -1,7 +1,7 @@
 ---
 title: "Sretne li smo mi koje se imamo"
 date: 2025-04-16 07:25:30 +0200
-image: /images/blog/sretne-li-smo-mi-koje-se-imamo.jpg
+image: /images/blog/sretne-li-smo-mi-koje-se-imamo-1.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true

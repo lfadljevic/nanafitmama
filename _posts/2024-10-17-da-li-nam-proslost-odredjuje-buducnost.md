@@ -16,7 +16,7 @@ Arthur je usamljen, on je ne pomiren sa smrću supruge, u narušenim odnosima s 
 
 Koliko poznajemo svoje partnere, što s njima dijelimo, a što prešućujemo, da li je moguće s nekim proživjeti gotovo cijeli život, a o njemu, njoj ne znati ništa iz prošlosti. I glavno pitanje, da li je ta prošlost uopće važna za našu budućnost, za naš odnos sada?! Kako živjeti dalje nakon teškog gubitka voljenog partnera?
 
-![](/images/blog/da-li-nam-proslost-odredjuje-buducnost-1.jpg)
+![](/images/blog/da-li-nam-proslost-odredjuje-buducnost.jpg)
 
 Na sve navedeno Arthur će dobiti odgovore u ovom toplom romanu britanske književnice Phaedra Patrick, a odgovori koji će se pojaviti putem pomoći će mu da se pomiri s gubitkom i nastavi živjeti otvorenog srca.
 

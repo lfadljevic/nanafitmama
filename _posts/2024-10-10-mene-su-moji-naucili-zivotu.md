@@ -12,7 +12,7 @@ Mene su moji naučili životu.
 
 Da se divim modroj zori, da nazdravljam dobrom danu.
 
-![](/images/blog/mene-su-moji-naucili-zivotu-1.jpg)
+![](/images/blog/mene-su-moji-naucili-zivotu.jpg)
 
 Mene su moji naučili da ne posustajem i ne odustajem kada nešto žarko želim, ali da se dobro zapitam da li je to što želim i ono što mi doista treba.
 

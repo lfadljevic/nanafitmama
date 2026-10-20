@@ -14,7 +14,7 @@ Roman me izuo iz cipela. Predivna, topla i pretužna priča o adolescentskim pre
 
 Nije lako mladom čovjeku, nikad bilo, a danas u ovom izopačenom, sve se zna, instagram svijetu, sigurno je teže nego ikada. Sama sam prošla u svom roditeljstvu svašta, materijala bi bilo (i možda će biti) za jedan sličan roman, ali trenutno sam oduševljena što ima pisaca kao što je Jennifer Niven koja ja prekrasno uspjela približiti neke teške teme o kojima treba pisati i govoriti.
 
-![](/images/blog/o-teskim-temama-treba-govoriti-1.jpg)
+![](/images/blog/o-teskim-temama-treba-govoriti.jpg)
 
 Samoubojstvo i psihičke bolesti u adolescenciji jedna su izuzetno česta pojava, ali još uvijek stigmatizirana. Osobno znam nekoliko takvih priča. Jennifer Niven ih je također upoznala, godine provela u okruženju koje joj zasigurno nije pružalo zadovoljstvo i ugodu, da bi napisala ovaj biser koji trebaju pročitati i roditelji i srednjoškolska djeca.
 

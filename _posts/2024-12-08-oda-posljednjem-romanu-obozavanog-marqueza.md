@@ -1,7 +1,7 @@
 ---
 title: "Oda posljednjem romanu obožavanog Marqueza"
 date: 2024-12-08 07:57:52 +0100
-image: /images/blog/oda-posljednjem-romanu-obozavanog-marqueza.jpg
+image: /images/blog/oda-posljednjem-romanu-obozavanog-marqueza-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

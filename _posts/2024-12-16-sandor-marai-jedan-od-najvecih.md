@@ -12,7 +12,7 @@ Jeste li čitali Sandor Maraia? Ako niste, već danas potražite neku njegovu kn
 
 Pisac je to toliko snažnih tekstova, toliko zvonkih rečenica da čitajući ga pronalaziš odgovore na mnoga pitanja ili zastaneš da razmisliš malo bolje, o svemu onome što si mislila da više ne moraš razmišljati jer si eto, zauzela neki stav.
 
-![](/images/blog/sandor-marai-jedan-od-najvecih-1.jpg)
+![](/images/blog/sandor-marai-jedan-od-najvecih.jpg)
 
 Kao i svi veliki književnici, i Sandor je imao buran i zanimljiv život. Rođen je na samom početku dvadesetog stoljeća u mađarskom dijelu tadašnje Austro-Ugarske. Kasnije u mladosti, radeći kao novinar u Budimpešti, brusi svoj talent za pisanjem. Obzirom da je oštro kritizirao nacizam i političku situaciju u zemlji, komunističke vlasti su ga prognale iz Mađarske. Neko vrijeme je živio u Švicarskoj pa u Italiji, a na kraju se preselio u Ameriku gdje je, zaboravljen i zanemaren kao književnik, živio do svoje smrti. Ubio se hitcem iz pištolja nakon smrti supruge i sina kojeg su kao ratno siroće bili posvojili. Njegova poezija, romani i dnevnici otkriveni su tek posmrtno te postali konačno cijenjeni i od publike i od kritike diljem svijeta.
 

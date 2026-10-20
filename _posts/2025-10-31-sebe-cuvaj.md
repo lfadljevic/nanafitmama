@@ -1,7 +1,7 @@
 ---
 title: "Sebe čuvaj"
 date: 2025-10-31 07:57:14 +0100
-image: /images/blog/sebe-cuvaj.jpg
+image: /images/blog/sebe-cuvaj-1.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true

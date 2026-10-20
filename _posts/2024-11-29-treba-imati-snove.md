@@ -1,7 +1,7 @@
 ---
 title: "Treba imati snove"
 date: 2024-11-29 07:21:44 +0100
-image: /images/blog/treba-imati-snove.jpg
+image: /images/blog/treba-imati-snove-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

@@ -12,7 +12,7 @@ Uvijek sam bila ljubitelj kratkih priča. I zato sam se na prvu zaljubila u nobe
 
 Do ovih dana.
 
-![](/images/blog/price-o-neobicno-obicnim-zenama-1.jpg)
+![](/images/blog/price-o-neobicno-obicnim-zenama.jpg)
 
 Predstavljam vam mladu maltežanku Clare Azzopardi i njenih 8 priča o neobično običnim ženama. Neću puno reći osim da ćete osjetiti duh mediterana, koji nam je blizak, te onu vječnu borbu žena sa samom sobom i tradicionalnom okolinom koja nas okružuje. Fenomenalna kritika društva, nametanja uvjerenja i ideala.
 

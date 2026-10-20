@@ -1,7 +1,7 @@
 ---
 title: "Ne dozvoljena ljubav i rat"
 date: 2024-11-24 07:25:43 +0100
-image: /images/blog/ne-dozvoljena-ljubav-i-rat.jpg
+image: /images/blog/ne-dozvoljena-ljubav-i-rat-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

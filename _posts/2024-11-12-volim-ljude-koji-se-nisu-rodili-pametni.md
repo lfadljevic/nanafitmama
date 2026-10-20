@@ -10,7 +10,7 @@ Volim ljude koji su svašta prošli. Koji se nisu rodili pametni. Koji su puno g
 
 Volim one luđake i luđakinje kojima su svi govorili da ne guraju ruke u vatru, a oni bi oglušili pa gurnuli, pa stisnuli zube, ali ne bi priznali da peče. Takva čeljad bi uvijek raširila svoje srce bez da je slušala mozak, takva čeljad je padala i padala, ali bi se svaki put stoički dizala i učila ispočetka.
 
-![](/images/blog/volim-ljude-koji-se-nisu-rodili-pametni-1.jpg)
+![](/images/blog/volim-ljude-koji-se-nisu-rodili-pametni.jpg)
 
 Mili su mi ti ljudi koji srčano trče kroz život pa kad zajebu, prije svega sebe, ali tu i tamo i druge iskreno, glasno i jasno izuste-oprosti.
 

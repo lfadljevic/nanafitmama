@@ -24,7 +24,7 @@ Zahvalna sam što imam privilegiju utjecati na zdravlje velikog broja žena jer 
 
 Zahvalna sam na svakom povjerenju koje mi je ukazano, iskreno, ponizno.
 
-![](/images/blog/izbori-se-za-sebe-1.jpg)
+![](/images/blog/izbori-se-za-sebe.jpg)
 
 Nakon skoro godinu dana bez odmora, odlazim na godišnji. Svojim trudnicama sam pripremila paket treninga koje će odrađivati dok me nema (javite mi se na mail za dodatne info; [nana.milatic@gmail.com](mailto:nana.milatic@gmail.com)) , ostalim ženama, postnatalnim mamama svakom svoje.
 

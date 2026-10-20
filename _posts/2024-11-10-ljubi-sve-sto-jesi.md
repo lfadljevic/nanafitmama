@@ -10,7 +10,7 @@ redirect_from:
 ---
 Fantastično je kada ti se dogodi da te netko zavoli baš takvu kakva jesi, sa svim burama i neverama. I da te ne bi mijenjao ni prepravljao. A dogodit će se, ne ako jako želiš, pa pišeš po zidu afirmacije, nego ako se ogoliš, uđeš u sebe, pa izađeš, pa se takva ponudiš drugome.
 
-![](/images/blog/ljubi-sve-sto-jesi-1.jpg)
+![](/images/blog/ljubi-sve-sto-jesi.jpg)
 
 Jedno četrdesetak godina je trebalo da za pravo ljubim sve što jesam, da se manim potrebe da se umanjim pred drugima kako bi njima, njemu, bilo lakše, jednostavnije, jasnije sa mnom. I da se potrudim, ali s ovim što imam, a ne tuđim, biti najbolje što jesam.
 

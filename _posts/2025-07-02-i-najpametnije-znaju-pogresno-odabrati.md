@@ -1,7 +1,7 @@
 ---
 title: "I najpametnije znaju pogrešno odabrati"
 date: 2025-07-02 07:29:42 +0200
-image: /images/blog/i-najpametnije-znaju-pogresno-odabrati.jpg
+image: /images/blog/i-najpametnije-znaju-pogresno-odabrati-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

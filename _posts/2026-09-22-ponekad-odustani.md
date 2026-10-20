@@ -18,4 +18,4 @@ Ponekad, u tom moru žrtvovanja i podnošenja, treba odstupiti, treba progutati 
 
 Toliko smo željni dokazivanja da prihvaćamo svaku rundu kao da je pitanje opstojnosti. A često nije. Često je samo put prema poništenju. Svog bića, svog jastva, svog mira.
 
-![](/images/blog/ponekad-odustani-1.jpg)
+![](/images/blog/ponekad-odustani.jpg)

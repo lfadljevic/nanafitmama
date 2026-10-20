@@ -10,7 +10,7 @@ published: true
 
 Ove tužne i oštre rečenice napisala je Halldira Thotoddsen u svom romanu Dvoslojno staklo, romanu koji je oda starijim ljudima, trećoj dobi, tom neizbježnom smiraju života koji nas sve čeka. Obzirom da sam kroz svoj posao povezana sa spomenutom generacijom, a i ne samo zbog toga, izuzetno osjećam i brinem o njima i za njih, nerijetko razmišljajući o prolaznosti života i brzini kojom se starost približava.
 
-![](/images/blog/ne-treba-se-prepustiti-godinama-1.jpg)
+![](/images/blog/ne-treba-se-prepustiti-godinama.jpg)
 
 Dvoslojno staklo je priča o jednoj udovici i njenoj želji da se još malo osjeća živom i voljenom, o tome kako nada uvijek umire posljednja i kako se ne treba samo prepustiti. Vrlo emotivan i snažan kratki roman s vrlo rijetkom tematikom. Meni je baš lego, iako me beskrajno rastužio. Možda zato jer prepoznah svoju nonu, baku, susjedu, a sada već i majku.
 

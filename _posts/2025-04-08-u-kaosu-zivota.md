@@ -14,7 +14,7 @@ Pročitah zadnje rečenice iznova, iznova\.\.\. U mislima mi moja Lovorka. Negdj
 
 Tko je tu bio lud?! Nitko. Kao što Neil Jordan gore piše, treba osjetit da si živ, da postojiš, da se život događa baš sada, u cijeloj svojoj punini i žestini. Kužila sam to tada, ali danas, kad te nema ljube moja, kužim još više. Ove rečenice iz romana Utopljenik samo su sve potvrdile. Ziher sam da gore negdje motaš duvan, na nekoj nebeskoj svirci, i nemiguješ mi, upravo sada.
 
-![](/images/blog/u-kaosu-zivota-1.jpg)
+![](/images/blog/u-kaosu-zivota.jpg)
 
 A evo i par riječi o Neil Jordanu i knjizi koju sam upravo pročitala i iz koje je izdvojen ovaj ulomak koji me odfurao\.\.\.
 

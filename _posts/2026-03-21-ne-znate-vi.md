@@ -1,7 +1,7 @@
 ---
 title: "Ne znate vi"
 date: 2026-03-21 07:43:03 +0100
-image: /images/blog/ne-znate-vi.jpg
+image: /images/blog/ne-znate-vi-1.jpg
 hide_image: true
 kategorija: "lifestyle"
 published: true

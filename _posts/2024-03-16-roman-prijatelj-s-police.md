@@ -8,7 +8,7 @@ published: true
 ---
 Knjiga o kojoj ću vam napisati nekoliko rečenica budi u meni rolakoster emocija. Odavno sam već shvatila da nam pod ruke dolazi tekst koji moramo pročitati, pa čak i onda kada nam se čini da riječi ne dopiru do nas, one se lijepo slažu u nutrini i čame čekajući da isplivaju na površinu, kad smo spremni.
 
-![](/images/blog/roman-prijatelj-s-police-1.jpg)
+![](/images/blog/roman-prijatelj-s-police.jpg)
 
 Roman Prijatelj uzela sam sa police preporučenog štiva u knjižnici najviše zbog neobične ilustracije korica (u šarenilu boja jedna doga harlekinka gleda u daljinu), a onda i zbog oznake National book award 2018. koja je obično znak da se štivo mora pročitati. O spisateljici Sugrid Nunez nisam ništa znala kao ni o temi u knjizi.
 

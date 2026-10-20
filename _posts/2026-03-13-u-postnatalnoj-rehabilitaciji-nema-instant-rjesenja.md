@@ -1,7 +1,7 @@
 ---
 title: "U postnatalnoj rehabilitaciji nema instant rješenja"
 date: 2026-03-13 07:19:46 +0100
-image: /images/blog/u-postnatalnoj-rehabilitaciji-nema-instant-rjesenja.jpg
+image: /images/blog/u-postnatalnoj-rehabilitaciji-nema-instant-rjesenja-1.jpg
 hide_image: true
 kategorija: "Sport&Zdravlje"
 published: true

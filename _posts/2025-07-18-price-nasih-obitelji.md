@@ -10,7 +10,7 @@ redirect_from:
 ---
 Moja prababa iz Žrnova bila je opasna ženska. U biti većina žena iz Žrnova slovile su za opake ženske tako da to nije ništa čudno. Kažu da kad imaš ženu žrnovku, ne triba ti kučak (ilitiga pas). Posebno je bilo to da se ona, moja prababa, početkom dvadesetog stoljeća, u vremenima kada nije postojalo kanala za osnaživanje žena, odlučila izboriti za sebe i ono što je željela unatoč i u dišpet svima.
 
-![](/images/blog/price-nasih-obitelji-1.jpg)
+![](/images/blog/price-nasih-obitelji.jpg)
 
 Bila je iz dobro stojeće obitelji, jedne od bogatijih u selu, na brdu iznad grada Korčule. Imali su svoj kamenolom u maloj uvali Vrbovica (Brbovica kako gori reču), par kilometara od sela i svi su bili vrijedni. Očekivalo se od nje, kao što se uvijek očekuje od ženskog dijeteta, da poštuje pravila, da se uda za dobrog prosca koji bi bio primjeren obitelji. Ali prababa Marija je imala drugi plan.
 

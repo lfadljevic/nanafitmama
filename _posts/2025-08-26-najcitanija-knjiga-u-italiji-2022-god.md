@@ -1,7 +1,7 @@
 ---
 title: "Najčitanija knjiga u Italiji 2022.god."
 date: 2025-08-26 07:40:12 +0200
-image: /images/blog/najcitanija-knjiga-u-italiji-2022-god.jpg
+image: /images/blog/najcitanija-knjiga-u-italiji-2022-god-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true

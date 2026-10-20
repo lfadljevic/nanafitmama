@@ -8,7 +8,7 @@ published: true
 ---
 Jučer je na Hrt1 u popodnevnom terminu bila emisija o Zdravlju. U toj emisiji pričalo se o gestacijskom dijabetesu. Gestacijski dijabetes je sve veči problem, kako u Hrvatskoj, tako i u svijetu. Veliki porast viška kilograma, loša prehrana i neaktivnosti, po nekim istraživanjima, razlog je zbog kojeg će se do 2030. ova bolest udvostručiti. Ukoliko znamo,a o tome je bilo puno riječi u jučerašnjoj emisiji, koliko je ova vrsta dijabetesa opasna i za trudnicu i za dijete koje nosi,onda smo svijesni koliko je ova tema važna.
 
-![](/images/blog/gestacijski-dijabetes-1.jpg)
+![](/images/blog/gestacijski-dijabetes.jpg)
 
 Tko spada u rizičnu skupinu, način liječenja, savjeti o prehrani, faktori koji povećavaju rizik od gestacijskog dijabetesa\.\.\. Puno toga se pričalo, ali niti u jednom trenutku nije spomenuta jedna izuzetno važna stvar,gotovo ključna-fizička aktivnost i redovito vježbanje prije trudnoće, ali i u trudnoći povezani su sa smanjenjem rizika za obolijevanje, dok kod onih trudnica koje su dobile ovu dijagnozu uključivanje u program vježbanja pomaže kod bolje regulacije šećera u krvi, smanjenja komplikacija u trudnoći i na porodu te općenito poboljšanja ishoda poroda.
 

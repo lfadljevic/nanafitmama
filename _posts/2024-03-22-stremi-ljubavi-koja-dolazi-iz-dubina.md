@@ -1,7 +1,7 @@
 ---
 title: "Stremi ljubavi koja dolazi iz dubina"
 date: 2024-03-22 13:32:09 +0100
-image: /images/blog/stremi-ljubavi-koja-dolazi-iz-dubina.jpg
+image: /images/blog/stremi-ljubavi-koja-dolazi-iz-dubina-1.jpg
 hide_image: true
 kategorija: "Nana&Knjiga"
 published: true
