@@ -157,7 +157,7 @@ nav.scrolled{background:rgba(255,248,243,.92);backdrop-filter:blur(18px);-webkit
 /* ── SERVICES ── */
 .sec-services{background:var(--sage-lt)}
 .cards-3{display:grid;grid-template-columns:repeat(4,1fr);gap:1.8rem;max-width:1100px;margin:0 auto}
-.card{background:#fff;border-radius:28px;padding:2.5rem 2rem;position:relative;overflow:hidden;transition:transform .4s var(--ease),box-shadow .4s}
+.card{display:flex;flex-direction:column;background:#fff;border-radius:28px;padding:2.5rem 2rem;position:relative;overflow:hidden;transition:transform .4s var(--ease),box-shadow .4s}
 .card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:var(--rose);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--ease)}
 .card:hover{transform:translateY(-10px);box-shadow:0 24px 60px rgba(46,31,31,.1)}
 .card:hover::after{transform:scaleX(1)}
@@ -167,8 +167,8 @@ nav.scrolled{background:rgba(255,248,243,.92);backdrop-filter:blur(18px);-webkit
 .card:nth-child(3) .card-icon{background:var(--lav)}
 .card:nth-child(4) .card-icon{background:var(--peach)}
 .card-title{font-family:'Cormorant Garamond',serif;font-size:1.7rem;font-weight:500;color:var(--text);margin-bottom:.8rem;line-height:1.2}
-.card-desc{font-size:.9rem;line-height:1.75;color:var(--soft);margin-bottom:1.8rem}
-.card-link{font-size:.78rem;font-weight:700;letter-spacing:.06em;color:var(--rose);text-decoration:none;text-transform:uppercase;display:inline-flex;align-items:center;gap:.35rem;transition:gap .3s}
+.card-desc{font-size:.9rem;line-height:1.75;color:var(--soft);margin-bottom:1.8rem;flex:1}
+.card-link{font-size:.78rem;font-weight:700;letter-spacing:.06em;color:var(--rose);text-decoration:none;text-transform:uppercase;display:inline-flex;align-self:flex-start;align-items:center;gap:.35rem;transition:gap .3s}
 .card-link:hover{gap:.7rem}
 
 /* ── TESTIMONIAL INFINITE SCROLL ── */
