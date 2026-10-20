@@ -35,8 +35,6 @@ plugins:
 # Files that are part of the repository but not of the website
 exclude:
   - README.md
-  - Gemfile
-  - Gemfile.lock
   - scripts
   - vendor
   - node_modules
