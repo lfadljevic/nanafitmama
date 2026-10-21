@@ -5,27 +5,15 @@
 {% endcomment %}
 {%- assign contact_href = include.contact | default: '#contact' -%}
 <footer>
-  <div class="footer-top">
-    <a href="{{ '/index.html' | relative_url }}" class="footer-logo">Nana<em>Fit</em>Mama</a>
-    <ul class="footer-nav">
-      <li><a href="{{ '/index.html' | relative_url }}">Početna</a></li>
-      <li><a href="{{ '/o-meni.html' | relative_url }}">O meni</a></li>
-      <li><a href="{{ '/program.html' | relative_url }}">Program</a></li>
-      <li><a href="{{ '/galerija.html' | relative_url }}">Galerija</a></li>
-      <li><a href="{{ contact_href }}">Kontakt</a></li>
-      <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
-    </ul>
-    <div class="footer-social">
-      <a href="https://www.facebook.com/nana.milatic.5" class="soc-btn" aria-label="Facebook" target="_blank" rel="noopener">
-        <svg width="17" height="17" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-      </a>
-      <a href="https://www.instagram.com/nanafitmama" class="soc-btn" aria-label="Instagram" target="_blank" rel="noopener">
-        <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".5" fill="currentColor"/></svg>
-      </a>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p class="footer-copy">© 2025 NanaFitMama · Nana Milatić. Sva prava pridržana.</p>
-    <p class="footer-sub">Embrace the Miracle of Motherhood</p>
-  </div>
+  <div class="ft-brand">Nana<em>Fit</em>Mama</div>
+  <div class="ft-tagline">Embrace the Miracle of Motherhood</div>
+  <ul class="ft-links">
+    <li><a href="{{ '/index.html' | relative_url }}">Početna</a></li>
+    <li><a href="{{ '/o-meni.html' | relative_url }}">O meni</a></li>
+    <li><a href="{{ '/program.html' | relative_url }}">Program</a></li>
+    <li><a href="{{ '/galerija.html' | relative_url }}">Galerija</a></li>
+    <li><a href="{{ contact_href }}">Kontakt</a></li>
+    <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+  </ul>
+  <div class="ft-copy">© 2025 NanaFitMama · Nana Milatić · Zagreb, Hrvatska</div>
 </footer>
