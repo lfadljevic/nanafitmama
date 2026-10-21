@@ -50,11 +50,9 @@
     /* ── SHARED LAYOUT ── */
     .sec-pad{padding:7rem 6vw 9rem}
     .inner{max-width:1160px;margin:0 auto}
-    .tag{font-size:.68rem;font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:var(--rose);display:inline-flex;align-items:center;gap:.7rem;margin-bottom:1rem}
-    .tag::before{content:'';display:block;width:24px;height:1.5px;background:var(--rose)}
+    .tag{font-size:.7rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--rose);display:inline-flex;align-items:center;gap:.4rem;margin-bottom:1.2rem}
+    .tag::before{content:'';display:block;width:20px;height:1.5px;background:var(--rose);opacity:.6}
     .tag-center{justify-content:center}
-    .tag-center::before{display:none}
-    .tag-center::after{content:'';display:block;width:24px;height:1.5px;background:var(--rose)}
     .h1{font-family:var(--serif);font-size:clamp(3.2rem,7vw,6rem);font-weight:500;line-height:1.02;color:var(--text)}
     .h1 em{color:var(--rose);font-style:italic;display:block}
     .h2{font-family:var(--serif);font-size:clamp(2.2rem,4.5vw,3.4rem);font-weight:500;line-height:1.1;color:var(--text);margin-bottom:1.4rem}
@@ -165,6 +163,7 @@
        CONTACT (identical to index.html)
     ════════════════════════════ */
     .sec-contact{background:var(--peach-lt);text-align:center;padding:7rem 4rem}
+    .sec-contact .h2{font-size:clamp(2rem,4vw,3rem)}
     .contact-wrap{max-width:620px;margin:0 auto}
     .phone-link{display:inline-flex;align-items:center;gap:1rem;font-family:'Cormorant Garamond',serif;font-size:2.2rem;font-weight:400;color:var(--text);text-decoration:none;margin:1.5rem 0 2rem;padding:.8rem 1.8rem;border-radius:100px;background:#fff;box-shadow:0 8px 32px rgba(46,31,31,.08);transition:all .3s}
     .phone-link:hover{transform:translateY(-3px);box-shadow:0 18px 50px rgba(197,119,154,.22);color:var(--rose)}
