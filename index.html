@@ -35,6 +35,8 @@ html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{font-family:'Nunito',sans-serif;background:var(--cream);color:var(--text);overflow-x:hidden;-webkit-tap-highlight-color:transparent}
 
 /* ── NAV ── */
+/* ── PROGRESS BAR (same as sub-pages) ── */
+#bar{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,#C5799A,#8A7DC5,#6FA88A);z-index:1001;transition:width .12s linear}
 nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;justify-content:space-between;padding:1.8rem 4rem;transition:padding .4s var(--ease),background .4s var(--ease),box-shadow .4s}
 nav.scrolled{background:rgba(255,248,243,.92);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);padding:1rem 4rem;box-shadow:0 1px 0 rgba(200,144,126,.14)}
 .nav-brand{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:500;color:var(--text);text-decoration:none}
@@ -249,6 +251,7 @@ footer{background:var(--dark);color:rgba(255,255,255,.5);padding:3.5rem 4rem;tex
 </style>
 </head>
 <body>
+<div id="bar"></div>
 
 <!-- ═══ NAV ═══ -->
 <nav id="nav">
@@ -569,6 +572,13 @@ footer{background:var(--dark);color:rgba(255,255,255,.5);padding:3.5rem 4rem;tex
   </ul>
   <div class="ft-copy">© <span class="yr">{{ site.time | date: "%Y" }}</span> NanaFitMama · Nana Milatić · Zagreb, Hrvatska</div>
 </footer>
+<script>
+var bar=document.getElementById('bar');
+window.addEventListener('scroll',function(){
+  var max=document.documentElement.scrollHeight-window.innerHeight;
+  bar.style.width=(max>0?window.scrollY/max*100:0)+'%';
+},{passive:true});
+</script>
 <script>document.querySelectorAll(".yr").forEach(function(e){e.textContent=new Date().getFullYear()})</script>
 
 
