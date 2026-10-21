@@ -15,5 +15,6 @@
     <li><a href="{{ contact_href }}">Kontakt</a></li>
     <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
   </ul>
-  <p class="footer-copy">© 2025 NanaFitMama · Nana Milatić · Zagreb, Hrvatska</p>
+  <p class="footer-copy">© <span class="yr">{{ site.time | date: "%Y" }}</span> NanaFitMama · Nana Milatić · Zagreb, Hrvatska</p>
 </footer>
+<script>document.querySelectorAll(".yr").forEach(function(e){e.textContent=new Date().getFullYear()})</script>
