@@ -567,8 +567,9 @@ footer{background:var(--dark);color:rgba(255,255,255,.5);padding:3.5rem 4rem;tex
     <li><a href="#contact">Kontakt</a></li>
     <li><a href="blog/">Blog</a></li>
   </ul>
-  <div class="ft-copy">© 2025 NanaFitMama · Nana Milatić · Zagreb, Hrvatska</div>
+  <div class="ft-copy">© <span class="yr">{{ site.time | date: "%Y" }}</span> NanaFitMama · Nana Milatić · Zagreb, Hrvatska</div>
 </footer>
+<script>document.querySelectorAll(".yr").forEach(function(e){e.textContent=new Date().getFullYear()})</script>
 
 
 <script>
