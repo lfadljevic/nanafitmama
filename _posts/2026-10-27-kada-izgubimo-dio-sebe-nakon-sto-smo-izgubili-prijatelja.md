@@ -1,5 +1,5 @@
 ---
-title: KADA IZGUBIMO DIO SEBE, NAKON ŠTO SMO IZGUBILI PRIJATELJA
+title: Kada izgubimo dio sebe, nakon što smo izgubili prijatelja
 date: 2026-10-27
 image: /images/blog/855759778288611914402102232854277095119406182n.jpg
 kategorija: Nana&Knjiga
