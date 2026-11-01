@@ -1,14 +1,14 @@
 ---
-title: "Sretne li smo mi koje se imamo"
-date: 2025-04-16 07:25:30 +0200
+title: Sretne li smo mi koje se imamo
+date: 2026-11-01
 image: /images/blog/sretne-li-smo-mi-koje-se-imamo-1.jpg
 hide_image: true
-kategorija: "lifestyle"
-published: true
+kategorija: lifestyle
+published: false
 ---
 Zvala me neki dan da ima karte za Spalata, da hoću li ju voditi. Kakvo je to pitanje, govorim materi, bit će to naša večer.
 
-I bila je. Otac nas je dobacio do Lisinskog, nas dvije sređene, da vam je bilo vidit, a tek radosne\.\.\. Ušle unutra šoto braco, vadi mater karte, daje ih meni, kaže-pročitaj koji smo red. Ma ne mogu mama, nemam očale. Gleda me, govori da na momente zaboravi da ima ćer u pedesetima.
+I bila je. Otac nas je dobacio do Lisinskog, nas dvije sređene, da vam je bilo vidit, a tek radosne Ušle unutra šoto braco, vadi mater karte, daje ih meni, kaže-pročitaj koji smo red. Ma ne mogu mama, nemam očale. Gleda me, govori da na momente zaboravi da ima ćer u pedesetima.
 
 Bila je to za nju večer nostalgije. Redale su se pjesme, sve nešto u molu, melankolija teška. Malo me držala za ruku, malo gladila po leđima, oči pune suza kad je Tedi pričao o Splitu svoje (njezine) mladosti. Pa krene Picaferaj, šapće mi na uho, dani su to bili druženja s Oliverom i njegovim Dupinima, puno dobrih muzičara, dobrih ljudi je Split imao tada, a ima i sada. Znate, mater je bila zgodna za poludit, hodala s gitaristom Magazina koji je to još uvijek, partijala sa svim facama Splita, živila život punog srca. Nešto slično i ja pokušavam, da jabuka ne pade daleko od stabla, ako me razumijete?!
 
