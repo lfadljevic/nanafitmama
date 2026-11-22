@@ -1,5 +1,5 @@
 ---
-title: Treba nam prostor gdje nas vide
+title: Novi život je moguć
 date: 2026-11-21
 image: /images/blog/910134976291823236714303302091885488367535888n.jpg
 kategorija: Nana&Knjiga
